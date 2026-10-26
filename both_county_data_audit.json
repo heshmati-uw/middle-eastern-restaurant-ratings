@@ -1,0 +1,44 @@
+{
+  "source_business_rows_scanned": 4963077,
+  "candidate_businesses": 13861,
+  "candidate_counts": [
+    {
+      "trump": 0,
+      "group": "American",
+      "n": 6454
+    },
+    {
+      "trump": 0,
+      "group": "ME",
+      "n": 1355
+    },
+    {
+      "trump": 0,
+      "group": "WPME",
+      "n": 1107
+    },
+    {
+      "trump": 1,
+      "group": "American",
+      "n": 4589
+    },
+    {
+      "trump": 1,
+      "group": "ME",
+      "n": 165
+    },
+    {
+      "trump": 1,
+      "group": "WPME",
+      "n": 191
+    }
+  ],
+  "source_ids_found": 13861,
+  "source_ids_missing": 0,
+  "weekly_rows": 139864,
+  "exact_duplicates_removed": 0,
+  "outcome_source": "C:\\Users\\heshmati\\Foster School of Business Dropbox\\Mana Heshmati\\Heshmati Choe Frake\\data\\Google Reviews\\Reviews_Data_Combined.csv",
+  "vote_rule": "Trump >0.50; non-Trump <=0.50; missing excluded",
+  "candidate_sha256": "ecc85fcb8ccaf326e559c24aebb752042d2e4db1ffcb1421249107b7ca865239",
+  "source_records_sha256": "83e8d4f4742718b0625314dd91c96355c0b8202bb8f2a909669e45e3886cf76d"
+}

@@ -1,0 +1,5 @@
+.r-library/
+.venv/
+__pycache__/
+.Rhistory
+.RData

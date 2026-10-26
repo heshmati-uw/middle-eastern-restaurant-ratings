@@ -1,0 +1,8 @@
+{
+  "models_checked": 18,
+  "independent_point_and_covariance_checks_passed": true,
+  "independent_restaurant_period_means_verified": true,
+  "previous_Trump_results_unchanged": true,
+  "max_coefficient_error": 6.938893903907228e-16,
+  "max_se_error": 4.718447854656915e-16
+}

@@ -1,0 +1,19 @@
+{
+  "working_window_weeks": 4,
+  "working_window_selection": "Chosen after inspecting the four-, six-, and ten-week results; exploratory. The original ten-week main comparisons and all sensitivity results are retained.",
+  "scope": "Trump-majority counties; Republican vote share > 0.50",
+  "groups": ["ME", "WPME", "American"],
+  "weighting": "Equal weight per restaurant; each restaurant has a review-count-weighted rating mean within each period and must be observed in both periods",
+  "inference": "OLS on restaurant rating changes, standard errors clustered by county; two-sided t test with county-cluster degrees of freedom",
+  "main_windows": [
+    {"shock":"Election","weeks":10,"pre_start":"2016-08-29","pre_end":"2016-10-31","post_start":"2016-11-14","post_end":"2017-01-16"},
+    {"shock":"Ban","weeks":10,"pre_start":"2016-11-14","pre_end":"2017-01-16","post_start":"2017-01-30","post_end":"2017-04-03"}
+  ],
+  "sensitivity_windows": [
+    {"shock":"Election","weeks":4,"pre_start":"2016-10-10","pre_end":"2016-10-31","post_start":"2016-11-14","post_end":"2016-12-05"},
+    {"shock":"Election","weeks":6,"pre_start":"2016-09-26","pre_end":"2016-10-31","post_start":"2016-11-14","post_end":"2016-12-19"},
+    {"shock":"Ban","weeks":4,"pre_start":"2016-12-26","pre_end":"2017-01-16","post_start":"2017-01-30","post_end":"2017-02-20"},
+    {"shock":"Ban","weeks":6,"pre_start":"2016-12-12","pre_end":"2017-01-16","post_start":"2017-01-30","post_end":"2017-03-06"}
+  ],
+  "original_election_comparison": {"pre_start":"2016-07-04","pre_end":"2016-10-31","post_start":"2016-11-14","post_end":"2017-01-16","ME_universe":"Original 135 exact-date election-cohort IDs, with 134 eligible in complete weeks"}
+}

@@ -1,0 +1,90 @@
+{
+  ".gitignore": {
+    "bytes": 54,
+    "sha256": "5b96cd99826492fa51715ec984a373c3b0c9708449d106637298eb057d26c508"
+  },
+  "both_county_candidates.csv": {
+    "bytes": 1022470,
+    "sha256": "ecc85fcb8ccaf326e559c24aebb752042d2e4db1ffcb1421249107b7ca865239"
+  },
+  "both_county_data_audit.json": {
+    "bytes": 1099,
+    "sha256": "55b16563674d1dfe2be65da6f2216830b779cb8aea2e087b8bd1a9ca85a98d7a"
+  },
+  "both_county_shock_weekly.csv": {
+    "bytes": 13184062,
+    "sha256": "71fd53865f5781c5e78d27e496edbd8b19f2391fe78f9348ccc48d56fb27daee"
+  },
+  "county_difference_four_week_tests.csv": {
+    "bytes": 1468,
+    "sha256": "cc45971447d665b2f2d54c0d84a94a98f4c3379e7c963cd3bc874b253aac74ca"
+  },
+  "county_difference_models.R": {
+    "bytes": 5191,
+    "sha256": "079fb66867eeeba84a585c5924b7ffe2edbe87b4470b187bb39cd72bf2400caa"
+  },
+  "county_difference_R_session.txt": {
+    "bytes": 770,
+    "sha256": "cb4f2dee54f5820af9e7e00347d0f38349db1f07b7b53ec02ec45a3062fabe62"
+  },
+  "county_difference_report.html": {
+    "bytes": 8932,
+    "sha256": "a3ea3313f1e570da249ebd6c921a0cb555d54fbff000f73027c698f9e5fc3fc7"
+  },
+  "county_difference_verification.json": {
+    "bytes": 282,
+    "sha256": "5b498c44a10fe114259ecd5cea19d9bf7d9dfcef21e33551fe4ef08b15f96e18"
+  },
+  "county_four_week_descriptives.csv": {
+    "bytes": 1118,
+    "sha256": "9e18265044c8596780170e1987de9312f721c243f0df97e69b4de032e17eab3a"
+  },
+  "county_four_week_models.rds": {
+    "bytes": 697874,
+    "sha256": "87e08b7e121ff0c38cf6d9d557e6eb80cb03140cb0f2acfbc5b3043948b85bae"
+  },
+  "county_four_week_restaurant_changes.csv": {
+    "bytes": 1939882,
+    "sha256": "8d9268b036d60ba944089980d2af05d3740ccf28397bc0240929d62313942f34"
+  },
+  "county_stratum_four_week_results.csv": {
+    "bytes": 2139,
+    "sha256": "83220fc3ea9e4e45673061fdae8a80918a12a98735f4785427a7f32db58463bf"
+  },
+  "election_ban_results.csv": {
+    "bytes": 5830,
+    "sha256": "116e81a5322b93ab34336af9367aaaa30862bbcc64e7676f1f3f8dd71870bd04"
+  },
+  "historical_code_and_reports.zip": {
+    "bytes": 1674169,
+    "sha256": "93bee8fc510059ecd31345db17d0c552074504b2b55f884b726b5bac93d38a1b"
+  },
+  "install_dependencies.R": {
+    "bytes": 297,
+    "sha256": "51e53a1b28b9443184659869fadefac811d1e755adf90c9bdc7c9963ecb01675"
+  },
+  "prepare_county_comparison.py": {
+    "bytes": 4885,
+    "sha256": "2f9266a5fffd94ff5821acb4961ecee8d5c27232cf89cfcc0e7047d2385c49de"
+  },
+  "README.md": {
+    "bytes": 5735,
+    "sha256": "7bf99542315f7289f802a04f70cd813fdcdb476616a6681c52f41fcc38c94e3d"
+  },
+  "report_county_differences.py": {
+    "bytes": 11383,
+    "sha256": "3a51b82cac048e068700b08484a97ebaa8cc54a5a794189212394a4309e63b61"
+  },
+  "requirements.txt": {
+    "bytes": 29,
+    "sha256": "4832aea9f164dd349e62409b8eddc4114dbdc3e95dbd8f494190817a9f316567"
+  },
+  "run_analysis.py": {
+    "bytes": 395,
+    "sha256": "4a35c736595e3538a475beba30d1a6d238957099c74e0451c4033b745c497456"
+  },
+  "shock_specifications.json": {
+    "bytes": 1731,
+    "sha256": "7e9801d11c129e6803fe64f72a1d8e504bee46c254ba9e8aaf174f70c7c9d582"
+  }
+}
