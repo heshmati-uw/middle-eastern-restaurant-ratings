@@ -86,5 +86,7 @@
   "shock_specifications.json": {
     "bytes": 1731,
     "sha256": "7e9801d11c129e6803fe64f72a1d8e504bee46c254ba9e8aaf174f70c7c9d582"
-  }
+  },
+  "attribute_matching.zip": "4be57531067c83932db4b0080e4a6b25a4ca39a10552d8c69cb9d93b82c3706e",
+  "ATTRIBUTE_MATCHING.md": "4cc84515a31fd9610f3bd3b46e5411f3bcb8c0f7c8bdf4273f29ba3e0d96fe4f"
 }
