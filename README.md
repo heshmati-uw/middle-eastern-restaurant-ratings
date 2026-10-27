@@ -1,6 +1,14 @@
 # Middle Eastern restaurant ratings
 
-Current research snapshot: four-week restaurant rating comparisons around the 2016 election and the January 2017 travel ban, in Trump-majority and other counties. ME, WPME, and American groups are mutually exclusive. Each restaurant receives equal weight in group comparisons.
+## Latest full-sample correlational analysis
+
+The current analysis is **ME vs WPME vs review-screened Mediterranean**, with equal restaurant weights, no matching or price restrictions, and separate Trump/non-Trump county and precinct results for the election and ban. Interpret results as observed associations, not causal effects.
+
+See [FULL_CORRELATIONAL_ANALYSIS.md](FULL_CORRELATIONAL_ANALYSIS.md) and download [full_correlational_sample.zip](full_correlational_sample.zip) for the report, source aggregates, code and results. The archive includes all sample sizes, pre/post averages, p-values with stars/+, weekly plots, continuous voting regressions and independent numerical verification. County samples contain 3,300 election and 3,687 ban restaurants; precinct samples contain 3,292 and 3,678. None of the 24 primary cuisine comparisons has raw p<.05. Earlier fixed-effect/matching analyses below and in the other archives are separate exploratory specifications.
+
+## Archived initial ME/WPME/American snapshot
+
+Archived initial research snapshot: four-week restaurant rating comparisons around the 2016 election and the January 2017 travel ban, in Trump-majority and other counties. ME, WPME, and American groups are mutually exclusive. Each restaurant receives equal weight in group comparisons.
 
 ## Main findings
 
