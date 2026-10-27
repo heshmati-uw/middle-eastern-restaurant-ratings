@@ -67,7 +67,7 @@
     "bytes": 4885,
     "sha256": "2f9266a5fffd94ff5821acb4961ecee8d5c27232cf89cfcc0e7047d2385c49de"
   },
-  "README.md": "12c5ad45caec6b25203a29f503485a7122898011989dae212c7f38407e89294e",
+  "README.md": "deca72fe682447e3b3e82fc0f589749d94cb810f546ca4837c6d48e371db40f1",
   "report_county_differences.py": {
     "bytes": 11383,
     "sha256": "3a51b82cac048e068700b08484a97ebaa8cc54a5a794189212394a4309e63b61"
@@ -93,5 +93,7 @@
   "ME_WPME_price_format.zip": "6f51e2fde6c4a54583226fac9754ddf04b236c8cc713997fe2b1c8cd8e37059f",
   "ME_WPME_PRICE_FORMAT.md": "7146e9821affdf50934bca5a641e162037a9acb34fe9639f0769612a5f42c1b8",
   "full_correlational_sample.zip": "4e695911d2c5d5e3f9602efd9d1f6108697b4fdf19ad053df38f82a2ec92e1c1",
-  "FULL_CORRELATIONAL_ANALYSIS.md": "577f448712dfc02e2c1245d89edecfd9fcb78424d28dc6e5269a54fcd6c1c546"
+  "FULL_CORRELATIONAL_ANALYSIS.md": "577f448712dfc02e2c1245d89edecfd9fcb78424d28dc6e5269a54fcd6c1c546",
+  "continuous_voting_county_fe.zip": "4736d25a4e0ac9299c9ff1f98fa6daea9c162f94c85486cda22352b7cdac9e88",
+  "CONTINUOUS_VOTING_COUNTY_FE.md": "240be59450c11ddd90b1dc94343e4c20540bc1f54f3f82ca0084faabad7ef39f"
 }
