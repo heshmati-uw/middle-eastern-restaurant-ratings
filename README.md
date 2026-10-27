@@ -2,6 +2,9 @@
 
 ## Latest analysis: continuous voting shares, with county fixed effects
 
+The latest dictionary-sensitivity figures are in [CONTINUOUS_DICTIONARY_SENSITIVITY.md](CONTINUOUS_DICTIONARY_SENSITIVITY.md) and [continuous_dictionary_county_fe.zip](continuous_dictionary_county_fe.zip): all three contrasts, both events, county/precinct shares, six definitions including full-raw core, and independent verification. No American group or proposed expanded positioning classification has been added. None of the 72 slope comparisons has raw p<.05.
+
+
 The main political measure is **actual Trump vote share**, separately at county and precinct levels, with no majority split. ME, WPME and review-screened Mediterranean use full eligible samples, equal restaurant weights, four-week windows and holidays included. County-FE models and unadjusted continuous associations are both reported as conditional/descriptive associations, not causal effects.
 
 See [CONTINUOUS_VOTING_COUNTY_FE.md](CONTINUOUS_VOTING_COUNTY_FE.md) and download [continuous_voting_county_fe.zip](continuous_voting_county_fe.zip) for current reports, fitted curves, data, scripts and independent verification. None of the 12 county-FE cuisine slope differences is significant at .10. County samples have 3,300 election and 3,687 ban restaurants; precinct samples have 3,292 and 3,678. County vote-share main effects are absorbed by county FE; cuisine-by-share differences remain estimable. Precinct share varies within counties.

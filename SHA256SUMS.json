@@ -67,7 +67,7 @@
     "bytes": 4885,
     "sha256": "2f9266a5fffd94ff5821acb4961ecee8d5c27232cf89cfcc0e7047d2385c49de"
   },
-  "README.md": "deca72fe682447e3b3e82fc0f589749d94cb810f546ca4837c6d48e371db40f1",
+  "README.md": "0ccc34bcd54415318bf368be828f76a14b77ce9bada30dee1a85ef81fe5346d0",
   "report_county_differences.py": {
     "bytes": 11383,
     "sha256": "3a51b82cac048e068700b08484a97ebaa8cc54a5a794189212394a4309e63b61"
@@ -95,5 +95,7 @@
   "full_correlational_sample.zip": "4e695911d2c5d5e3f9602efd9d1f6108697b4fdf19ad053df38f82a2ec92e1c1",
   "FULL_CORRELATIONAL_ANALYSIS.md": "577f448712dfc02e2c1245d89edecfd9fcb78424d28dc6e5269a54fcd6c1c546",
   "continuous_voting_county_fe.zip": "4736d25a4e0ac9299c9ff1f98fa6daea9c162f94c85486cda22352b7cdac9e88",
-  "CONTINUOUS_VOTING_COUNTY_FE.md": "240be59450c11ddd90b1dc94343e4c20540bc1f54f3f82ca0084faabad7ef39f"
+  "CONTINUOUS_VOTING_COUNTY_FE.md": "240be59450c11ddd90b1dc94343e4c20540bc1f54f3f82ca0084faabad7ef39f",
+  "continuous_dictionary_county_fe.zip": "b3f4f85ec05134f38dd3be9ad3fa70c5ad46fc2314a4bbb147c74c30161172cb",
+  "CONTINUOUS_DICTIONARY_SENSITIVITY.md": "150259bfaea15ce76ba033fc99a8b72c175052b0986dfb62e17464a16776c232"
 }
