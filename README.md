@@ -1,6 +1,13 @@
 # Middle Eastern restaurant ratings
 
-## Latest analysis: continuous voting shares, with county fixed effects
+## Latest analysis: symmetric food verification, shawarma excluded
+
+The November3 update applies the same pre-election core/broad food rules to ME and Mediterranean labels, tests WPME-ME changes directly across county types, and audits cuisines associated with the original seven targeted countries. It also adds the requested review-cuisine association variant. Raw before/after group ratings are shown directly before conditional gaps and difference tests. All restaurant weights are equal.
+
+See [SYMMETRIC_FOOD_NO_SHAWARMA.md](SYMMETRIC_FOOD_NO_SHAWARMA.md) and [symmetric_food_no_shawarma.zip](symmetric_food_no_shawarma.zip). In the full broad-food-verified Trump-county ban sample, ME means fall4.512->4.419 while WPME is nearly flat4.446->4.450; the standalone ME change is uncertain(p=.271). The conditional between-county WPME-ME difference is+.372(p=.0028), while core does not confirm the pattern. Targeted-cuisine results are sparse and definition-sensitive. These remain observational associations.
+
+## Earlier continuous-share analyses
+
 
 The latest dictionary-sensitivity figures are in [CONTINUOUS_DICTIONARY_SENSITIVITY.md](CONTINUOUS_DICTIONARY_SENSITIVITY.md) and [continuous_dictionary_county_fe.zip](continuous_dictionary_county_fe.zip): all three contrasts, both events, county/precinct shares, six definitions including full-raw core, and independent verification. No American group or proposed expanded positioning classification has been added. None of the 72 slope comparisons has raw p<.05.
 
