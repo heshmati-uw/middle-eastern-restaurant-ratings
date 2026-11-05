@@ -1,0 +1,19 @@
+version,pre_cutoff_group,any_date_group,restaurants
+Broader,ME,ME,52
+Broader,ME,WPME,0
+Broader,ME,All other Mediterranean restaurants,0
+Broader,WPME,ME,0
+Broader,WPME,WPME,15
+Broader,WPME,All other Mediterranean restaurants,0
+Broader,All other Mediterranean restaurants,ME,0
+Broader,All other Mediterranean restaurants,WPME,26
+Broader,All other Mediterranean restaurants,All other Mediterranean restaurants,31
+Seven-country,ME,ME,52
+Seven-country,ME,WPME,0
+Seven-country,ME,All other Mediterranean restaurants,0
+Seven-country,WPME,ME,0
+Seven-country,WPME,WPME,4
+Seven-country,WPME,All other Mediterranean restaurants,0
+Seven-country,All other Mediterranean restaurants,ME,0
+Seven-country,All other Mediterranean restaurants,WPME,8
+Seven-country,All other Mediterranean restaurants,All other Mediterranean restaurants,60

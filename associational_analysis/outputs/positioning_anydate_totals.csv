@@ -1,0 +1,7 @@
+version,group,pre_cutoff_unique,any_date_unique,counties
+Broader,ME,52,52,7
+Broader,WPME,15,41,7
+Broader,All other Mediterranean restaurants,57,31,7
+Seven-country,ME,52,52,7
+Seven-country,WPME,4,12,5
+Seven-country,All other Mediterranean restaurants,68,60,7
