@@ -1,0 +1,17 @@
+version,group,before,after,both
+V1,ME,38,47,37
+V1,WPME,14,11,11
+V1,Other Mediterranean,3,4,3
+V1,Unclassified,38,41,32
+V2,ME,38,47,37
+V2,WPME,14,11,11
+V2,Other Mediterranean,41,45,35
+V2,Unclassified,0,0,0
+V3,ME,38,47,37
+V3,WPME,4,3,3
+V3,Other Mediterranean,6,5,4
+V3,Unclassified,45,48,39
+V4,ME,38,47,37
+V4,WPME,4,3,3
+V4,Other Mediterranean,51,53,43
+V4,Unclassified,0,0,0

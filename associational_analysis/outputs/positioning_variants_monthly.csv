@@ -1,0 +1,273 @@
+version,scope,rule,month,group,restaurants
+V1,broad_ME,positive,2015-12,ME,30
+V1,broad_ME,positive,2016-01,ME,22
+V1,broad_ME,positive,2016-02,ME,29
+V1,broad_ME,positive,2016-03,ME,25
+V1,broad_ME,positive,2016-04,ME,30
+V1,broad_ME,positive,2016-05,ME,30
+V1,broad_ME,positive,2016-06,ME,26
+V1,broad_ME,positive,2016-07,ME,32
+V1,broad_ME,positive,2016-08,ME,38
+V1,broad_ME,positive,2016-09,ME,36
+V1,broad_ME,positive,2016-10,ME,33
+V1,broad_ME,positive,2016-11,ME,38
+V1,broad_ME,positive,2016-12,ME,43
+V1,broad_ME,positive,2017-01,ME,40
+V1,broad_ME,positive,2017-02,ME,48
+V1,broad_ME,positive,2017-03,ME,47
+V1,broad_ME,positive,2017-04,ME,44
+V1,broad_ME,positive,2015-12,WPME,8
+V1,broad_ME,positive,2016-01,WPME,8
+V1,broad_ME,positive,2016-02,WPME,10
+V1,broad_ME,positive,2016-03,WPME,9
+V1,broad_ME,positive,2016-04,WPME,13
+V1,broad_ME,positive,2016-05,WPME,13
+V1,broad_ME,positive,2016-06,WPME,11
+V1,broad_ME,positive,2016-07,WPME,13
+V1,broad_ME,positive,2016-08,WPME,15
+V1,broad_ME,positive,2016-09,WPME,12
+V1,broad_ME,positive,2016-10,WPME,13
+V1,broad_ME,positive,2016-11,WPME,14
+V1,broad_ME,positive,2016-12,WPME,13
+V1,broad_ME,positive,2017-01,WPME,14
+V1,broad_ME,positive,2017-02,WPME,11
+V1,broad_ME,positive,2017-03,WPME,14
+V1,broad_ME,positive,2017-04,WPME,14
+V1,broad_ME,positive,2015-12,Other Mediterranean,2
+V1,broad_ME,positive,2016-01,Other Mediterranean,2
+V1,broad_ME,positive,2016-02,Other Mediterranean,0
+V1,broad_ME,positive,2016-03,Other Mediterranean,3
+V1,broad_ME,positive,2016-04,Other Mediterranean,3
+V1,broad_ME,positive,2016-05,Other Mediterranean,3
+V1,broad_ME,positive,2016-06,Other Mediterranean,4
+V1,broad_ME,positive,2016-07,Other Mediterranean,4
+V1,broad_ME,positive,2016-08,Other Mediterranean,3
+V1,broad_ME,positive,2016-09,Other Mediterranean,3
+V1,broad_ME,positive,2016-10,Other Mediterranean,3
+V1,broad_ME,positive,2016-11,Other Mediterranean,4
+V1,broad_ME,positive,2016-12,Other Mediterranean,4
+V1,broad_ME,positive,2017-01,Other Mediterranean,3
+V1,broad_ME,positive,2017-02,Other Mediterranean,4
+V1,broad_ME,positive,2017-03,Other Mediterranean,4
+V1,broad_ME,positive,2017-04,Other Mediterranean,4
+V1,broad_ME,positive,2015-12,Unclassified,18
+V1,broad_ME,positive,2016-01,Unclassified,15
+V1,broad_ME,positive,2016-02,Unclassified,15
+V1,broad_ME,positive,2016-03,Unclassified,18
+V1,broad_ME,positive,2016-04,Unclassified,23
+V1,broad_ME,positive,2016-05,Unclassified,20
+V1,broad_ME,positive,2016-06,Unclassified,26
+V1,broad_ME,positive,2016-07,Unclassified,27
+V1,broad_ME,positive,2016-08,Unclassified,32
+V1,broad_ME,positive,2016-09,Unclassified,29
+V1,broad_ME,positive,2016-10,Unclassified,31
+V1,broad_ME,positive,2016-11,Unclassified,33
+V1,broad_ME,positive,2016-12,Unclassified,41
+V1,broad_ME,positive,2017-01,Unclassified,38
+V1,broad_ME,positive,2017-02,Unclassified,42
+V1,broad_ME,positive,2017-03,Unclassified,45
+V1,broad_ME,positive,2017-04,Unclassified,40
+V2,broad_ME,residual,2015-12,ME,30
+V2,broad_ME,residual,2016-01,ME,22
+V2,broad_ME,residual,2016-02,ME,29
+V2,broad_ME,residual,2016-03,ME,25
+V2,broad_ME,residual,2016-04,ME,30
+V2,broad_ME,residual,2016-05,ME,30
+V2,broad_ME,residual,2016-06,ME,26
+V2,broad_ME,residual,2016-07,ME,32
+V2,broad_ME,residual,2016-08,ME,38
+V2,broad_ME,residual,2016-09,ME,36
+V2,broad_ME,residual,2016-10,ME,33
+V2,broad_ME,residual,2016-11,ME,38
+V2,broad_ME,residual,2016-12,ME,43
+V2,broad_ME,residual,2017-01,ME,40
+V2,broad_ME,residual,2017-02,ME,48
+V2,broad_ME,residual,2017-03,ME,47
+V2,broad_ME,residual,2017-04,ME,44
+V2,broad_ME,residual,2015-12,WPME,8
+V2,broad_ME,residual,2016-01,WPME,8
+V2,broad_ME,residual,2016-02,WPME,10
+V2,broad_ME,residual,2016-03,WPME,9
+V2,broad_ME,residual,2016-04,WPME,13
+V2,broad_ME,residual,2016-05,WPME,13
+V2,broad_ME,residual,2016-06,WPME,11
+V2,broad_ME,residual,2016-07,WPME,13
+V2,broad_ME,residual,2016-08,WPME,15
+V2,broad_ME,residual,2016-09,WPME,12
+V2,broad_ME,residual,2016-10,WPME,13
+V2,broad_ME,residual,2016-11,WPME,14
+V2,broad_ME,residual,2016-12,WPME,13
+V2,broad_ME,residual,2017-01,WPME,14
+V2,broad_ME,residual,2017-02,WPME,11
+V2,broad_ME,residual,2017-03,WPME,14
+V2,broad_ME,residual,2017-04,WPME,14
+V2,broad_ME,residual,2015-12,Other Mediterranean,20
+V2,broad_ME,residual,2016-01,Other Mediterranean,17
+V2,broad_ME,residual,2016-02,Other Mediterranean,15
+V2,broad_ME,residual,2016-03,Other Mediterranean,21
+V2,broad_ME,residual,2016-04,Other Mediterranean,26
+V2,broad_ME,residual,2016-05,Other Mediterranean,23
+V2,broad_ME,residual,2016-06,Other Mediterranean,30
+V2,broad_ME,residual,2016-07,Other Mediterranean,31
+V2,broad_ME,residual,2016-08,Other Mediterranean,35
+V2,broad_ME,residual,2016-09,Other Mediterranean,32
+V2,broad_ME,residual,2016-10,Other Mediterranean,34
+V2,broad_ME,residual,2016-11,Other Mediterranean,37
+V2,broad_ME,residual,2016-12,Other Mediterranean,45
+V2,broad_ME,residual,2017-01,Other Mediterranean,41
+V2,broad_ME,residual,2017-02,Other Mediterranean,46
+V2,broad_ME,residual,2017-03,Other Mediterranean,49
+V2,broad_ME,residual,2017-04,Other Mediterranean,44
+V2,broad_ME,residual,2015-12,Unclassified,0
+V2,broad_ME,residual,2016-01,Unclassified,0
+V2,broad_ME,residual,2016-02,Unclassified,0
+V2,broad_ME,residual,2016-03,Unclassified,0
+V2,broad_ME,residual,2016-04,Unclassified,0
+V2,broad_ME,residual,2016-05,Unclassified,0
+V2,broad_ME,residual,2016-06,Unclassified,0
+V2,broad_ME,residual,2016-07,Unclassified,0
+V2,broad_ME,residual,2016-08,Unclassified,0
+V2,broad_ME,residual,2016-09,Unclassified,0
+V2,broad_ME,residual,2016-10,Unclassified,0
+V2,broad_ME,residual,2016-11,Unclassified,0
+V2,broad_ME,residual,2016-12,Unclassified,0
+V2,broad_ME,residual,2017-01,Unclassified,0
+V2,broad_ME,residual,2017-02,Unclassified,0
+V2,broad_ME,residual,2017-03,Unclassified,0
+V2,broad_ME,residual,2017-04,Unclassified,0
+V3,seven_ME,positive,2015-12,ME,30
+V3,seven_ME,positive,2016-01,ME,22
+V3,seven_ME,positive,2016-02,ME,29
+V3,seven_ME,positive,2016-03,ME,25
+V3,seven_ME,positive,2016-04,ME,30
+V3,seven_ME,positive,2016-05,ME,30
+V3,seven_ME,positive,2016-06,ME,26
+V3,seven_ME,positive,2016-07,ME,32
+V3,seven_ME,positive,2016-08,ME,38
+V3,seven_ME,positive,2016-09,ME,36
+V3,seven_ME,positive,2016-10,ME,33
+V3,seven_ME,positive,2016-11,ME,38
+V3,seven_ME,positive,2016-12,ME,43
+V3,seven_ME,positive,2017-01,ME,40
+V3,seven_ME,positive,2017-02,ME,48
+V3,seven_ME,positive,2017-03,ME,47
+V3,seven_ME,positive,2017-04,ME,44
+V3,seven_ME,positive,2015-12,WPME,1
+V3,seven_ME,positive,2016-01,WPME,3
+V3,seven_ME,positive,2016-02,WPME,4
+V3,seven_ME,positive,2016-03,WPME,2
+V3,seven_ME,positive,2016-04,WPME,4
+V3,seven_ME,positive,2016-05,WPME,3
+V3,seven_ME,positive,2016-06,WPME,3
+V3,seven_ME,positive,2016-07,WPME,4
+V3,seven_ME,positive,2016-08,WPME,4
+V3,seven_ME,positive,2016-09,WPME,3
+V3,seven_ME,positive,2016-10,WPME,3
+V3,seven_ME,positive,2016-11,WPME,4
+V3,seven_ME,positive,2016-12,WPME,4
+V3,seven_ME,positive,2017-01,WPME,4
+V3,seven_ME,positive,2017-02,WPME,3
+V3,seven_ME,positive,2017-03,WPME,3
+V3,seven_ME,positive,2017-04,WPME,4
+V3,seven_ME,positive,2015-12,Other Mediterranean,4
+V3,seven_ME,positive,2016-01,Other Mediterranean,4
+V3,seven_ME,positive,2016-02,Other Mediterranean,2
+V3,seven_ME,positive,2016-03,Other Mediterranean,5
+V3,seven_ME,positive,2016-04,Other Mediterranean,6
+V3,seven_ME,positive,2016-05,Other Mediterranean,6
+V3,seven_ME,positive,2016-06,Other Mediterranean,7
+V3,seven_ME,positive,2016-07,Other Mediterranean,7
+V3,seven_ME,positive,2016-08,Other Mediterranean,6
+V3,seven_ME,positive,2016-09,Other Mediterranean,5
+V3,seven_ME,positive,2016-10,Other Mediterranean,6
+V3,seven_ME,positive,2016-11,Other Mediterranean,7
+V3,seven_ME,positive,2016-12,Other Mediterranean,6
+V3,seven_ME,positive,2017-01,Other Mediterranean,6
+V3,seven_ME,positive,2017-02,Other Mediterranean,5
+V3,seven_ME,positive,2017-03,Other Mediterranean,7
+V3,seven_ME,positive,2017-04,Other Mediterranean,7
+V3,seven_ME,positive,2015-12,Unclassified,23
+V3,seven_ME,positive,2016-01,Unclassified,18
+V3,seven_ME,positive,2016-02,Unclassified,19
+V3,seven_ME,positive,2016-03,Unclassified,23
+V3,seven_ME,positive,2016-04,Unclassified,29
+V3,seven_ME,positive,2016-05,Unclassified,27
+V3,seven_ME,positive,2016-06,Unclassified,31
+V3,seven_ME,positive,2016-07,Unclassified,33
+V3,seven_ME,positive,2016-08,Unclassified,40
+V3,seven_ME,positive,2016-09,Unclassified,36
+V3,seven_ME,positive,2016-10,Unclassified,38
+V3,seven_ME,positive,2016-11,Unclassified,40
+V3,seven_ME,positive,2016-12,Unclassified,48
+V3,seven_ME,positive,2017-01,Unclassified,45
+V3,seven_ME,positive,2017-02,Unclassified,49
+V3,seven_ME,positive,2017-03,Unclassified,53
+V3,seven_ME,positive,2017-04,Unclassified,47
+V4,seven_ME,residual,2015-12,ME,30
+V4,seven_ME,residual,2016-01,ME,22
+V4,seven_ME,residual,2016-02,ME,29
+V4,seven_ME,residual,2016-03,ME,25
+V4,seven_ME,residual,2016-04,ME,30
+V4,seven_ME,residual,2016-05,ME,30
+V4,seven_ME,residual,2016-06,ME,26
+V4,seven_ME,residual,2016-07,ME,32
+V4,seven_ME,residual,2016-08,ME,38
+V4,seven_ME,residual,2016-09,ME,36
+V4,seven_ME,residual,2016-10,ME,33
+V4,seven_ME,residual,2016-11,ME,38
+V4,seven_ME,residual,2016-12,ME,43
+V4,seven_ME,residual,2017-01,ME,40
+V4,seven_ME,residual,2017-02,ME,48
+V4,seven_ME,residual,2017-03,ME,47
+V4,seven_ME,residual,2017-04,ME,44
+V4,seven_ME,residual,2015-12,WPME,1
+V4,seven_ME,residual,2016-01,WPME,3
+V4,seven_ME,residual,2016-02,WPME,4
+V4,seven_ME,residual,2016-03,WPME,2
+V4,seven_ME,residual,2016-04,WPME,4
+V4,seven_ME,residual,2016-05,WPME,3
+V4,seven_ME,residual,2016-06,WPME,3
+V4,seven_ME,residual,2016-07,WPME,4
+V4,seven_ME,residual,2016-08,WPME,4
+V4,seven_ME,residual,2016-09,WPME,3
+V4,seven_ME,residual,2016-10,WPME,3
+V4,seven_ME,residual,2016-11,WPME,4
+V4,seven_ME,residual,2016-12,WPME,4
+V4,seven_ME,residual,2017-01,WPME,4
+V4,seven_ME,residual,2017-02,WPME,3
+V4,seven_ME,residual,2017-03,WPME,3
+V4,seven_ME,residual,2017-04,WPME,4
+V4,seven_ME,residual,2015-12,Other Mediterranean,27
+V4,seven_ME,residual,2016-01,Other Mediterranean,22
+V4,seven_ME,residual,2016-02,Other Mediterranean,21
+V4,seven_ME,residual,2016-03,Other Mediterranean,28
+V4,seven_ME,residual,2016-04,Other Mediterranean,35
+V4,seven_ME,residual,2016-05,Other Mediterranean,33
+V4,seven_ME,residual,2016-06,Other Mediterranean,38
+V4,seven_ME,residual,2016-07,Other Mediterranean,40
+V4,seven_ME,residual,2016-08,Other Mediterranean,46
+V4,seven_ME,residual,2016-09,Other Mediterranean,41
+V4,seven_ME,residual,2016-10,Other Mediterranean,44
+V4,seven_ME,residual,2016-11,Other Mediterranean,47
+V4,seven_ME,residual,2016-12,Other Mediterranean,54
+V4,seven_ME,residual,2017-01,Other Mediterranean,51
+V4,seven_ME,residual,2017-02,Other Mediterranean,54
+V4,seven_ME,residual,2017-03,Other Mediterranean,60
+V4,seven_ME,residual,2017-04,Other Mediterranean,54
+V4,seven_ME,residual,2015-12,Unclassified,0
+V4,seven_ME,residual,2016-01,Unclassified,0
+V4,seven_ME,residual,2016-02,Unclassified,0
+V4,seven_ME,residual,2016-03,Unclassified,0
+V4,seven_ME,residual,2016-04,Unclassified,0
+V4,seven_ME,residual,2016-05,Unclassified,0
+V4,seven_ME,residual,2016-06,Unclassified,0
+V4,seven_ME,residual,2016-07,Unclassified,0
+V4,seven_ME,residual,2016-08,Unclassified,0
+V4,seven_ME,residual,2016-09,Unclassified,0
+V4,seven_ME,residual,2016-10,Unclassified,0
+V4,seven_ME,residual,2016-11,Unclassified,0
+V4,seven_ME,residual,2016-12,Unclassified,0
+V4,seven_ME,residual,2017-01,Unclassified,0
+V4,seven_ME,residual,2017-02,Unclassified,0
+V4,seven_ME,residual,2017-03,Unclassified,0
+V4,seven_ME,residual,2017-04,Unclassified,0

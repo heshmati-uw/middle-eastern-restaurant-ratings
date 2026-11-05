@@ -1,0 +1,23 @@
+{
+  "status": "Exploratory positive-evidence dictionary, not a complete definition of Mediterranean cuisine or proof of authenticity",
+  "scope": "Selected Greek, Italian and Spanish named dishes; culinary boundaries overlap",
+  "entries": [
+    {"dish":"spanakopita","aliases":["spanakopita","spanakopitas"],"tradition":"Greek","source":"https://www.mygreekdish.com/"},
+    {"dish":"pastitsio","aliases":["pastitsio","pastichio","pastichio","pastitsio"],"tradition":"Greek","source":"https://www.mygreekdish.com/"},
+    {"dish":"souvlaki","aliases":["souvlaki","souvlakia"],"tradition":"Greek","source":"https://www.kalliopiskitchen.com/"},
+    {"dish":"horiatiki","aliases":["horiatiki","greek salad"],"tradition":"Greek","source":"https://www.kalliopiskitchen.com/"},
+    {"dish":"carbonara","aliases":["carbonara"],"tradition":"Italian","source":"https://www.turismoroma.it/en/page/legend-plate-bucatini-allamatriciana"},
+    {"dish":"amatriciana","aliases":["amatriciana"],"tradition":"Italian","source":"https://www.turismoroma.it/en/page/legend-plate-bucatini-allamatriciana"},
+    {"dish":"cacio_e_pepe","aliases":["cacio e pepe"],"tradition":"Italian","source":"https://www.turismoroma.it/en/page/legend-plate-bucatini-allamatriciana"},
+    {"dish":"gricia","aliases":["gricia"],"tradition":"Italian","source":"https://www.turismoroma.it/en/page/legend-plate-bucatini-allamatriciana"},
+    {"dish":"arancini","aliases":["arancini","arancine","arancino"],"tradition":"Italian","source":"https://www.italia.it/en/sicily/things-to-do/typical-sicilian-products-dishes"},
+    {"dish":"cannoli","aliases":["cannoli","cannolo"],"tradition":"Italian","source":"https://www.italia.it/en/sicily/things-to-do/typical-sicilian-products-dishes"},
+    {"dish":"panelle","aliases":["panelle"],"tradition":"Italian","source":"https://www.italia.it/en/sicily/things-to-do/typical-sicilian-products-dishes"},
+    {"dish":"cassata","aliases":["cassata"],"tradition":"Italian","source":"https://www.italia.it/en/sicily/things-to-do/typical-sicilian-products-dishes"},
+    {"dish":"paella","aliases":["paella"],"tradition":"Spanish","source":"https://www.spain.info/en/discover-spain/dishes-traditional-cuisine-spain/"},
+    {"dish":"gazpacho","aliases":["gazpacho"],"tradition":"Spanish","source":"https://www.spain.info/en/discover-spain/dishes-traditional-cuisine-spain/"},
+    {"dish":"tortilla_espanola","aliases":["tortilla espanola","tortilla de patatas","tortilla de patata","spanish omelette","spanish omelet"],"tradition":"Spanish","source":"https://www.spain.info/en/discover-spain/dishes-traditional-cuisine-spain/"}
+  ],
+  "excluded_as_insufficient_alone": ["gyro", "pizza", "pasta", "rice", "salad", "baklava", "dolma", "hummus", "kebab"],
+  "limitations": "Includes a Greek salad sensitivity marker; a single dish can be a side offering and does not establish dominant cuisine. Positive evidence and ME evidence can coexist. Current analysis assigns such overlaps to WPME and reports overlaps. Sources accessed November 5, 2026."
+}

@@ -1,0 +1,17 @@
+version,scope,rule,group,active_any_month,metadata_restaurants,counties,without_pre_election_text
+V1,broad_ME,positive,ME,52,67,7,5
+V1,broad_ME,positive,WPME,15,16,7,0
+V1,broad_ME,positive,Other Mediterranean,4,4,3,0
+V1,broad_ME,positive,Unclassified,53,89,7,10
+V2,broad_ME,residual,ME,52,67,7,5
+V2,broad_ME,residual,WPME,15,16,7,0
+V2,broad_ME,residual,Other Mediterranean,57,93,7,10
+V2,broad_ME,residual,Unclassified,0,0,0,0
+V3,seven_ME,positive,ME,52,67,7,5
+V3,seven_ME,positive,WPME,4,4,2,0
+V3,seven_ME,positive,Other Mediterranean,7,7,4,0
+V3,seven_ME,positive,Unclassified,61,98,7,10
+V4,seven_ME,residual,ME,52,67,7,5
+V4,seven_ME,residual,WPME,4,4,2,0
+V4,seven_ME,residual,Other Mediterranean,68,105,7,10
+V4,seven_ME,residual,Unclassified,0,0,0,0
