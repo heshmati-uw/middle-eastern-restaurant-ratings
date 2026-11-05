@@ -26,7 +26,7 @@ def para(text,x,y,width,style):
 margin=44;full=w-2*margin
 y=para('Country-listed foods used in the chart',margin,h-36,full,'title')-10
 qualified=[e for e in registry['entries'] if e['country_list_qualifier']]
-y=para(f"All {len(qualified)} qualifying dictionary entries across 12 country lists. One mention in any available review qualifies as food evidence for either a literal Middle Eastern or Mediterranean tag. National tags qualify directly.",margin,y,full,'body')-8
+y=para(f"All {len(qualified)} qualifying dictionary entries across 12 country lists. One mention in any available review qualifies a Mediterranean-primary-tagged restaurant as WPME. Broadly ME positioned restaurants qualify by label alone, without a food requirement.",margin,y,full,'body')-8
 y=para('Shared entries appear under every linked country. These lists document culinary associations, not exclusive origins; their coverage is nonexhaustive. Names below consolidate selected variants, while the machine-readable dictionary retains matching patterns.',margin,y,full,'note')-19
 display={'kubba':'kibbeh / kubba','aseeda':'aseeda / asida','lahoh':'lahoh / laxoox','qabili_pulao':'qabili / kabuli pulao','lahmacun':'lahmacun / lahmajoun','fesenjan':'fesenjan / fesenjoon','zaatar':"za'atar",'kabsa_machboos':'kabsa / machboos'}
 def name(e):return escape(display.get(e['dish_id'],e['dish_id'].replace('_',' ')))
@@ -43,7 +43,7 @@ assert covered=={e['dish_id'] for e in qualified}
 y=min(bottom)-4
 y=para('Broader-dictionary entries not qualifying under the current country-list rule',margin,y,full,'country')-3
 unmapped=[e for e in registry['entries'] if not e['country_list_qualifier']]
-y=para('; '.join(name(e) for e in unmapped)+'. These remain in the broader dictionary but currently lack a documented link in the 12-country registry. They do not qualify a restaurant for WPME or the food-evidence route into nationally associated ME.',margin,y,full,'note')-10
+y=para('; '.join(name(e) for e in unmapped)+'. These remain outside the country-linked eligibility rule in the current registry version and do not qualify a restaurant for WPME. The separate five-food research audit has not yet been applied to this registry. ME eligibility now depends on labels alone.',margin,y,full,'note')-10
 y=para('<b>Excluded standalone terms:</b> shakshuka; generic dolma/dolmeh; baklava; hummus; falafel. The specific dishes dolmeh barg and dolmeh bademjan remain included.',margin,y,full,'note')-9
 y=para('Source and pattern audit: dictionaries/country_food_registry_v1.json and outputs/national_association_dictionary.csv. Food mentions are not context-adjudicated and do not verify authenticity or historical menus.',margin,y,full,'note')
 assert y>32, f'Food page overflow: {y}'

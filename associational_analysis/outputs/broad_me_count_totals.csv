@@ -1,0 +1,37 @@
+figure,version,vote_group,group,restaurants
+1,Broad,Trump-majority,ME,52
+1,Broad,Trump-majority,WPME,67
+1,Broad,Trump-majority,Medit,5
+2,Ban countries,Trump-majority,ME,36
+2,Ban countries,Trump-majority,WPME,67
+2,Ban countries,Trump-majority,Medit,5
+3,Broad,Trump-majority,ME,174
+3,Broad,Trump-majority,WPME,479
+3,Broad,Trump-majority,Medit,88
+4,Ban countries,Trump-majority,ME,117
+4,Ban countries,Trump-majority,WPME,478
+4,Ban countries,Trump-majority,Medit,89
+5,Broad,Trump-majority,ME,174
+5,Broad,Trump-majority,WPME,479
+5,Broad,Trump-majority,Medit,88
+5,Broad,Other counties,ME,1578
+5,Broad,Other counties,WPME,2645
+5,Broad,Other counties,Medit,462
+6,Ban countries,Trump-majority,ME,117
+6,Ban countries,Trump-majority,WPME,478
+6,Ban countries,Trump-majority,Medit,89
+6,Ban countries,Other counties,ME,958
+6,Ban countries,Other counties,WPME,2637
+6,Ban countries,Other counties,Medit,470
+7,Broad,Trump-majority,ME,174
+7,Broad,Trump-majority,WPME,480
+7,Broad,Trump-majority,Medit,90
+7,Broad,Other counties,ME,1591
+7,Broad,Other counties,WPME,2656
+7,Broad,Other counties,Medit,477
+8,Ban countries,Trump-majority,ME,117
+8,Ban countries,Trump-majority,WPME,479
+8,Ban countries,Trump-majority,Medit,91
+8,Ban countries,Other counties,ME,966
+8,Ban countries,Other counties,WPME,2648
+8,Ban countries,Other counties,Medit,485

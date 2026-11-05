@@ -1,0 +1,9 @@
+{
+  "count_rating_samples_identical": true,
+  "monthly_cells": 336,
+  "restaurant_weighting": "mean of restaurant-month mean ratings",
+  "review_weighting": "sum of all stars divided by review count",
+  "fixed_cohort": false,
+  "matched": false,
+  "complete_calendar_months": true
+}

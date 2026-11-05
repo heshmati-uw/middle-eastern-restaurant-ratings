@@ -1,0 +1,9 @@
+figure,version,geography,start,alias
+1,Broad,Seven original Trump-majority counties,2015-12,national_association_monthly
+2,Ban countries,Seven original Trump-majority counties,2015-12,ban_country_monthly
+3,Broad,All available Trump-majority counties,2015-12,all_trump_broad
+4,Ban countries,All available Trump-majority counties,2015-12,all_trump_ban
+5,Broad,All available counties | Both county vote groups,2015-12,county_vote_broad
+6,Ban countries,All available counties | Both county vote groups,2015-12,county_vote_ban
+7,Broad,All available counties | Both county vote groups,2015-01,county_vote_jan2015_broad
+8,Ban countries,All available counties | Both county vote groups,2015-01,county_vote_jan2015_ban
