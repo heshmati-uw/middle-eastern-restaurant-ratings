@@ -1,0 +1,33 @@
+{
+  "Levant": [
+    "kibbeh",
+    "fattoush",
+    "muhammara",
+    "manakish",
+    "mujaddara",
+    "maqluba",
+    "mansaf",
+    "musakhan"
+  ],
+  "Afghanistan": [
+    "bolani",
+    "qabili_pulao",
+    "mantu"
+  ],
+  "Egypt": [
+    "koshari",
+    "molokhia",
+    "ful_medames"
+  ],
+  "Iran": [
+    "ghormeh_sabzi",
+    "fesenjan",
+    "gheymeh",
+    "tahdig",
+    "koobideh",
+    "joojeh",
+    "abgoosht",
+    "ash_reshteh",
+    "zereshk_polo"
+  ]
+}

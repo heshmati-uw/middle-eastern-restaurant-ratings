@@ -1,0 +1,268 @@
+{
+  "files": [
+    {
+      "file": "review-Colorado.json.gz",
+      "rows": 15681222,
+      "eligible_text_rows": 2036
+    },
+    {
+      "file": "review-Arizona.json.gz",
+      "rows": 18375050,
+      "eligible_text_rows": 2935
+    },
+    {
+      "file": "review-Pennsylvania.json.gz",
+      "rows": 21944802,
+      "eligible_text_rows": 2388
+    },
+    {
+      "file": "review-Michigan.json.gz",
+      "rows": 20776155,
+      "eligible_text_rows": 6520
+    },
+    {
+      "file": "review-Ohio.json.gz",
+      "rows": 23039365,
+      "eligible_text_rows": 2811
+    },
+    {
+      "file": "review-North_Carolina.json.gz",
+      "rows": 22299136,
+      "eligible_text_rows": 3083
+    },
+    {
+      "file": "review-Illinois.json.gz",
+      "rows": 23096838,
+      "eligible_text_rows": 5868
+    },
+    {
+      "file": "review-Georgia.json.gz",
+      "rows": 24060125,
+      "eligible_text_rows": 3417
+    },
+    {
+      "file": "review-Washington.json.gz",
+      "rows": 16541734,
+      "eligible_text_rows": 2107
+    },
+    {
+      "file": "review-New_York.json.gz",
+      "rows": 33459761,
+      "eligible_text_rows": 9768
+    },
+    {
+      "file": "review-Indiana.json.gz",
+      "rows": 12865167,
+      "eligible_text_rows": 573
+    },
+    {
+      "file": "review-Missouri.json.gz",
+      "rows": 13416511,
+      "eligible_text_rows": 1156
+    },
+    {
+      "file": "review-South_Carolina.json.gz",
+      "rows": 11995482,
+      "eligible_text_rows": 1141
+    },
+    {
+      "file": "review-Oregon.json.gz",
+      "rows": 11012170,
+      "eligible_text_rows": 2005
+    },
+    {
+      "file": "review-Virginia.json.gz",
+      "rows": 15957938,
+      "eligible_text_rows": 4403
+    },
+    {
+      "file": "review-Tennessee.json.gz",
+      "rows": 15951213,
+      "eligible_text_rows": 1090
+    },
+    {
+      "file": "review-New_Jersey.json.gz",
+      "rows": 15720266,
+      "eligible_text_rows": 2818
+    },
+    {
+      "file": "review-Utah.json.gz",
+      "rows": 9081167,
+      "eligible_text_rows": 931
+    },
+    {
+      "file": "review-Minnesota.json.gz",
+      "rows": 9520258,
+      "eligible_text_rows": 1275
+    },
+    {
+      "file": "review-Wisconsin.json.gz",
+      "rows": 10246685,
+      "eligible_text_rows": 615
+    },
+    {
+      "file": "review-Kentucky.json.gz",
+      "rows": 7654993,
+      "eligible_text_rows": 676
+    },
+    {
+      "file": "review-Nevada.json.gz",
+      "rows": 8833403,
+      "eligible_text_rows": 1256
+    },
+    {
+      "file": "review-Maryland.json.gz",
+      "rows": 10728483,
+      "eligible_text_rows": 1712
+    },
+    {
+      "file": "review-Alabama.json.gz",
+      "rows": 8967499,
+      "eligible_text_rows": 962
+    },
+    {
+      "file": "review-Massachusetts.json.gz",
+      "rows": 10447007,
+      "eligible_text_rows": 2512
+    },
+    {
+      "file": "review-Oklahoma.json.gz",
+      "rows": 8482820,
+      "eligible_text_rows": 895
+    },
+    {
+      "file": "review-Hawaii.json.gz",
+      "rows": 3111531,
+      "eligible_text_rows": 184
+    },
+    {
+      "file": "review-Mississippi.json.gz",
+      "rows": 3861771,
+      "eligible_text_rows": 158
+    },
+    {
+      "file": "review-Idaho.json.gz",
+      "rows": 3892636,
+      "eligible_text_rows": 163
+    },
+    {
+      "file": "review-Arkansas.json.gz",
+      "rows": 5106056,
+      "eligible_text_rows": 250
+    },
+    {
+      "file": "review-Iowa.json.gz",
+      "rows": 4838887,
+      "eligible_text_rows": 224
+    },
+    {
+      "file": "review-New_Mexico.json.gz",
+      "rows": 4705389,
+      "eligible_text_rows": 268
+    },
+    {
+      "file": "review-Kansas.json.gz",
+      "rows": 5546880,
+      "eligible_text_rows": 480
+    },
+    {
+      "file": "review-Connecticut.json.gz",
+      "rows": 5181800,
+      "eligible_text_rows": 695
+    },
+    {
+      "file": "review-Maine.json.gz",
+      "rows": 2214773,
+      "eligible_text_rows": 61
+    },
+    {
+      "file": "review-Montana.json.gz",
+      "rows": 1933939,
+      "eligible_text_rows": 61
+    },
+    {
+      "file": "review-Louisiana.json.gz",
+      "rows": 7536078,
+      "eligible_text_rows": 759
+    },
+    {
+      "file": "review-New_Hampshire.json.gz",
+      "rows": 2648081,
+      "eligible_text_rows": 118
+    },
+    {
+      "file": "review-West_Virginia.json.gz",
+      "rows": 2208199,
+      "eligible_text_rows": 126
+    },
+    {
+      "file": "review-Rhode_Island.json.gz",
+      "rows": 1777094,
+      "eligible_text_rows": 263
+    },
+    {
+      "file": "review-District_of_Columbia.json.gz",
+      "rows": 1894317,
+      "eligible_text_rows": 1098
+    },
+    {
+      "file": "review-Delaware.json.gz",
+      "rows": 1885948,
+      "eligible_text_rows": 186
+    },
+    {
+      "file": "review-other.json.gz",
+      "rows": 162952,
+      "eligible_text_rows": 297
+    },
+    {
+      "file": "review-Nebraska.json.gz",
+      "rows": 3286810,
+      "eligible_text_rows": 257
+    },
+    {
+      "file": "review-Vermont.json.gz",
+      "rows": 852203,
+      "eligible_text_rows": 12
+    },
+    {
+      "file": "review-Alaska.json.gz",
+      "rows": 1051246,
+      "eligible_text_rows": 0
+    },
+    {
+      "file": "review-Wyoming.json.gz",
+      "rows": 1141421,
+      "eligible_text_rows": 1
+    },
+    {
+      "file": "review-North_Dakota.json.gz",
+      "rows": 1109558,
+      "eligible_text_rows": 29
+    },
+    {
+      "file": "review-South_Dakota.json.gz",
+      "rows": 1452599,
+      "eligible_text_rows": 32
+    },
+    {
+      "file": "review-Florida.json.gz",
+      "rows": 61803524,
+      "eligible_text_rows": 7649
+    },
+    {
+      "file": "review-Texas.json.gz",
+      "rows": 66435184,
+      "eligible_text_rows": 11198
+    },
+    {
+      "file": "review-California.json.gz",
+      "rows": 70529977,
+      "eligible_text_rows": 19131
+    }
+  ],
+  "restaurants_scanned": 5162,
+  "restaurants_with_any_food_evidence": 3805,
+  "cutoff_exclusive": "2016-11-08 UTC",
+  "binary_profiles_duplicate_invariant": true
+}

@@ -1,0 +1,1556 @@
+{
+  "version": "seven-list-nonexclusive-v3",
+  "status": "research-informed draft; not applied to restaurant codes or regressions",
+  "countries": [
+    "Iran",
+    "Iraq",
+    "Syria",
+    "Yemen",
+    "Libya",
+    "Somalia",
+    "Sudan"
+  ],
+  "review_cutoff": "2016-11-08T00:00:00Z exclusive",
+  "normalization": "Unicode NFKD, casefold, collapse punctuation/hyphens/apostrophes to spaces; preserve originals for adjudication. Latin-script variants first pass; native-script lexicon requires separate validation.",
+  "classification": {
+    "candidate": "Any dictionary hit creates an evidence candidate, not automatic confirmation.",
+    "probable": "One pre-election review mentioning a country-associated dish offered by the restaurant suffices for a cuisine flag.",
+    "shared": "One mention of a shared dish supports every cuisine linked to that dish. Match the longest named preparation at each position.",
+    "negative": "Exclude negated availability, wishes, another restaurant, reviewer background, comparisons and hypothetical dishes. Negative evaluations of a dish actually served still count as food evidence.",
+    "multiple": "Preserve multiple country associations rather than forcing one; avoid duplicating restaurants in pooled models.",
+    "symmetry": "Apply identical dictionary and evidence rules to ME and Mediterranean listings; keep label and cuisine evidence separate.",
+    "pool": "Start with all primary ME-family and Mediterranean listings, including keyword-negative restaurants; later audit generic labels separately.",
+    "outcomes": "Dictionary and coding use pre-election text only; no tuning on effects or p values."
+  },
+  "cross_border_notes": [
+    "Specificity is relative to these seven lists. Compare complete dish names, including aliases, and retain distinct named preparations.",
+    "Check ambiguous words in context before counting them as food mentions."
+  ],
+  "sources": {
+    "Iran": [
+      "https://persianmama.com/recipe-index/"
+    ],
+    "Iraq": [
+      "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+      "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+    ],
+    "Syria": [
+      "https://www.omayahcooks.com/full-index",
+      "https://www.omayahcooks.com/dinner",
+      "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+    ],
+    "Yemen": [
+      "https://www.shebayemenifood.com/content/fahsa-saltah",
+      "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+      "https://aden-restaurant.com/menu.pdf",
+      "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+      "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+    ],
+    "Libya": [
+      "https://www.munatycooking.com/libyan-mbakbaka/",
+      "https://libyanfood.blogspot.com/2011/10/asida.html",
+      "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+      "https://libyanheritagehouse.org/arts-culture/libyan-cuisine"
+    ],
+    "Somalia": [
+      "https://xawaash.com/recipes/",
+      "https://xawaash.com/?p=1548",
+      "https://xawaash.com/recipes/mains/"
+    ],
+    "Sudan": [
+      "https://www.sudanese.kitchen/archive",
+      "https://www.sudanese.kitchen/history"
+    ]
+  },
+  "entries": [
+    {
+      "country": "Iran",
+      "dish": "ghormeh sabzi",
+      "tier": "country_associated",
+      "aliases": [
+        "ghormeh sabzi",
+        "ghorme sabzi",
+        "gormeh sabzi",
+        "qormeh sabzi"
+      ],
+      "pattern": "(?<!\\w)(?:ghormeh\\s+sabzi|ghorme\\s+sabzi|gormeh\\s+sabzi|qormeh\\s+sabzi)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "tahdig",
+      "tier": "country_associated",
+      "aliases": [
+        "tahdig",
+        "tah deeg",
+        "tah dig",
+        "tahdeeg"
+      ],
+      "pattern": "(?<!\\w)(?:tahdig|tah\\s+deeg|tah\\s+dig|tahdeeg)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "fesenjan",
+      "tier": "country_associated",
+      "aliases": [
+        "fesenjan",
+        "fesenjoon",
+        "fesenjun",
+        "fesenjaan"
+      ],
+      "pattern": "(?<!\\w)(?:fesenjan|fesenjoon|fesenjun|fesenjaan)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "gheymeh",
+      "tier": "country_associated",
+      "aliases": [
+        "gheymeh",
+        "gheimeh",
+        "ghaymeh",
+        "qeymeh"
+      ],
+      "pattern": "(?<!\\w)(?:gheymeh|gheimeh|ghaymeh|qeymeh)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "ash reshteh",
+      "tier": "country_associated",
+      "aliases": [
+        "ash reshteh",
+        "aash reshteh",
+        "ash reshte",
+        "aash reshte"
+      ],
+      "pattern": "(?<!\\w)(?:ash\\s+reshteh|aash\\s+reshteh|ash\\s+reshte|aash\\s+reshte)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "zereshk polo",
+      "tier": "country_associated",
+      "aliases": [
+        "zereshk polo",
+        "zereshk polow"
+      ],
+      "pattern": "(?<!\\w)(?:zereshk\\s+polo|zereshk\\s+polow)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "baghali polo",
+      "tier": "country_associated",
+      "aliases": [
+        "baghali polo",
+        "baghali polow"
+      ],
+      "pattern": "(?<!\\w)(?:baghali\\s+polo|baghali\\s+polow)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "baghali ghatogh",
+      "tier": "country_associated",
+      "aliases": [
+        "baghali ghatogh",
+        "baghala ghatogh"
+      ],
+      "pattern": "(?<!\\w)(?:baghali\\s+ghatogh|baghala\\s+ghatogh)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "abgoosht",
+      "tier": "country_associated",
+      "aliases": [
+        "abgoosht",
+        "abgusht",
+        "abgoosh"
+      ],
+      "pattern": "(?<!\\w)(?:abgoosht|abgusht|abgoosh)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "kashk e bademjan",
+      "tier": "country_associated",
+      "aliases": [
+        "kashk e bademjan",
+        "kashke bademjan",
+        "kashk bademjan",
+        "kashk e bademjoon"
+      ],
+      "pattern": "(?<!\\w)(?:kashk\\s+e\\s+bademjan|kashke\\s+bademjan|kashk\\s+bademjan|kashk\\s+e\\s+bademjoon)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "mirza ghasemi",
+      "tier": "country_associated",
+      "aliases": [
+        "mirza ghasemi",
+        "mirza ghassemi",
+        "mirza ghashemi"
+      ],
+      "pattern": "(?<!\\w)(?:mirza\\s+ghasemi|mirza\\s+ghassemi|mirza\\s+ghashemi)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "koobideh",
+      "tier": "country_associated",
+      "aliases": [
+        "koobideh",
+        "kubideh",
+        "koubideh",
+        "koobide"
+      ],
+      "pattern": "(?<!\\w)(?:koobideh|kubideh|koubideh|koobide)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "joojeh",
+      "tier": "country_associated",
+      "aliases": [
+        "joojeh",
+        "jujeh",
+        "jooje"
+      ],
+      "pattern": "(?<!\\w)(?:joojeh|jujeh|jooje)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "tahchin",
+      "tier": "country_associated",
+      "aliases": [
+        "tahchin",
+        "tah chin"
+      ],
+      "pattern": "(?<!\\w)(?:tahchin|tah\\s+chin)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "dizi",
+      "tier": "country_associated",
+      "aliases": [
+        "dizi"
+      ],
+      "pattern": "(?<!\\w)(?:dizi)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "kuku sabzi",
+      "tier": "country_associated",
+      "aliases": [
+        "kuku sabzi",
+        "kookoo sabzi"
+      ],
+      "pattern": "(?<!\\w)(?:kuku\\s+sabzi|kookoo\\s+sabzi)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "adas polo",
+      "tier": "country_associated",
+      "aliases": [
+        "adas polo",
+        "adas polow"
+      ],
+      "pattern": "(?<!\\w)(?:adas\\s+polo|adas\\s+polow)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "dolmeh barg",
+      "tier": "country_associated",
+      "aliases": [
+        "dolmeh barg"
+      ],
+      "pattern": "(?<!\\w)(?:dolmeh\\s+barg)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "dolmeh bademjan",
+      "tier": "country_associated",
+      "aliases": [
+        "dolmeh bademjan"
+      ],
+      "pattern": "(?<!\\w)(?:dolmeh\\s+bademjan)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iran",
+      "dish": "dolmeh",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "dolmeh",
+        "dolma"
+      ],
+      "pattern": "(?<!\\w)(?:dolmeh|dolma)(?!\\w)",
+      "sources": [
+        "https://persianmama.com/recipe-index/"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Iraq",
+      "dish": "masgouf",
+      "tier": "country_associated",
+      "aliases": [
+        "masgouf",
+        "masgoof",
+        "maskoof",
+        "mazgoof"
+      ],
+      "pattern": "(?<!\\w)(?:masgouf|masgoof|maskoof|mazgoof)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "kubba mosul",
+      "tier": "country_associated",
+      "aliases": [
+        "kubba mosul",
+        "kubbeh mosul",
+        "kibbeh mosul"
+      ],
+      "pattern": "(?<!\\w)(?:kubba\\s+mosul|kubbeh\\s+mosul|kibbeh\\s+mosul)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "kubbat hamuth",
+      "tier": "country_associated",
+      "aliases": [
+        "kubbat hamuth",
+        "kubba hamuth",
+        "kubba hamouth"
+      ],
+      "pattern": "(?<!\\w)(?:kubbat\\s+hamuth|kubba\\s+hamuth|kubba\\s+hamouth)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "kleicha",
+      "tier": "country_associated",
+      "aliases": [
+        "kleicha",
+        "klecha",
+        "kleichah"
+      ],
+      "pattern": "(?<!\\w)(?:kleicha|klecha|kleichah)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "tepsi baytinijan",
+      "tier": "country_associated",
+      "aliases": [
+        "tepsi baytinijan",
+        "tepsi baytinjan",
+        "tepsi badinjan"
+      ],
+      "pattern": "(?<!\\w)(?:tepsi\\s+baytinijan|tepsi\\s+baytinjan|tepsi\\s+badinjan)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "bagilla bil dihin",
+      "tier": "country_associated",
+      "aliases": [
+        "bagilla bil dihin",
+        "bagila bil dihin"
+      ],
+      "pattern": "(?<!\\w)(?:bagilla\\s+bil\\s+dihin|bagila\\s+bil\\s+dihin)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "timman bagilla",
+      "tier": "country_associated",
+      "aliases": [
+        "timman bagilla",
+        "timman bagila"
+      ],
+      "pattern": "(?<!\\w)(?:timman\\s+bagilla|timman\\s+bagila)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "tashreeb",
+      "tier": "country_associated",
+      "aliases": [
+        "tashreeb",
+        "tashrib",
+        "tashreb"
+      ],
+      "pattern": "(?<!\\w)(?:tashreeb|tashrib|tashreb)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "quzi",
+      "tier": "country_associated",
+      "aliases": [
+        "quzi",
+        "qoozi",
+        "ghoozi",
+        "qozi"
+      ],
+      "pattern": "(?<!\\w)(?:quzi|qoozi|ghoozi|qozi)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "samoon",
+      "tier": "country_associated",
+      "aliases": [
+        "samoon",
+        "sammoun"
+      ],
+      "pattern": "(?<!\\w)(?:samoon|sammoun)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "pacha",
+      "tier": "country_associated",
+      "aliases": [
+        "pacha",
+        "patcha"
+      ],
+      "pattern": "(?<!\\w)(?:pacha|patcha)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Iraq",
+      "dish": "kubba",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "kubba",
+        "kubbeh",
+        "kibbeh",
+        "kobee"
+      ],
+      "pattern": "(?<!\\w)(?:kubba|kubbeh|kibbeh|kobee)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Iraq",
+      "dish": "dolma",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "dolma",
+        "dolmeh"
+      ],
+      "pattern": "(?<!\\w)(?:dolma|dolmeh)(?!\\w)",
+      "sources": [
+        "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf",
+        "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Syria",
+      "dish": "kibbeh safarjaliyeh",
+      "tier": "country_associated",
+      "aliases": [
+        "kibbeh safarjaliyeh",
+        "kibbeh safarjaliyya",
+        "kibbeh safarjali"
+      ],
+      "pattern": "(?<!\\w)(?:kibbeh\\s+safarjaliyeh|kibbeh\\s+safarjaliyya|kibbeh\\s+safarjali)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "kebab karaz",
+      "tier": "country_associated",
+      "aliases": [
+        "kebab karaz",
+        "kabab karaz",
+        "kebab bil karaz"
+      ],
+      "pattern": "(?<!\\w)(?:kebab\\s+karaz|kabab\\s+karaz|kebab\\s+bil\\s+karaz)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "haraa osbao",
+      "tier": "country_associated",
+      "aliases": [
+        "haraa osbao",
+        "horaa osbao",
+        "harak osbao",
+        "harak esbao",
+        "harraa esbao"
+      ],
+      "pattern": "(?<!\\w)(?:haraa\\s+osbao|horaa\\s+osbao|harak\\s+osbao|harak\\s+esbao|harraa\\s+esbao)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "kibbeh sumaqiyeh",
+      "tier": "country_associated",
+      "aliases": [
+        "kibbeh sumaqiyeh",
+        "kibbeh summaqiyyeh"
+      ],
+      "pattern": "(?<!\\w)(?:kibbeh\\s+sumaqiyeh|kibbeh\\s+summaqiyyeh)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "muhammara",
+      "tier": "country_associated",
+      "aliases": [
+        "muhammara",
+        "mouhammara",
+        "muhamara"
+      ],
+      "pattern": "(?<!\\w)(?:muhammara|mouhammara|muhamara)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "shish barak",
+      "tier": "country_associated",
+      "aliases": [
+        "shish barak",
+        "shishbarak"
+      ],
+      "pattern": "(?<!\\w)(?:shish\\s+barak|shishbarak)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "fattet makdous",
+      "tier": "country_associated",
+      "aliases": [
+        "fattet makdous",
+        "fatteh makdous"
+      ],
+      "pattern": "(?<!\\w)(?:fattet\\s+makdous|fatteh\\s+makdous)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "kibbeh labaniyeh",
+      "tier": "country_associated",
+      "aliases": [
+        "kibbeh labaniyeh",
+        "kibbeh labanieh",
+        "kibbeh bil laban"
+      ],
+      "pattern": "(?<!\\w)(?:kibbeh\\s+labaniyeh|kibbeh\\s+labanieh|kibbeh\\s+bil\\s+laban)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "kibbet seekh",
+      "tier": "country_associated",
+      "aliases": [
+        "kibbet seekh",
+        "kibbeh seekh"
+      ],
+      "pattern": "(?<!\\w)(?:kibbet\\s+seekh|kibbeh\\s+seekh)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "sheikh el mahshi",
+      "tier": "country_associated",
+      "aliases": [
+        "sheikh el mahshi",
+        "sheikh al mahshi"
+      ],
+      "pattern": "(?<!\\w)(?:sheikh\\s+el\\s+mahshi|sheikh\\s+al\\s+mahshi)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "makdous",
+      "tier": "country_associated",
+      "aliases": [
+        "makdous",
+        "makdoos"
+      ],
+      "pattern": "(?<!\\w)(?:makdous|makdoos)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "halawet el jibn",
+      "tier": "country_associated",
+      "aliases": [
+        "halawet el jibn",
+        "halawat al jibn"
+      ],
+      "pattern": "(?<!\\w)(?:halawet\\s+el\\s+jibn|halawat\\s+al\\s+jibn)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "kibbeh bil sanieh",
+      "tier": "country_associated",
+      "aliases": [
+        "kibbeh bil sanieh"
+      ],
+      "pattern": "(?<!\\w)(?:kibbeh\\s+bil\\s+sanieh)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Syria",
+      "dish": "kibbeh",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "kibbeh",
+        "kobee",
+        "kubba",
+        "kubbeh"
+      ],
+      "pattern": "(?<!\\w)(?:kibbeh|kobee|kubba|kubbeh)(?!\\w)",
+      "sources": [
+        "https://www.omayahcooks.com/full-index",
+        "https://www.omayahcooks.com/dinner",
+        "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Yemen",
+      "dish": "saltah",
+      "tier": "country_associated",
+      "aliases": [
+        "saltah",
+        "salta"
+      ],
+      "pattern": "(?<!\\w)(?:saltah|salta)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Yemen",
+      "dish": "fahsa",
+      "tier": "country_associated",
+      "aliases": [
+        "fahsa",
+        "fahsah"
+      ],
+      "pattern": "(?<!\\w)(?:fahsa|fahsah)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Yemen",
+      "dish": "bint al sahn",
+      "tier": "country_associated",
+      "aliases": [
+        "bint al sahn",
+        "bint as sahn",
+        "bint al sahen"
+      ],
+      "pattern": "(?<!\\w)(?:bint\\s+al\\s+sahn|bint\\s+as\\s+sahn|bint\\s+al\\s+sahen)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Yemen",
+      "dish": "shafoot",
+      "tier": "country_associated",
+      "aliases": [
+        "shafoot",
+        "shafout",
+        "shafut"
+      ],
+      "pattern": "(?<!\\w)(?:shafoot|shafout|shafut)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Yemen",
+      "dish": "mandi",
+      "tier": "country_associated",
+      "aliases": [
+        "mandi"
+      ],
+      "pattern": "(?<!\\w)(?:mandi)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Yemen",
+      "dish": "haneeth",
+      "tier": "country_associated",
+      "aliases": [
+        "haneeth",
+        "hanith",
+        "haneed"
+      ],
+      "pattern": "(?<!\\w)(?:haneeth|hanith|haneed)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Yemen",
+      "dish": "masoub",
+      "tier": "country_associated",
+      "aliases": [
+        "masoub",
+        "masoob",
+        "maseub"
+      ],
+      "pattern": "(?<!\\w)(?:masoub|masoob|maseub)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Yemen",
+      "dish": "mutabbaq",
+      "tier": "country_associated",
+      "aliases": [
+        "mutabbaq",
+        "mutabak",
+        "muttabaq"
+      ],
+      "pattern": "(?<!\\w)(?:mutabbaq|mutabak|muttabaq)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Yemen",
+      "dish": "lahoh",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "lahoh",
+        "lahooh",
+        "lahuh",
+        "laxoox"
+      ],
+      "pattern": "(?<!\\w)(?:lahoh|lahooh|lahuh|laxoox)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Yemen",
+      "dish": "aseeda",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "aseeda",
+        "asida",
+        "aseed"
+      ],
+      "pattern": "(?<!\\w)(?:aseeda|asida|aseed)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Yemen",
+      "dish": "zurbian",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "zurbian",
+        "zurbiyan"
+      ],
+      "pattern": "(?<!\\w)(?:zurbian|zurbiyan)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Yemen",
+      "dish": "shakshouka",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "shakshouka",
+        "shakshuka",
+        "chakchouka"
+      ],
+      "pattern": "(?<!\\w)(?:shakshouka|shakshuka|chakchouka)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Yemen",
+      "dish": "malawah",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "malawah",
+        "malawa",
+        "malawax"
+      ],
+      "pattern": "(?<!\\w)(?:malawah|malawa|malawax)(?!\\w)",
+      "sources": [
+        "https://www.shebayemenifood.com/content/fahsa-saltah",
+        "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+        "https://aden-restaurant.com/menu.pdf",
+        "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+        "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Libya",
+      "dish": "mbakbaka",
+      "tier": "country_associated",
+      "aliases": [
+        "mbakbaka",
+        "imbakbaka",
+        "mbekbka",
+        "mbakbka"
+      ],
+      "pattern": "(?<!\\w)(?:mbakbaka|imbakbaka|mbekbka|mbakbka)(?!\\w)",
+      "sources": [
+        "https://www.munatycooking.com/libyan-mbakbaka/",
+        "https://libyanfood.blogspot.com/2011/10/asida.html",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+        "https://libyanheritagehouse.org/arts-culture/libyan-cuisine"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Libya",
+      "dish": "sharba libya",
+      "tier": "country_associated",
+      "aliases": [
+        "sharba libya",
+        "shorba libiya",
+        "shorba libya"
+      ],
+      "pattern": "(?<!\\w)(?:sharba\\s+libya|shorba\\s+libiya|shorba\\s+libya)(?!\\w)",
+      "sources": [
+        "https://www.munatycooking.com/libyan-mbakbaka/",
+        "https://libyanfood.blogspot.com/2011/10/asida.html",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+        "https://libyanheritagehouse.org/arts-culture/libyan-cuisine"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Libya",
+      "dish": "bazin",
+      "tier": "country_associated",
+      "aliases": [
+        "bazin",
+        "bazeen",
+        "bazine"
+      ],
+      "pattern": "(?<!\\w)(?:bazin|bazeen|bazine)(?!\\w)",
+      "sources": [
+        "https://www.munatycooking.com/libyan-mbakbaka/",
+        "https://libyanfood.blogspot.com/2011/10/asida.html",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+        "https://libyanheritagehouse.org/arts-culture/libyan-cuisine"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Libya",
+      "dish": "couscous bil bosla",
+      "tier": "country_associated",
+      "aliases": [
+        "couscous bil bosla",
+        "couscous bel bosla"
+      ],
+      "pattern": "(?<!\\w)(?:couscous\\s+bil\\s+bosla|couscous\\s+bel\\s+bosla)(?!\\w)",
+      "sources": [
+        "https://www.munatycooking.com/libyan-mbakbaka/",
+        "https://libyanfood.blogspot.com/2011/10/asida.html",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+        "https://libyanheritagehouse.org/arts-culture/libyan-cuisine"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Libya",
+      "dish": "osban",
+      "tier": "country_associated",
+      "aliases": [
+        "osban",
+        "usban",
+        "osbane"
+      ],
+      "pattern": "(?<!\\w)(?:osban|usban|osbane)(?!\\w)",
+      "sources": [
+        "https://www.munatycooking.com/libyan-mbakbaka/",
+        "https://libyanfood.blogspot.com/2011/10/asida.html",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+        "https://libyanheritagehouse.org/arts-culture/libyan-cuisine"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Libya",
+      "dish": "rishta",
+      "tier": "country_associated",
+      "aliases": [
+        "rishta",
+        "reshtha",
+        "rishda"
+      ],
+      "pattern": "(?<!\\w)(?:rishta|reshtha|rishda)(?!\\w)",
+      "sources": [
+        "https://www.munatycooking.com/libyan-mbakbaka/",
+        "https://libyanfood.blogspot.com/2011/10/asida.html",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+        "https://libyanheritagehouse.org/arts-culture/libyan-cuisine"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Libya",
+      "dish": "asida",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "asida",
+        "aseeda",
+        "aseed"
+      ],
+      "pattern": "(?<!\\w)(?:asida|aseeda|aseed)(?!\\w)",
+      "sources": [
+        "https://www.munatycooking.com/libyan-mbakbaka/",
+        "https://libyanfood.blogspot.com/2011/10/asida.html",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+        "https://libyanheritagehouse.org/arts-culture/libyan-cuisine"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Libya",
+      "dish": "shakshouka",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "shakshouka",
+        "chakchouka",
+        "shakshuka"
+      ],
+      "pattern": "(?<!\\w)(?:shakshouka|chakchouka|shakshuka)(?!\\w)",
+      "sources": [
+        "https://www.munatycooking.com/libyan-mbakbaka/",
+        "https://libyanfood.blogspot.com/2011/10/asida.html",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+        "https://libyanheritagehouse.org/arts-culture/libyan-cuisine"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Somalia",
+      "dish": "bariis iskukaris",
+      "tier": "country_associated",
+      "aliases": [
+        "bariis iskukaris",
+        "bariis isku karis",
+        "bariis isku kariis"
+      ],
+      "pattern": "(?<!\\w)(?:bariis\\s+iskukaris|bariis\\s+isku\\s+karis|bariis\\s+isku\\s+kariis)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Somalia",
+      "dish": "suqaar",
+      "tier": "country_associated",
+      "aliases": [
+        "suqaar",
+        "suuqaar",
+        "sukar"
+      ],
+      "pattern": "(?<!\\w)(?:suqaar|suuqaar|sukar)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Somalia",
+      "dish": "canjeero",
+      "tier": "country_associated",
+      "aliases": [
+        "canjeero",
+        "canjeelo",
+        "anjero"
+      ],
+      "pattern": "(?<!\\w)(?:canjeero|canjeelo|anjero)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Somalia",
+      "dish": "cambuulo",
+      "tier": "country_associated",
+      "aliases": [
+        "cambuulo",
+        "cambulo"
+      ],
+      "pattern": "(?<!\\w)(?:cambuulo|cambulo)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Somalia",
+      "dish": "muufo",
+      "tier": "country_associated",
+      "aliases": [
+        "muufo",
+        "mufo"
+      ],
+      "pattern": "(?<!\\w)(?:muufo|mufo)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Somalia",
+      "dish": "oodkac",
+      "tier": "country_associated",
+      "aliases": [
+        "oodkac",
+        "oodka",
+        "otkac"
+      ],
+      "pattern": "(?<!\\w)(?:oodkac|oodka|otkac)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Somalia",
+      "dish": "sambusa",
+      "tier": "country_associated",
+      "aliases": [
+        "sambusa",
+        "sambuusa",
+        "sambousek"
+      ],
+      "pattern": "(?<!\\w)(?:sambusa|sambuusa|sambousek)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Somalia",
+      "dish": "bariis",
+      "tier": "country_associated",
+      "aliases": [
+        "bariis"
+      ],
+      "pattern": "(?<!\\w)(?:bariis)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Somalia",
+      "dish": "xawaash",
+      "tier": "country_associated",
+      "aliases": [
+        "xawaash"
+      ],
+      "pattern": "(?<!\\w)(?:xawaash)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Somalia",
+      "dish": "malawah",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "malawah",
+        "malawax",
+        "malawa"
+      ],
+      "pattern": "(?<!\\w)(?:malawah|malawax|malawa)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Somalia",
+      "dish": "laxoox",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "laxoox",
+        "lahoh",
+        "lahooh",
+        "lahuh"
+      ],
+      "pattern": "(?<!\\w)(?:laxoox|lahoh|lahooh|lahuh)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Somalia",
+      "dish": "zurbian",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "zurbian",
+        "zurbiyan"
+      ],
+      "pattern": "(?<!\\w)(?:zurbian|zurbiyan)(?!\\w)",
+      "sources": [
+        "https://xawaash.com/recipes/",
+        "https://xawaash.com/?p=1548",
+        "https://xawaash.com/recipes/mains/"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    },
+    {
+      "country": "Sudan",
+      "dish": "kisra",
+      "tier": "country_associated",
+      "aliases": [
+        "kisra",
+        "kissra",
+        "kesra"
+      ],
+      "pattern": "(?<!\\w)(?:kisra|kissra|kesra)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "mullah tagalia",
+      "tier": "country_associated",
+      "aliases": [
+        "mullah tagalia",
+        "mulah tagalia",
+        "mullah takalia",
+        "mullah taqalia"
+      ],
+      "pattern": "(?<!\\w)(?:mullah\\s+tagalia|mulah\\s+tagalia|mullah\\s+takalia|mullah\\s+taqalia)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "mullah rob",
+      "tier": "country_associated",
+      "aliases": [
+        "mullah rob",
+        "mulah rob"
+      ],
+      "pattern": "(?<!\\w)(?:mullah\\s+rob|mulah\\s+rob)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "mullah niemia",
+      "tier": "country_associated",
+      "aliases": [
+        "mullah niemia",
+        "mulah niemia",
+        "mullah naimiya"
+      ],
+      "pattern": "(?<!\\w)(?:mullah\\s+niemia|mulah\\s+niemia|mullah\\s+naimiya)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "gurasa",
+      "tier": "country_associated",
+      "aliases": [
+        "gurasa",
+        "gurrasa",
+        "gorasa"
+      ],
+      "pattern": "(?<!\\w)(?:gurasa|gurrasa|gorasa)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "hilu mur",
+      "tier": "country_associated",
+      "aliases": [
+        "hilu mur",
+        "hulu mur",
+        "hilu mor"
+      ],
+      "pattern": "(?<!\\w)(?:hilu\\s+mur|hulu\\s+mur|hilu\\s+mor)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "ful medames",
+      "tier": "country_associated",
+      "aliases": [
+        "ful medames",
+        "foul medames"
+      ],
+      "pattern": "(?<!\\w)(?:ful\\s+medames|foul\\s+medames)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "kamounia",
+      "tier": "country_associated",
+      "aliases": [
+        "kamounia",
+        "kamunia"
+      ],
+      "pattern": "(?<!\\w)(?:kamounia|kamunia)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "molokhia",
+      "tier": "country_associated",
+      "aliases": [
+        "molokhia",
+        "mulukhiyah"
+      ],
+      "pattern": "(?<!\\w)(?:molokhia|mulukhiyah)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "agashi",
+      "tier": "country_associated",
+      "aliases": [
+        "agashi",
+        "agashe"
+      ],
+      "pattern": "(?<!\\w)(?:agashi|agashe)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name specific to one of these seven lists. Verify that the review mentions food served."
+    },
+    {
+      "country": "Sudan",
+      "dish": "asida",
+      "tier": "shared_or_contextual",
+      "aliases": [
+        "asida",
+        "aseeda",
+        "aseed"
+      ],
+      "pattern": "(?<!\\w)(?:asida|aseeda|aseed)(?!\\w)",
+      "sources": [
+        "https://www.sudanese.kitchen/archive",
+        "https://www.sudanese.kitchen/history"
+      ],
+      "note": "Full dish name or alias occurs on multiple lists."
+    }
+  ]
+}

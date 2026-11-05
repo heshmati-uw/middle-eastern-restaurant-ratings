@@ -1,0 +1,7 @@
+sample,label,restaurants,reviews,counties
+All outcome restaurants,Mediterranean,3493,57436,496
+All outcome restaurants,National,964,16508,206
+All outcome restaurants,Middle Eastern,705,13642,202
+Shared county and culinary support,Mediterranean,215,5166,57
+Shared county and culinary support,National,181,4233,45
+Shared county and culinary support,Middle Eastern,91,3319,36

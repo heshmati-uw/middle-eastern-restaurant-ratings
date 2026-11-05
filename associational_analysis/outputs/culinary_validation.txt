@@ -1,0 +1,1 @@
+County-absorbed baseline coefficients and clustered covariance match explicit dummy OLS to 1e-8. All nested models use the same restaurant sample.

@@ -40,7 +40,7 @@ Re-running the model uses the cached raw-derived restaurant file. Re-running the
 
 ## Implementation status
 
-Steps 1-3 have an initial raw-derived pipeline and baseline/snapshot-price specifications. Steps 4-7 are planned extensions, not completed analyses. The present political models are an initial pass, not the completed robustness sequence. The outcome window was chosen before this pipeline was run, after earlier exploratory analyses; this is not a preregistration.
+Steps 1-3 have an initial raw-derived pipeline and baseline/snapshot-price specifications. Step 4 now has a separate raw-text culinary-support analysis described below. Steps 5-7 remain planned extensions. The present political models are an initial pass, not the completed robustness sequence. The outcome window was chosen before this pipeline was run, after earlier exploratory analyses; this is not a preregistration.
 
 `outputs/` contains aggregate results and validation records. No raw review text, reviewer IDs, or individual restaurant rows are committed. Interpret National versus American and Mediterranean versus ME as different theoretical comparisons. Mediterranean positioning is the observed label; whiteness, stigma and authenticity remain constructs requiring additional evidence.
 
@@ -53,3 +53,23 @@ With county FE and log prior volume, National, literal Middle Eastern and Medite
 Initial political-gradient differences per 10 percentage points of Trump share are +0.034 for National versus American (p = .017; Holm p = .069), +0.044 for literal ME versus American (p = .00054; Holm p = .0033), and +0.017 for Mediterranean versus American (p = .013; Holm p = .066). All six gradients are exported. These are cross-county differences in within-county positioning contrasts, not absolute effects of county politics on a label group.
 
 The absorbed county-FE coefficients and county-clustered covariance were independently checked against explicit county-dummy OLS on 20 counties, agreeing within 1e-8. Figure: [first pass](outputs/first_pass.png). Full estimates, Holm p-values and sample counts are in the adjacent CSVs. The next step is auditing culinary evidence and comparison-specific geographic support, before drawing substantive conclusions about stigma or authenticity.
+
+## Culinary comparability extension
+
+Run after the raw-data builder:
+
+```text
+python associational_analysis/04_culinary_from_raw.py --raw-dir PATH_TO_ORIGINAL_INPUTS
+python associational_analysis/05_culinary_support.py
+Rscript associational_analysis/06_culinary_models.R
+```
+
+The scanner rereads all 52 original review files for the 5,162 outcome restaurants with Mediterranean, literal Middle Eastern or National primary labels. Food evidence uses valid-star text reviews strictly before November 8, 2016. Each feature is binary presence in at least one review, so duplicated review records cannot change it. The same frozen dictionaries and rules apply to both labels. No outcome-period food evidence is used. This is sentiment-agnostic keyword detection, not manual confirmation of neutral statements or actual consumption.
+
+The comparison pools literal Middle Eastern and National labels as visibly ME. A restaurant is retained only if another restaurant in its county has the opposite positioning and shares either a qualifying dish or a culinary tradition. All qualifying restaurants remain, with equal weights; there is no nearest-neighbor selection or matching weight. Hummus, falafel, baba ghanoush, generic kebab, other shared-sensitivity foods, dolma/dolmeh and shakshouka do not independently establish eligibility. Shared specific dishes such as kibbeh can qualify without being exclusive to a country. The seven-country registry's country-associated entries supply nonexclusive tradition proxies; shared entries do not infer countries. The established core dictionary additionally supplies Levantine, Afghan, Egyptian and Iranian profiles, with exact mappings in `culinary_regional_mapping.json`. These are culinary proxies, not identified restaurant nationalities, and the seven-country registry's classifications do not establish global dish exclusivity.
+
+On the resulting fixed sample, estimate restaurant mean rating on a Mediterranean indicator and county FE, then add log prior review count, then binary dish and tradition profiles. The food-adjusted model is primary; snapshot price is a sensitivity. Food controls include shared dishes even though these cannot independently qualify restaurants. Exact redundant features are removed by QR and recorded. No feature is selected by its p-value. Price accepts dollar tiers 1-4; missing or unrecognized currencies enter the missing category. All models have equal restaurant weights and county-clustered CR1 uncertainty with county-count-minus-one t degrees of freedom. Displayed p-values test the Mediterranean coefficient in nested specifications; they are not independent replications or a family of distinct substantive hypotheses.
+
+Comparable measured offerings do not mean identical menus. Food evidence depends on review availability, dictionary coverage and mention context. This sample can differ from the earlier 563-restaurant matched cohort, which used different labels, timing and selection rules. Snapshot positioning, unmeasured quality, service and reviewer selection preclude a causal interpretation of the label coefficient.
+
+The first culinary run retains 487 restaurants in 57 counties: 215 Mediterranean and 272 visibly ME (181 National and 91 literal Middle Eastern), contributing 12,718 outcome reviews. The Mediterranean coefficient is +0.037 stars with county FE (p = .406), +0.043 after historical volume (p = .312), +0.011 after culinary profiles (95% CI -0.094 to +0.115; p = .841), and +0.002 with snapshot price (p = .969). The primary result does not establish a Mediterranean rating advantage, but its interval still permits modest positive or negative differences. Figure: [culinary positioning](outputs/culinary_positioning.png). These specifications do not test political moderation or event effects. Baseline absorbed coefficients and clustered covariance match explicit county-dummy OLS within 1e-8.
