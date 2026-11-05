@@ -1,0 +1,52 @@
+month,label,restaurants,cohort_restaurants
+2015-12,Middle Eastern,11,13
+2015-12,National,6,8
+2015-12,Mediterranean,8,15
+2016-01,Middle Eastern,6,13
+2016-01,National,4,8
+2016-01,Mediterranean,8,15
+2016-02,Middle Eastern,11,13
+2016-02,National,4,8
+2016-02,Mediterranean,10,15
+2016-03,Middle Eastern,10,13
+2016-03,National,5,8
+2016-03,Mediterranean,9,15
+2016-04,Middle Eastern,11,13
+2016-04,National,6,8
+2016-04,Mediterranean,13,15
+2016-05,Middle Eastern,11,13
+2016-05,National,4,8
+2016-05,Mediterranean,13,15
+2016-06,Middle Eastern,9,13
+2016-06,National,5,8
+2016-06,Mediterranean,11,15
+2016-07,Middle Eastern,11,13
+2016-07,National,6,8
+2016-07,Mediterranean,13,15
+2016-08,Middle Eastern,12,13
+2016-08,National,8,8
+2016-08,Mediterranean,15,15
+2016-09,Middle Eastern,13,13
+2016-09,National,7,8
+2016-09,Mediterranean,12,15
+2016-10,Middle Eastern,10,13
+2016-10,National,7,8
+2016-10,Mediterranean,13,15
+2016-11,Middle Eastern,13,13
+2016-11,National,8,8
+2016-11,Mediterranean,14,15
+2016-12,Middle Eastern,13,13
+2016-12,National,8,8
+2016-12,Mediterranean,13,15
+2017-01,Middle Eastern,12,13
+2017-01,National,8,8
+2017-01,Mediterranean,14,15
+2017-02,Middle Eastern,12,13
+2017-02,National,8,8
+2017-02,Mediterranean,11,15
+2017-03,Middle Eastern,13,13
+2017-03,National,8,8
+2017-03,Mediterranean,14,15
+2017-04,Middle Eastern,12,13
+2017-04,National,8,8
+2017-04,Mediterranean,14,15
