@@ -1,0 +1,21 @@
+version,vote_group,group,metadata_restaurants,active_restaurants,active_counties
+Broad,Trump-majority,ME,227,168,87
+Broad,Trump-majority,Other ME,8,6,5
+Broad,Trump-majority,WPME,689,479,172
+Broad,Trump-majority,Medit,138,88,70
+Broad,Trump-majority,Excluded other national tags,0,0,0
+Ban countries,Trump-majority,ME,147,111,62
+Ban countries,Trump-majority,Other ME,8,6,5
+Ban countries,Trump-majority,WPME,687,478,171
+Ban countries,Trump-majority,Medit,140,89,70
+Ban countries,Trump-majority,Excluded other national tags,80,57,36
+Broad,Other counties,ME,2074,1525,203
+Broad,Other counties,Other ME,89,53,38
+Broad,Other counties,WPME,3815,2645,278
+Broad,Other counties,Medit,794,462,157
+Broad,Other counties,Excluded other national tags,0,0,0
+Ban countries,Other counties,ME,1266,902,167
+Ban countries,Other counties,Other ME,94,56,40
+Ban countries,Other counties,WPME,3795,2637,278
+Ban countries,Other counties,Medit,814,470,158
+Ban countries,Other counties,Excluded other national tags,803,620,145

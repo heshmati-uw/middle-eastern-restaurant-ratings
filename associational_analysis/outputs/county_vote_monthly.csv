@@ -1,0 +1,341 @@
+version,vote_group,month,group,restaurants
+Broad,Trump-majority,2015-12,ME,76
+Broad,Trump-majority,2016-01,ME,71
+Broad,Trump-majority,2016-02,ME,77
+Broad,Trump-majority,2016-03,ME,82
+Broad,Trump-majority,2016-04,ME,96
+Broad,Trump-majority,2016-05,ME,97
+Broad,Trump-majority,2016-06,ME,94
+Broad,Trump-majority,2016-07,ME,108
+Broad,Trump-majority,2016-08,ME,123
+Broad,Trump-majority,2016-09,ME,117
+Broad,Trump-majority,2016-10,ME,110
+Broad,Trump-majority,2016-11,ME,126
+Broad,Trump-majority,2016-12,ME,127
+Broad,Trump-majority,2017-01,ME,133
+Broad,Trump-majority,2017-02,ME,149
+Broad,Trump-majority,2017-03,ME,144
+Broad,Trump-majority,2017-04,ME,139
+Broad,Trump-majority,2015-12,Other ME,0
+Broad,Trump-majority,2016-01,Other ME,1
+Broad,Trump-majority,2016-02,Other ME,1
+Broad,Trump-majority,2016-03,Other ME,0
+Broad,Trump-majority,2016-04,Other ME,1
+Broad,Trump-majority,2016-05,Other ME,1
+Broad,Trump-majority,2016-06,Other ME,0
+Broad,Trump-majority,2016-07,Other ME,1
+Broad,Trump-majority,2016-08,Other ME,2
+Broad,Trump-majority,2016-09,Other ME,1
+Broad,Trump-majority,2016-10,Other ME,1
+Broad,Trump-majority,2016-11,Other ME,4
+Broad,Trump-majority,2016-12,Other ME,1
+Broad,Trump-majority,2017-01,Other ME,1
+Broad,Trump-majority,2017-02,Other ME,2
+Broad,Trump-majority,2017-03,Other ME,2
+Broad,Trump-majority,2017-04,Other ME,1
+Broad,Trump-majority,2015-12,WPME,193
+Broad,Trump-majority,2016-01,WPME,194
+Broad,Trump-majority,2016-02,WPME,207
+Broad,Trump-majority,2016-03,WPME,238
+Broad,Trump-majority,2016-04,WPME,241
+Broad,Trump-majority,2016-05,WPME,261
+Broad,Trump-majority,2016-06,WPME,282
+Broad,Trump-majority,2016-07,WPME,327
+Broad,Trump-majority,2016-08,WPME,334
+Broad,Trump-majority,2016-09,WPME,325
+Broad,Trump-majority,2016-10,WPME,336
+Broad,Trump-majority,2016-11,WPME,359
+Broad,Trump-majority,2016-12,WPME,370
+Broad,Trump-majority,2017-01,WPME,381
+Broad,Trump-majority,2017-02,WPME,404
+Broad,Trump-majority,2017-03,WPME,406
+Broad,Trump-majority,2017-04,WPME,410
+Broad,Trump-majority,2015-12,Medit,32
+Broad,Trump-majority,2016-01,Medit,24
+Broad,Trump-majority,2016-02,Medit,24
+Broad,Trump-majority,2016-03,Medit,39
+Broad,Trump-majority,2016-04,Medit,40
+Broad,Trump-majority,2016-05,Medit,34
+Broad,Trump-majority,2016-06,Medit,41
+Broad,Trump-majority,2016-07,Medit,53
+Broad,Trump-majority,2016-08,Medit,52
+Broad,Trump-majority,2016-09,Medit,48
+Broad,Trump-majority,2016-10,Medit,54
+Broad,Trump-majority,2016-11,Medit,53
+Broad,Trump-majority,2016-12,Medit,51
+Broad,Trump-majority,2017-01,Medit,56
+Broad,Trump-majority,2017-02,Medit,65
+Broad,Trump-majority,2017-03,Medit,61
+Broad,Trump-majority,2017-04,Medit,60
+Broad,Trump-majority,2015-12,Excluded other national tags,0
+Broad,Trump-majority,2016-01,Excluded other national tags,0
+Broad,Trump-majority,2016-02,Excluded other national tags,0
+Broad,Trump-majority,2016-03,Excluded other national tags,0
+Broad,Trump-majority,2016-04,Excluded other national tags,0
+Broad,Trump-majority,2016-05,Excluded other national tags,0
+Broad,Trump-majority,2016-06,Excluded other national tags,0
+Broad,Trump-majority,2016-07,Excluded other national tags,0
+Broad,Trump-majority,2016-08,Excluded other national tags,0
+Broad,Trump-majority,2016-09,Excluded other national tags,0
+Broad,Trump-majority,2016-10,Excluded other national tags,0
+Broad,Trump-majority,2016-11,Excluded other national tags,0
+Broad,Trump-majority,2016-12,Excluded other national tags,0
+Broad,Trump-majority,2017-01,Excluded other national tags,0
+Broad,Trump-majority,2017-02,Excluded other national tags,0
+Broad,Trump-majority,2017-03,Excluded other national tags,0
+Broad,Trump-majority,2017-04,Excluded other national tags,0
+Ban countries,Trump-majority,2015-12,ME,52
+Ban countries,Trump-majority,2016-01,ME,45
+Ban countries,Trump-majority,2016-02,ME,56
+Ban countries,Trump-majority,2016-03,ME,54
+Ban countries,Trump-majority,2016-04,ME,62
+Ban countries,Trump-majority,2016-05,ME,58
+Ban countries,Trump-majority,2016-06,ME,62
+Ban countries,Trump-majority,2016-07,ME,66
+Ban countries,Trump-majority,2016-08,ME,79
+Ban countries,Trump-majority,2016-09,ME,79
+Ban countries,Trump-majority,2016-10,ME,75
+Ban countries,Trump-majority,2016-11,ME,82
+Ban countries,Trump-majority,2016-12,ME,86
+Ban countries,Trump-majority,2017-01,ME,89
+Ban countries,Trump-majority,2017-02,ME,97
+Ban countries,Trump-majority,2017-03,ME,95
+Ban countries,Trump-majority,2017-04,ME,93
+Ban countries,Trump-majority,2015-12,Other ME,0
+Ban countries,Trump-majority,2016-01,Other ME,1
+Ban countries,Trump-majority,2016-02,Other ME,1
+Ban countries,Trump-majority,2016-03,Other ME,0
+Ban countries,Trump-majority,2016-04,Other ME,1
+Ban countries,Trump-majority,2016-05,Other ME,1
+Ban countries,Trump-majority,2016-06,Other ME,0
+Ban countries,Trump-majority,2016-07,Other ME,1
+Ban countries,Trump-majority,2016-08,Other ME,2
+Ban countries,Trump-majority,2016-09,Other ME,1
+Ban countries,Trump-majority,2016-10,Other ME,1
+Ban countries,Trump-majority,2016-11,Other ME,4
+Ban countries,Trump-majority,2016-12,Other ME,1
+Ban countries,Trump-majority,2017-01,Other ME,1
+Ban countries,Trump-majority,2017-02,Other ME,2
+Ban countries,Trump-majority,2017-03,Other ME,2
+Ban countries,Trump-majority,2017-04,Other ME,1
+Ban countries,Trump-majority,2015-12,WPME,193
+Ban countries,Trump-majority,2016-01,WPME,194
+Ban countries,Trump-majority,2016-02,WPME,207
+Ban countries,Trump-majority,2016-03,WPME,238
+Ban countries,Trump-majority,2016-04,WPME,240
+Ban countries,Trump-majority,2016-05,WPME,261
+Ban countries,Trump-majority,2016-06,WPME,282
+Ban countries,Trump-majority,2016-07,WPME,327
+Ban countries,Trump-majority,2016-08,WPME,333
+Ban countries,Trump-majority,2016-09,WPME,324
+Ban countries,Trump-majority,2016-10,WPME,335
+Ban countries,Trump-majority,2016-11,WPME,358
+Ban countries,Trump-majority,2016-12,WPME,369
+Ban countries,Trump-majority,2017-01,WPME,380
+Ban countries,Trump-majority,2017-02,WPME,403
+Ban countries,Trump-majority,2017-03,WPME,405
+Ban countries,Trump-majority,2017-04,WPME,410
+Ban countries,Trump-majority,2015-12,Medit,32
+Ban countries,Trump-majority,2016-01,Medit,24
+Ban countries,Trump-majority,2016-02,Medit,24
+Ban countries,Trump-majority,2016-03,Medit,39
+Ban countries,Trump-majority,2016-04,Medit,41
+Ban countries,Trump-majority,2016-05,Medit,34
+Ban countries,Trump-majority,2016-06,Medit,41
+Ban countries,Trump-majority,2016-07,Medit,53
+Ban countries,Trump-majority,2016-08,Medit,53
+Ban countries,Trump-majority,2016-09,Medit,49
+Ban countries,Trump-majority,2016-10,Medit,55
+Ban countries,Trump-majority,2016-11,Medit,54
+Ban countries,Trump-majority,2016-12,Medit,52
+Ban countries,Trump-majority,2017-01,Medit,57
+Ban countries,Trump-majority,2017-02,Medit,66
+Ban countries,Trump-majority,2017-03,Medit,62
+Ban countries,Trump-majority,2017-04,Medit,60
+Ban countries,Trump-majority,2015-12,Excluded other national tags,24
+Ban countries,Trump-majority,2016-01,Excluded other national tags,26
+Ban countries,Trump-majority,2016-02,Excluded other national tags,21
+Ban countries,Trump-majority,2016-03,Excluded other national tags,28
+Ban countries,Trump-majority,2016-04,Excluded other national tags,34
+Ban countries,Trump-majority,2016-05,Excluded other national tags,39
+Ban countries,Trump-majority,2016-06,Excluded other national tags,32
+Ban countries,Trump-majority,2016-07,Excluded other national tags,42
+Ban countries,Trump-majority,2016-08,Excluded other national tags,44
+Ban countries,Trump-majority,2016-09,Excluded other national tags,38
+Ban countries,Trump-majority,2016-10,Excluded other national tags,35
+Ban countries,Trump-majority,2016-11,Excluded other national tags,44
+Ban countries,Trump-majority,2016-12,Excluded other national tags,41
+Ban countries,Trump-majority,2017-01,Excluded other national tags,44
+Ban countries,Trump-majority,2017-02,Excluded other national tags,52
+Ban countries,Trump-majority,2017-03,Excluded other national tags,49
+Ban countries,Trump-majority,2017-04,Excluded other national tags,46
+Broad,Other counties,2015-12,ME,749
+Broad,Other counties,2016-01,ME,797
+Broad,Other counties,2016-02,ME,737
+Broad,Other counties,2016-03,ME,859
+Broad,Other counties,2016-04,ME,856
+Broad,Other counties,2016-05,ME,922
+Broad,Other counties,2016-06,ME,997
+Broad,Other counties,2016-07,ME,1091
+Broad,Other counties,2016-08,ME,1094
+Broad,Other counties,2016-09,ME,1057
+Broad,Other counties,2016-10,ME,1095
+Broad,Other counties,2016-11,ME,1148
+Broad,Other counties,2016-12,ME,1152
+Broad,Other counties,2017-01,ME,1220
+Broad,Other counties,2017-02,ME,1208
+Broad,Other counties,2017-03,ME,1260
+Broad,Other counties,2017-04,ME,1230
+Broad,Other counties,2015-12,Other ME,10
+Broad,Other counties,2016-01,Other ME,9
+Broad,Other counties,2016-02,Other ME,13
+Broad,Other counties,2016-03,Other ME,11
+Broad,Other counties,2016-04,Other ME,14
+Broad,Other counties,2016-05,Other ME,14
+Broad,Other counties,2016-06,Other ME,16
+Broad,Other counties,2016-07,Other ME,22
+Broad,Other counties,2016-08,Other ME,16
+Broad,Other counties,2016-09,Other ME,18
+Broad,Other counties,2016-10,Other ME,21
+Broad,Other counties,2016-11,Other ME,22
+Broad,Other counties,2016-12,Other ME,23
+Broad,Other counties,2017-01,Other ME,29
+Broad,Other counties,2017-02,Other ME,25
+Broad,Other counties,2017-03,Other ME,27
+Broad,Other counties,2017-04,Other ME,27
+Broad,Other counties,2015-12,WPME,1212
+Broad,Other counties,2016-01,WPME,1218
+Broad,Other counties,2016-02,WPME,1221
+Broad,Other counties,2016-03,WPME,1440
+Broad,Other counties,2016-04,WPME,1492
+Broad,Other counties,2016-05,WPME,1562
+Broad,Other counties,2016-06,WPME,1610
+Broad,Other counties,2016-07,WPME,1862
+Broad,Other counties,2016-08,WPME,1871
+Broad,Other counties,2016-09,WPME,1840
+Broad,Other counties,2016-10,WPME,1901
+Broad,Other counties,2016-11,WPME,1988
+Broad,Other counties,2016-12,WPME,2046
+Broad,Other counties,2017-01,WPME,2146
+Broad,Other counties,2017-02,WPME,2201
+Broad,Other counties,2017-03,WPME,2248
+Broad,Other counties,2017-04,WPME,2224
+Broad,Other counties,2015-12,Medit,137
+Broad,Other counties,2016-01,Medit,143
+Broad,Other counties,2016-02,Medit,149
+Broad,Other counties,2016-03,Medit,184
+Broad,Other counties,2016-04,Medit,182
+Broad,Other counties,2016-05,Medit,217
+Broad,Other counties,2016-06,Medit,198
+Broad,Other counties,2016-07,Medit,247
+Broad,Other counties,2016-08,Medit,273
+Broad,Other counties,2016-09,Medit,235
+Broad,Other counties,2016-10,Medit,260
+Broad,Other counties,2016-11,Medit,265
+Broad,Other counties,2016-12,Medit,274
+Broad,Other counties,2017-01,Medit,279
+Broad,Other counties,2017-02,Medit,295
+Broad,Other counties,2017-03,Medit,294
+Broad,Other counties,2017-04,Medit,283
+Broad,Other counties,2015-12,Excluded other national tags,0
+Broad,Other counties,2016-01,Excluded other national tags,0
+Broad,Other counties,2016-02,Excluded other national tags,0
+Broad,Other counties,2016-03,Excluded other national tags,0
+Broad,Other counties,2016-04,Excluded other national tags,0
+Broad,Other counties,2016-05,Excluded other national tags,0
+Broad,Other counties,2016-06,Excluded other national tags,0
+Broad,Other counties,2016-07,Excluded other national tags,0
+Broad,Other counties,2016-08,Excluded other national tags,0
+Broad,Other counties,2016-09,Excluded other national tags,0
+Broad,Other counties,2016-10,Excluded other national tags,0
+Broad,Other counties,2016-11,Excluded other national tags,0
+Broad,Other counties,2016-12,Excluded other national tags,0
+Broad,Other counties,2017-01,Excluded other national tags,0
+Broad,Other counties,2017-02,Excluded other national tags,0
+Broad,Other counties,2017-03,Excluded other national tags,0
+Broad,Other counties,2017-04,Excluded other national tags,0
+Ban countries,Other counties,2015-12,ME,458
+Ban countries,Other counties,2016-01,ME,461
+Ban countries,Other counties,2016-02,ME,426
+Ban countries,Other counties,2016-03,ME,503
+Ban countries,Other counties,2016-04,ME,502
+Ban countries,Other counties,2016-05,ME,546
+Ban countries,Other counties,2016-06,ME,581
+Ban countries,Other counties,2016-07,ME,636
+Ban countries,Other counties,2016-08,ME,647
+Ban countries,Other counties,2016-09,ME,635
+Ban countries,Other counties,2016-10,ME,648
+Ban countries,Other counties,2016-11,ME,682
+Ban countries,Other counties,2016-12,ME,683
+Ban countries,Other counties,2017-01,ME,728
+Ban countries,Other counties,2017-02,ME,726
+Ban countries,Other counties,2017-03,ME,755
+Ban countries,Other counties,2017-04,ME,740
+Ban countries,Other counties,2015-12,Other ME,10
+Ban countries,Other counties,2016-01,Other ME,9
+Ban countries,Other counties,2016-02,Other ME,13
+Ban countries,Other counties,2016-03,Other ME,11
+Ban countries,Other counties,2016-04,Other ME,14
+Ban countries,Other counties,2016-05,Other ME,14
+Ban countries,Other counties,2016-06,Other ME,17
+Ban countries,Other counties,2016-07,Other ME,22
+Ban countries,Other counties,2016-08,Other ME,18
+Ban countries,Other counties,2016-09,Other ME,18
+Ban countries,Other counties,2016-10,Other ME,22
+Ban countries,Other counties,2016-11,Other ME,24
+Ban countries,Other counties,2016-12,Other ME,25
+Ban countries,Other counties,2017-01,Other ME,30
+Ban countries,Other counties,2017-02,Other ME,27
+Ban countries,Other counties,2017-03,Other ME,27
+Ban countries,Other counties,2017-04,Other ME,29
+Ban countries,Other counties,2015-12,WPME,1208
+Ban countries,Other counties,2016-01,WPME,1215
+Ban countries,Other counties,2016-02,WPME,1218
+Ban countries,Other counties,2016-03,WPME,1438
+Ban countries,Other counties,2016-04,WPME,1491
+Ban countries,Other counties,2016-05,WPME,1560
+Ban countries,Other counties,2016-06,WPME,1608
+Ban countries,Other counties,2016-07,WPME,1857
+Ban countries,Other counties,2016-08,WPME,1867
+Ban countries,Other counties,2016-09,WPME,1836
+Ban countries,Other counties,2016-10,WPME,1896
+Ban countries,Other counties,2016-11,WPME,1984
+Ban countries,Other counties,2016-12,WPME,2042
+Ban countries,Other counties,2017-01,WPME,2142
+Ban countries,Other counties,2017-02,WPME,2198
+Ban countries,Other counties,2017-03,WPME,2241
+Ban countries,Other counties,2017-04,WPME,2217
+Ban countries,Other counties,2015-12,Medit,141
+Ban countries,Other counties,2016-01,Medit,146
+Ban countries,Other counties,2016-02,Medit,152
+Ban countries,Other counties,2016-03,Medit,186
+Ban countries,Other counties,2016-04,Medit,183
+Ban countries,Other counties,2016-05,Medit,219
+Ban countries,Other counties,2016-06,Medit,200
+Ban countries,Other counties,2016-07,Medit,252
+Ban countries,Other counties,2016-08,Medit,277
+Ban countries,Other counties,2016-09,Medit,239
+Ban countries,Other counties,2016-10,Medit,265
+Ban countries,Other counties,2016-11,Medit,269
+Ban countries,Other counties,2016-12,Medit,278
+Ban countries,Other counties,2017-01,Medit,283
+Ban countries,Other counties,2017-02,Medit,298
+Ban countries,Other counties,2017-03,Medit,301
+Ban countries,Other counties,2017-04,Medit,290
+Ban countries,Other counties,2015-12,Excluded other national tags,291
+Ban countries,Other counties,2016-01,Excluded other national tags,336
+Ban countries,Other counties,2016-02,Excluded other national tags,311
+Ban countries,Other counties,2016-03,Excluded other national tags,356
+Ban countries,Other counties,2016-04,Excluded other national tags,354
+Ban countries,Other counties,2016-05,Excluded other national tags,376
+Ban countries,Other counties,2016-06,Excluded other national tags,415
+Ban countries,Other counties,2016-07,Excluded other national tags,455
+Ban countries,Other counties,2016-08,Excluded other national tags,445
+Ban countries,Other counties,2016-09,Excluded other national tags,422
+Ban countries,Other counties,2016-10,Excluded other national tags,446
+Ban countries,Other counties,2016-11,Excluded other national tags,464
+Ban countries,Other counties,2016-12,Excluded other national tags,467
+Ban countries,Other counties,2017-01,Excluded other national tags,491
+Ban countries,Other counties,2017-02,Excluded other national tags,480
+Ban countries,Other counties,2017-03,Excluded other national tags,505
+Ban countries,Other counties,2017-04,Excluded other national tags,488
