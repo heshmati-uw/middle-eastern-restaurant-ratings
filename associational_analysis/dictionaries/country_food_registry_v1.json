@@ -1,0 +1,2573 @@
+{
+  "version": "twelve-country-associations-v1-2026-11-05",
+  "countries": [
+    "Iran",
+    "Iraq",
+    "Syria",
+    "Yemen",
+    "Libya",
+    "Somalia",
+    "Sudan",
+    "Afghanistan",
+    "Armenia",
+    "Egypt",
+    "Lebanon",
+    "Morocco"
+  ],
+  "evidence_window": "Any available valid-star positive-timestamp review; retrospective, not rolling",
+  "interpretation": "Nonexhaustive documented cuisine associations, not exclusive origins, restaurant nationality or verified authenticity. Single-listed is relative to this registry only.",
+  "context_validation": "Regex mentions only. Negation, comparisons, and mentions of other restaurants have not been adjudicated.",
+  "excluded_standalone": [
+    "shakshuka",
+    "generic dolma/dolmeh",
+    "baklava",
+    "hummus",
+    "falafel"
+  ],
+  "entries": [
+    {
+      "dish_id": "abgoosht",
+      "feature_keys": [
+        "core_abgoosht",
+        "seven_abgoosht"
+      ],
+      "patterns": [
+        "\\b(?:abgoosht|abgusht|abgoosh)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "adas_polo",
+      "feature_keys": [
+        "seven_adas_polo"
+      ],
+      "patterns": [
+        "\\b(?:adas\\ polo|adas\\ polow)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "agashi",
+      "feature_keys": [
+        "seven_agashi"
+      ],
+      "patterns": [
+        "\\b(?:agashi|agashe)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Sudan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "aseeda",
+      "feature_keys": [
+        "seven_aseeda",
+        "seven_asida"
+      ],
+      "patterns": [
+        "\\b(?:aseeda|asida|aseed)\\b",
+        "\\b(?:asida|aseeda|aseed)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ],
+        "Libya": [
+          "https://libyanfood.blogspot.com/2011/10/asida.html",
+          "https://libyanheritagehouse.org/arts-culture/libyan-cuisine",
+          "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+          "https://www.munatycooking.com/libyan-mbakbaka/"
+        ],
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry",
+        "Libya": "inherited_seven_country_registry",
+        "Sudan": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Libya",
+        "Sudan",
+        "Yemen"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "ash_reshteh",
+      "feature_keys": [
+        "core_ash_reshteh",
+        "seven_ash_reshteh"
+      ],
+      "patterns": [
+        "\\b(?:ash\\ reshteh|aash\\ reshteh|ash\\ reshte|aash\\ reshte)\\b",
+        "\\b(?:ash|aash)\\s+(?:reshteh|reshte)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "baba_ghanoush",
+      "feature_keys": [
+        "core_baba_ghanoush"
+      ],
+      "patterns": [
+        "\\b(?:baba ghanoush|baba ganoush|baba ghanouj|baba ghannouj|baba ghannouge|baba gahnouge|baba ghannooj|baba ghanooj|baba ganuj|baba gahnooj|baba ghanoug|baba ghannuj|baba ghannuge|baba ghannoj|baba ghannouch|baba ganouj|babagannouji|babaghanouj)\\b"
+      ],
+      "country_sources": {
+        "Lebanon": [
+          "https://maureenabood.com/"
+        ],
+        "Syria": [
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Lebanon": "source_checked_2026_11_05",
+        "Syria": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Lebanon",
+        "Syria"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "baghali_ghatogh",
+      "feature_keys": [
+        "seven_baghali_ghatogh"
+      ],
+      "patterns": [
+        "\\b(?:baghali\\ ghatogh|baghala\\ ghatogh)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "baghali_polo",
+      "feature_keys": [
+        "seven_baghali_polo"
+      ],
+      "patterns": [
+        "\\b(?:baghali\\ polo|baghali\\ polow)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "bagilla_bil_dihin",
+      "feature_keys": [
+        "seven_bagilla_bil_dihin"
+      ],
+      "patterns": [
+        "\\b(?:bagilla\\ bil\\ dihin|bagila\\ bil\\ dihin)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "bariis",
+      "feature_keys": [
+        "seven_bariis"
+      ],
+      "patterns": [
+        "\\b(?:bariis)\\b"
+      ],
+      "country_sources": {
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "bariis_iskukaris",
+      "feature_keys": [
+        "seven_bariis_iskukaris"
+      ],
+      "patterns": [
+        "\\b(?:bariis\\ iskukaris|bariis\\ isku\\ karis|bariis\\ isku\\ kariis)\\b"
+      ],
+      "country_sources": {
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "bazin",
+      "feature_keys": [
+        "seven_bazin"
+      ],
+      "patterns": [
+        "\\b(?:bazin|bazeen|bazine)\\b"
+      ],
+      "country_sources": {
+        "Libya": [
+          "https://libyanfood.blogspot.com/2011/10/asida.html",
+          "https://libyanheritagehouse.org/arts-culture/libyan-cuisine",
+          "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+          "https://www.munatycooking.com/libyan-mbakbaka/"
+        ]
+      },
+      "source_status": {
+        "Libya": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Libya"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "bint_al_sahn",
+      "feature_keys": [
+        "seven_bint_al_sahn"
+      ],
+      "patterns": [
+        "\\b(?:bint\\ al\\ sahn|bint\\ as\\ sahn|bint\\ al\\ sahen)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Yemen"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "bolani",
+      "feature_keys": [
+        "core_bolani"
+      ],
+      "patterns": [
+        "\\bbolani\\b"
+      ],
+      "country_sources": {
+        "Afghanistan": [
+          "https://www.ecieco.org/fa/article/234/Traditional-Afghan-Cuisine-A-Symbol-of-Hospitality-and-Collective-Identity"
+        ]
+      },
+      "source_status": {
+        "Afghanistan": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Afghanistan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "cambuulo",
+      "feature_keys": [
+        "seven_cambuulo"
+      ],
+      "patterns": [
+        "\\b(?:cambuulo|cambulo)\\b"
+      ],
+      "country_sources": {
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "canjeero",
+      "feature_keys": [
+        "seven_canjeero"
+      ],
+      "patterns": [
+        "\\b(?:canjeero|canjeelo|anjero)\\b"
+      ],
+      "country_sources": {
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "couscous_bil_bosla",
+      "feature_keys": [
+        "seven_couscous_bil_bosla"
+      ],
+      "patterns": [
+        "\\b(?:couscous\\ bil\\ bosla|couscous\\ bel\\ bosla)\\b"
+      ],
+      "country_sources": {
+        "Libya": [
+          "https://libyanfood.blogspot.com/2011/10/asida.html",
+          "https://libyanheritagehouse.org/arts-culture/libyan-cuisine",
+          "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+          "https://www.munatycooking.com/libyan-mbakbaka/"
+        ]
+      },
+      "source_status": {
+        "Libya": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Libya"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "dizi",
+      "feature_keys": [
+        "seven_dizi"
+      ],
+      "patterns": [
+        "\\b(?:dizi)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "dolmeh_bademjan",
+      "feature_keys": [
+        "seven_dolmeh_bademjan"
+      ],
+      "patterns": [
+        "\\b(?:dolmeh\\ bademjan)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "dolmeh_barg",
+      "feature_keys": [
+        "seven_dolmeh_barg"
+      ],
+      "patterns": [
+        "\\b(?:dolmeh\\ barg)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "fahsa",
+      "feature_keys": [
+        "seven_fahsa"
+      ],
+      "patterns": [
+        "\\b(?:fahsa|fahsah)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Yemen"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "fattet_makdous",
+      "feature_keys": [
+        "seven_fattet_makdous"
+      ],
+      "patterns": [
+        "\\b(?:fattet\\ makdous|fatteh\\ makdous)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "fattoush",
+      "feature_keys": [
+        "core_fattoush"
+      ],
+      "patterns": [
+        "\\b(?:fattoush|fattoosh|fatoush|fatoosh)\\b"
+      ],
+      "country_sources": {
+        "Lebanon": [
+          "https://maureenabood.com/"
+        ],
+        "Syria": [
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Lebanon": "source_checked_2026_11_05",
+        "Syria": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Lebanon",
+        "Syria"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "fesenjan",
+      "feature_keys": [
+        "core_fesenjan",
+        "seven_fesenjan"
+      ],
+      "patterns": [
+        "\\b(?:fesenjan|fesenjoon|fesenjun)\\b",
+        "\\b(?:fesenjan|fesenjoon|fesenjun|fesenjaan)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "ful_medames",
+      "feature_keys": [
+        "core_ful_medames",
+        "seven_ful_medames"
+      ],
+      "patterns": [
+        "\\b(?:ful\\ medames|foul\\ medames)\\b",
+        "\\b(?:ful|foul)\\s+(?:medames|mudammas|mudammes|moudamas)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ],
+        "Egypt": [
+          "https://amiraspantry.com/category/egyptian-recipes/"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry",
+        "Egypt": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Egypt",
+        "Sudan"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "gheymeh",
+      "feature_keys": [
+        "core_gheymeh",
+        "seven_gheymeh"
+      ],
+      "patterns": [
+        "\\b(?:gheymeh|ghaymeh|gheimeh|qeymeh)\\b",
+        "\\b(?:gheymeh|gheimeh|ghaymeh|qeymeh)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "ghormeh_sabzi",
+      "feature_keys": [
+        "core_ghormeh_sabzi",
+        "seven_ghormeh_sabzi"
+      ],
+      "patterns": [
+        "\\b(?:ghormeh\\ sabzi|ghorme\\ sabzi|gormeh\\ sabzi|qormeh\\ sabzi)\\b",
+        "\\b(?:ghormeh|gormeh|qormeh)\\s+sabzi\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "gurasa",
+      "feature_keys": [
+        "seven_gurasa"
+      ],
+      "patterns": [
+        "\\b(?:gurasa|gurrasa|gorasa)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Sudan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "halawet_el_jibn",
+      "feature_keys": [
+        "seven_halawet_el_jibn"
+      ],
+      "patterns": [
+        "\\b(?:halawet\\ el\\ jibn|halawat\\ al\\ jibn)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "haneeth",
+      "feature_keys": [
+        "seven_haneeth"
+      ],
+      "patterns": [
+        "\\b(?:haneeth|hanith|haneed)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Yemen"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "haraa_osbao",
+      "feature_keys": [
+        "seven_haraa_osbao"
+      ],
+      "patterns": [
+        "\\b(?:haraa\\ osbao|horaa\\ osbao|harak\\ osbao|harak\\ esbao|harraa\\ esbao)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "hilu_mur",
+      "feature_keys": [
+        "seven_hilu_mur"
+      ],
+      "patterns": [
+        "\\b(?:hilu\\ mur|hulu\\ mur|hilu\\ mor)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Sudan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "joojeh",
+      "feature_keys": [
+        "core_joojeh",
+        "seven_joojeh"
+      ],
+      "patterns": [
+        "\\b(?:joojeh|jujeh|jooje)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kabsa_machboos",
+      "feature_keys": [
+        "core_kabsa_machboos"
+      ],
+      "patterns": [
+        "\\b(?:kabsa|kabseh|machboos|majboos|makboos)\\b"
+      ],
+      "country_sources": {},
+      "source_status": {},
+      "countries": [],
+      "membership": "broader_only_unmapped",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": false
+    },
+    {
+      "dish_id": "kamounia",
+      "feature_keys": [
+        "seven_kamounia"
+      ],
+      "patterns": [
+        "\\b(?:kamounia|kamunia)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Sudan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kashk_e_bademjan",
+      "feature_keys": [
+        "seven_kashk_e_bademjan"
+      ],
+      "patterns": [
+        "\\b(?:kashk\\ e\\ bademjan|kashke\\ bademjan|kashk\\ bademjan|kashk\\ e\\ bademjoon)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kebab",
+      "feature_keys": [
+        "core_kebab"
+      ],
+      "patterns": [
+        "\\b(?:kebab|kabob|kebob|kabab|kebap)s?\\b"
+      ],
+      "country_sources": {
+        "Lebanon": [
+          "https://maureenabood.com/"
+        ],
+        "Afghanistan": [
+          "https://www.ecieco.org/fa/article/234/Traditional-Afghan-Cuisine-A-Symbol-of-Hospitality-and-Collective-Identity"
+        ],
+        "Egypt": [
+          "https://cdn.who.int/media/docs/default-source/eios/2022-eios-gtm-agenda.pdf?sfvrsn=c630b60c_1"
+        ],
+        "Morocco": [
+          "https://tasteofmaroc.com/moroccan-kefta-recipe/"
+        ],
+        "Iran": [
+          "https://www.iranicaonline.org/articles/kabab-popular-dish/"
+        ]
+      },
+      "source_status": {
+        "Lebanon": "source_checked_2026_11_05",
+        "Afghanistan": "source_checked_2026_11_05",
+        "Egypt": "source_checked_2026_11_05",
+        "Morocco": "source_checked_2026_11_05",
+        "Iran": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Afghanistan",
+        "Egypt",
+        "Iran",
+        "Lebanon",
+        "Morocco"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kebab_karaz",
+      "feature_keys": [
+        "seven_kebab_karaz"
+      ],
+      "patterns": [
+        "\\b(?:kebab\\ karaz|kabab\\ karaz|kebab\\ bil\\ karaz)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kibbeh_bil_sanieh",
+      "feature_keys": [
+        "seven_kibbeh_bil_sanieh"
+      ],
+      "patterns": [
+        "\\b(?:kibbeh\\ bil\\ sanieh)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kibbeh_labaniyeh",
+      "feature_keys": [
+        "seven_kibbeh_labaniyeh"
+      ],
+      "patterns": [
+        "\\b(?:kibbeh\\ labaniyeh|kibbeh\\ labanieh|kibbeh\\ bil\\ laban)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kibbeh_safarjaliyeh",
+      "feature_keys": [
+        "seven_kibbeh_safarjaliyeh"
+      ],
+      "patterns": [
+        "\\b(?:kibbeh\\ safarjaliyeh|kibbeh\\ safarjaliyya|kibbeh\\ safarjali)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kibbeh_sumaqiyeh",
+      "feature_keys": [
+        "seven_kibbeh_sumaqiyeh"
+      ],
+      "patterns": [
+        "\\b(?:kibbeh\\ sumaqiyeh|kibbeh\\ summaqiyyeh)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kibbet_seekh",
+      "feature_keys": [
+        "seven_kibbet_seekh"
+      ],
+      "patterns": [
+        "\\b(?:kibbet\\ seekh|kibbeh\\ seekh)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kisra",
+      "feature_keys": [
+        "seven_kisra"
+      ],
+      "patterns": [
+        "\\b(?:kisra|kissra|kesra)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Sudan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kleicha",
+      "feature_keys": [
+        "seven_kleicha"
+      ],
+      "patterns": [
+        "\\b(?:kleicha|klecha|kleichah)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kofta",
+      "feature_keys": [
+        "core_kofta"
+      ],
+      "patterns": [
+        "\\b(?:kofta|kofte|kufta|kefta|kafta|kufteh)s?\\b"
+      ],
+      "country_sources": {
+        "Lebanon": [
+          "https://maureenabood.com/"
+        ],
+        "Egypt": [
+          "https://amiraspantry.com/category/egyptian-recipes/"
+        ],
+        "Morocco": [
+          "https://tasteofmaroc.com/moroccan-kefta-recipe/"
+        ]
+      },
+      "source_status": {
+        "Lebanon": "source_checked_2026_11_05",
+        "Egypt": "source_checked_2026_11_05",
+        "Morocco": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Egypt",
+        "Lebanon",
+        "Morocco"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "koobideh",
+      "feature_keys": [
+        "core_koobideh",
+        "seven_koobideh"
+      ],
+      "patterns": [
+        "\\b(?:koobideh|kubideh|koubideh|koobide)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "koshari",
+      "feature_keys": [
+        "core_koshari"
+      ],
+      "patterns": [
+        "\\b(?:koshari|koshary|kushari)\\b"
+      ],
+      "country_sources": {
+        "Egypt": [
+          "https://amiraspantry.com/category/egyptian-recipes/"
+        ]
+      },
+      "source_status": {
+        "Egypt": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Egypt"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kubba",
+      "feature_keys": [
+        "core_kibbeh",
+        "seven_kibbeh",
+        "seven_kubba"
+      ],
+      "patterns": [
+        "\\b(?:kibbeh|kibbe|kibbi|kubbeh|kebbeh|kibbee)\\b",
+        "\\b(?:kibbeh|kobee|kubba|kubbeh)\\b",
+        "\\b(?:kubba|kubbeh|kibbeh|kobee)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ],
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ],
+        "Lebanon": [
+          "https://maureenabood.com/"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry",
+        "Syria": "inherited_seven_country_registry",
+        "Lebanon": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Iraq",
+        "Lebanon",
+        "Syria"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kubba_mosul",
+      "feature_keys": [
+        "seven_kubba_mosul"
+      ],
+      "patterns": [
+        "\\b(?:kubba\\ mosul|kubbeh\\ mosul|kibbeh\\ mosul)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kubbat_hamuth",
+      "feature_keys": [
+        "seven_kubbat_hamuth"
+      ],
+      "patterns": [
+        "\\b(?:kubbat\\ hamuth|kubba\\ hamuth|kubba\\ hamouth)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "kuku_sabzi",
+      "feature_keys": [
+        "seven_kuku_sabzi"
+      ],
+      "patterns": [
+        "\\b(?:kuku\\ sabzi|kookoo\\ sabzi)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "labneh",
+      "feature_keys": [
+        "core_labneh"
+      ],
+      "patterns": [
+        "\\b(?:labneh|labne|labaneh|labni|lebneh)\\b"
+      ],
+      "country_sources": {
+        "Lebanon": [
+          "https://edelweiss-assets.abovethetreeline.com/PS/supplemental/RWOB_E_Galley.pdf"
+        ],
+        "Syria": [
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Lebanon": "source_checked_2026_11_05",
+        "Syria": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Lebanon",
+        "Syria"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "lahmacun",
+      "feature_keys": [
+        "core_lahmacun"
+      ],
+      "patterns": [
+        "\\b(?:lahmacun|lahmajun|lahmajoun|lahm\\s+bi\\s+ajin)\\b"
+      ],
+      "country_sources": {
+        "Armenia": [
+          "https://www.armenianmuseum.org/armenian-recipes/lahmajoun-meat-recipe"
+        ]
+      },
+      "source_status": {
+        "Armenia": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Armenia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "lahoh",
+      "feature_keys": [
+        "seven_lahoh",
+        "seven_laxoox"
+      ],
+      "patterns": [
+        "\\b(?:lahoh|lahooh|lahuh|laxoox)\\b",
+        "\\b(?:laxoox|lahoh|lahooh|lahuh)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ],
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry",
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia",
+        "Yemen"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "makdous",
+      "feature_keys": [
+        "seven_makdous"
+      ],
+      "patterns": [
+        "\\b(?:makdous|makdoos)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "malawah",
+      "feature_keys": [
+        "seven_malawah"
+      ],
+      "patterns": [
+        "\\b(?:malawah|malawax|malawa)\\b",
+        "\\b(?:malawah|malawa|malawax)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ],
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry",
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia",
+        "Yemen"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "manakish",
+      "feature_keys": [
+        "core_manakish"
+      ],
+      "patterns": [
+        "\\b(?:manakish|manaeesh|manakeesh|manaish|manoushe|manousheh|manouche|manoucheh|manoush)\\b"
+      ],
+      "country_sources": {},
+      "source_status": {},
+      "countries": [],
+      "membership": "broader_only_unmapped",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": false
+    },
+    {
+      "dish_id": "mandi",
+      "feature_keys": [
+        "seven_mandi"
+      ],
+      "patterns": [
+        "\\b(?:mandi)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Yemen"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "mansaf",
+      "feature_keys": [
+        "core_mansaf"
+      ],
+      "patterns": [
+        "\\bmansaf\\b"
+      ],
+      "country_sources": {},
+      "source_status": {},
+      "countries": [],
+      "membership": "broader_only_unmapped",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": false
+    },
+    {
+      "dish_id": "mantu",
+      "feature_keys": [
+        "core_mantu"
+      ],
+      "patterns": [
+        "\\b(?:mantu|manto)\\b"
+      ],
+      "country_sources": {
+        "Afghanistan": [
+          "https://www.ecieco.org/fa/article/234/Traditional-Afghan-Cuisine-A-Symbol-of-Hospitality-and-Collective-Identity"
+        ]
+      },
+      "source_status": {
+        "Afghanistan": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Afghanistan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "maqluba",
+      "feature_keys": [
+        "core_maqluba"
+      ],
+      "patterns": [
+        "\\b(?:maqluba|maklouba|maqlouba|makluba)\\b"
+      ],
+      "country_sources": {},
+      "source_status": {},
+      "countries": [],
+      "membership": "broader_only_unmapped",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": false
+    },
+    {
+      "dish_id": "masgouf",
+      "feature_keys": [
+        "seven_masgouf"
+      ],
+      "patterns": [
+        "\\b(?:masgouf|masgoof|maskoof|mazgoof)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "masoub",
+      "feature_keys": [
+        "seven_masoub"
+      ],
+      "patterns": [
+        "\\b(?:masoub|masoob|maseub)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Yemen"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "mbakbaka",
+      "feature_keys": [
+        "seven_mbakbaka"
+      ],
+      "patterns": [
+        "\\b(?:mbakbaka|imbakbaka|mbekbka|mbakbka)\\b"
+      ],
+      "country_sources": {
+        "Libya": [
+          "https://libyanfood.blogspot.com/2011/10/asida.html",
+          "https://libyanheritagehouse.org/arts-culture/libyan-cuisine",
+          "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+          "https://www.munatycooking.com/libyan-mbakbaka/"
+        ]
+      },
+      "source_status": {
+        "Libya": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Libya"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "mirza_ghasemi",
+      "feature_keys": [
+        "seven_mirza_ghasemi"
+      ],
+      "patterns": [
+        "\\b(?:mirza\\ ghasemi|mirza\\ ghassemi|mirza\\ ghashemi)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "molokhia",
+      "feature_keys": [
+        "core_molokhia",
+        "seven_molokhia"
+      ],
+      "patterns": [
+        "\\b(?:molokhia|molokheya|mulukhiyah|mulukhia|molokhiya)\\b",
+        "\\b(?:molokhia|mulukhiyah)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ],
+        "Egypt": [
+          "https://amiraspantry.com/category/egyptian-recipes/"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry",
+        "Egypt": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Egypt",
+        "Sudan"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "muhammara",
+      "feature_keys": [
+        "core_muhammara",
+        "seven_muhammara"
+      ],
+      "patterns": [
+        "\\b(?:muhammara|mouhammara|muhamara)\\b",
+        "\\b(?:muhammara|mouhammara|muhamara|mohammara|mouhamara)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ],
+        "Lebanon": [
+          "https://maureenabood.com/"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry",
+        "Lebanon": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Lebanon",
+        "Syria"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "mujaddara",
+      "feature_keys": [
+        "core_mujaddara"
+      ],
+      "patterns": [
+        "\\b(?:mujaddara|mujadara|moujadara|mejadra|mudardara)\\b"
+      ],
+      "country_sources": {
+        "Lebanon": [
+          "https://maureenabood.com/"
+        ]
+      },
+      "source_status": {
+        "Lebanon": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Lebanon"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "mullah_niemia",
+      "feature_keys": [
+        "seven_mullah_niemia"
+      ],
+      "patterns": [
+        "\\b(?:mullah\\ niemia|mulah\\ niemia|mullah\\ naimiya)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Sudan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "mullah_rob",
+      "feature_keys": [
+        "seven_mullah_rob"
+      ],
+      "patterns": [
+        "\\b(?:mullah\\ rob|mulah\\ rob)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Sudan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "mullah_tagalia",
+      "feature_keys": [
+        "seven_mullah_tagalia"
+      ],
+      "patterns": [
+        "\\b(?:mullah\\ tagalia|mulah\\ tagalia|mullah\\ takalia|mullah\\ taqalia)\\b"
+      ],
+      "country_sources": {
+        "Sudan": [
+          "https://www.sudanese.kitchen/archive",
+          "https://www.sudanese.kitchen/history"
+        ]
+      },
+      "source_status": {
+        "Sudan": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Sudan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "musakhan",
+      "feature_keys": [
+        "core_musakhan"
+      ],
+      "patterns": [
+        "\\b(?:musakhan|mussakhan|msakhan)\\b"
+      ],
+      "country_sources": {},
+      "source_status": {},
+      "countries": [],
+      "membership": "broader_only_unmapped",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": false
+    },
+    {
+      "dish_id": "mutabbaq",
+      "feature_keys": [
+        "seven_mutabbaq"
+      ],
+      "patterns": [
+        "\\b(?:mutabbaq|mutabak|muttabaq)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Yemen"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "muufo",
+      "feature_keys": [
+        "seven_muufo"
+      ],
+      "patterns": [
+        "\\b(?:muufo|mufo)\\b"
+      ],
+      "country_sources": {
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "oodkac",
+      "feature_keys": [
+        "seven_oodkac"
+      ],
+      "patterns": [
+        "\\b(?:oodkac|oodka|otkac)\\b"
+      ],
+      "country_sources": {
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "osban",
+      "feature_keys": [
+        "seven_osban"
+      ],
+      "patterns": [
+        "\\b(?:osban|usban|osbane)\\b"
+      ],
+      "country_sources": {
+        "Libya": [
+          "https://libyanfood.blogspot.com/2011/10/asida.html",
+          "https://libyanheritagehouse.org/arts-culture/libyan-cuisine",
+          "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+          "https://www.munatycooking.com/libyan-mbakbaka/"
+        ]
+      },
+      "source_status": {
+        "Libya": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Libya"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "pacha",
+      "feature_keys": [
+        "seven_pacha"
+      ],
+      "patterns": [
+        "\\b(?:pacha|patcha)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "qabili_pulao",
+      "feature_keys": [
+        "core_qabili_pulao"
+      ],
+      "patterns": [
+        "\\b(?:qabili|kabuli|qabuli|kabli)\\s+(?:pulao|palau|pilau|palo|palaw)\\b"
+      ],
+      "country_sources": {
+        "Afghanistan": [
+          "https://www.ecieco.org/fa/article/234/Traditional-Afghan-Cuisine-A-Symbol-of-Hospitality-and-Collective-Identity"
+        ]
+      },
+      "source_status": {
+        "Afghanistan": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Afghanistan"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "quzi",
+      "feature_keys": [
+        "seven_quzi"
+      ],
+      "patterns": [
+        "\\b(?:quzi|qoozi|ghoozi|qozi)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "rishta",
+      "feature_keys": [
+        "seven_rishta"
+      ],
+      "patterns": [
+        "\\b(?:rishta|reshtha|rishda)\\b"
+      ],
+      "country_sources": {
+        "Libya": [
+          "https://libyanfood.blogspot.com/2011/10/asida.html",
+          "https://libyanheritagehouse.org/arts-culture/libyan-cuisine",
+          "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+          "https://www.munatycooking.com/libyan-mbakbaka/"
+        ]
+      },
+      "source_status": {
+        "Libya": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Libya"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "saltah",
+      "feature_keys": [
+        "seven_saltah"
+      ],
+      "patterns": [
+        "\\b(?:saltah|salta)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Yemen"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "sambusa",
+      "feature_keys": [
+        "seven_sambusa"
+      ],
+      "patterns": [
+        "\\b(?:sambusa|sambuusa|sambousek)\\b"
+      ],
+      "country_sources": {
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "samoon",
+      "feature_keys": [
+        "seven_samoon"
+      ],
+      "patterns": [
+        "\\b(?:samoon|sammoun)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "shafoot",
+      "feature_keys": [
+        "seven_shafoot"
+      ],
+      "patterns": [
+        "\\b(?:shafoot|shafout|shafut)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Yemen"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "sharba_libya",
+      "feature_keys": [
+        "seven_sharba_libya"
+      ],
+      "patterns": [
+        "\\b(?:sharba\\ libya|shorba\\ libiya|shorba\\ libya)\\b"
+      ],
+      "country_sources": {
+        "Libya": [
+          "https://libyanfood.blogspot.com/2011/10/asida.html",
+          "https://libyanheritagehouse.org/arts-culture/libyan-cuisine",
+          "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo129600/pdf/GOVPUB-D301-PURL-gpo129600.pdf",
+          "https://www.munatycooking.com/libyan-mbakbaka/"
+        ]
+      },
+      "source_status": {
+        "Libya": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Libya"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "shawarma",
+      "feature_keys": [
+        "core_shawarma"
+      ],
+      "patterns": [
+        "\\b(?:shawarma|shawerma|shwarma|shawarama|shaurma|shawrma|shawarmah)s?\\b"
+      ],
+      "country_sources": {
+        "Lebanon": [
+          "https://maureenabood.com/summer-menus/"
+        ],
+        "Syria": [
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Lebanon": "source_checked_2026_11_05",
+        "Syria": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Lebanon",
+        "Syria"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "sheikh_el_mahshi",
+      "feature_keys": [
+        "seven_sheikh_el_mahshi"
+      ],
+      "patterns": [
+        "\\b(?:sheikh\\ el\\ mahshi|sheikh\\ al\\ mahshi)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "shish_barak",
+      "feature_keys": [
+        "seven_shish_barak"
+      ],
+      "patterns": [
+        "\\b(?:shish\\ barak|shishbarak)\\b"
+      ],
+      "country_sources": {
+        "Syria": [
+          "https://www.omayahcooks.com/blog/2019/3/4/kibbeh-bil-sanieh-baked-kibbeh-with-stop-motion",
+          "https://www.omayahcooks.com/dinner",
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Syria": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Syria"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "suqaar",
+      "feature_keys": [
+        "seven_suqaar"
+      ],
+      "patterns": [
+        "\\b(?:suqaar|suuqaar|sukar)\\b"
+      ],
+      "country_sources": {
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "tabbouleh",
+      "feature_keys": [
+        "core_tabbouleh"
+      ],
+      "patterns": [
+        "\\b(?:tabbouleh|tabouleh|tabouli|tabbouli|taboulee|taboule)\\b"
+      ],
+      "country_sources": {
+        "Lebanon": [
+          "https://maureenabood.com/summer-menus/"
+        ],
+        "Syria": [
+          "https://www.omayahcooks.com/full-index"
+        ]
+      },
+      "source_status": {
+        "Lebanon": "source_checked_2026_11_05",
+        "Syria": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Lebanon",
+        "Syria"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "tahchin",
+      "feature_keys": [
+        "seven_tahchin"
+      ],
+      "patterns": [
+        "\\b(?:tahchin|tah\\ chin)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "tahdig",
+      "feature_keys": [
+        "core_tahdig",
+        "seven_tahdig"
+      ],
+      "patterns": [
+        "\\b(?:tahdig|tah\\ deeg|tah\\ dig|tahdeeg)\\b",
+        "\\b(?:tahdig|tahdeeg|tah\\s+dig)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "tashreeb",
+      "feature_keys": [
+        "seven_tashreeb"
+      ],
+      "patterns": [
+        "\\b(?:tashreeb|tashrib|tashreb)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "tepsi_baytinijan",
+      "feature_keys": [
+        "seven_tepsi_baytinijan"
+      ],
+      "patterns": [
+        "\\b(?:tepsi\\ baytinijan|tepsi\\ baytinjan|tepsi\\ badinjan)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "timman_bagilla",
+      "feature_keys": [
+        "seven_timman_bagilla"
+      ],
+      "patterns": [
+        "\\b(?:timman\\ bagilla|timman\\ bagila)\\b"
+      ],
+      "country_sources": {
+        "Iraq": [
+          "https://kababerbil.ae/en/journal/iraqi-dish-names-spelling",
+          "https://www.iraqicookbook.com/assets/docs/delights_begin_and_end.31183138.pdf"
+        ]
+      },
+      "source_status": {
+        "Iraq": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iraq"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "xawaash",
+      "feature_keys": [
+        "seven_xawaash"
+      ],
+      "patterns": [
+        "\\b(?:xawaash)\\b"
+      ],
+      "country_sources": {
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "zaatar",
+      "feature_keys": [
+        "core_zaatar"
+      ],
+      "patterns": [
+        "\\b(?:zaatar|za\\s+atar|zatar)\\b"
+      ],
+      "country_sources": {
+        "Lebanon": [
+          "https://edelweiss-assets.abovethetreeline.com/PS/supplemental/RWOB_E_Galley.pdf"
+        ],
+        "Syria": [
+          "https://waratah-h.schools.nsw.gov.au/content/dam/doe/sws/schools/w/waratah-h/news/Taste_of_Harmony_Cookbook_FINAL_2020.pdf"
+        ]
+      },
+      "source_status": {
+        "Lebanon": "source_checked_2026_11_05",
+        "Syria": "source_checked_2026_11_05"
+      },
+      "countries": [
+        "Lebanon",
+        "Syria"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "zereshk_polo",
+      "feature_keys": [
+        "core_zereshk_polo",
+        "seven_zereshk_polo"
+      ],
+      "patterns": [
+        "\\b(?:zereshk\\ polo|zereshk\\ polow)\\b",
+        "\\bzereshk\\s+(?:polo|polow|pilaf)\\b"
+      ],
+      "country_sources": {
+        "Iran": [
+          "https://persianmama.com/recipe-index/"
+        ]
+      },
+      "source_status": {
+        "Iran": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Iran"
+      ],
+      "membership": "single_listed",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    },
+    {
+      "dish_id": "zurbian",
+      "feature_keys": [
+        "seven_zurbian"
+      ],
+      "patterns": [
+        "\\b(?:zurbian|zurbiyan)\\b"
+      ],
+      "country_sources": {
+        "Yemen": [
+          "https://aden-restaurant.com/menu.pdf",
+          "https://www.ibnulyemenarabic.com/arabic-culture/yemen-national-dish/",
+          "https://www.shebayemenifood.com/content/chicken-zurbian-rice",
+          "https://www.shebayemenifood.com/content/fahsa-saltah",
+          "https://www.shebayemenifood.com/content/yemeni-shakshouka"
+        ],
+        "Somalia": [
+          "https://xawaash.com/?p=1548",
+          "https://xawaash.com/recipes/",
+          "https://xawaash.com/recipes/mains/"
+        ]
+      },
+      "source_status": {
+        "Yemen": "inherited_seven_country_registry",
+        "Somalia": "inherited_seven_country_registry"
+      },
+      "countries": [
+        "Somalia",
+        "Yemen"
+      ],
+      "membership": "shared",
+      "broader_ME_qualifier": true,
+      "country_list_qualifier": true
+    }
+  ]
+}

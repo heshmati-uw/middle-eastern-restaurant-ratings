@@ -1,0 +1,12 @@
+{
+  "dictionary_sha256": "2cf8ba5a5312b90b9d32e216d577178ba2ff0546c2d54de24edec7ef4476e255",
+  "food_profile_sha256": "a3dc43554a86bcfe1be6e3dad0804a37bf7b1691895fa2ce291c7ed6bc188546",
+  "countries": 12,
+  "dish_entries": 100,
+  "raw_rescan": false,
+  "reason": "Unchanged extraction patterns; relink existing complete any-date raw-scan features to documented countries.",
+  "monthly_partition_verified": true,
+  "metadata_restaurants": 176,
+  "review_active_restaurants": 124,
+  "single_listed_not_exclusive": true
+}
