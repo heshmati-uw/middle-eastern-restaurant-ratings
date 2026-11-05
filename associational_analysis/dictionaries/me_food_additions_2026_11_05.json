@@ -1,0 +1,19 @@
+{
+  "version": "user-expanded-broader-ME-2026-11-05",
+  "qualifying_additions": {
+    "baba_ghanoush": "\\b(?:baba ghanoush|baba ganoush|baba ghanouj|baba ghannouj|baba ghannouge|baba gahnouge|baba ghannooj|baba ghanooj|baba ganuj|baba gahnooj|baba ghanoug|baba ghannuj|baba ghannuge|baba ghannoj|baba ghannouch|baba ganouj|babagannouji|babaghanouj)\\b",
+    "tabbouleh": "\\b(?:tabbouleh|tabouleh|tabouli|tabbouli|taboulee|taboule)\\b",
+    "labneh": "\\b(?:labneh|labne|labaneh|labni|lebneh)\\b",
+    "zaatar": "\\b(?:zaatar|za\\s+atar|zatar)\\b",
+    "kebab": "\\b(?:kebab|kabob|kebob|kabab|kebap)s?\\b",
+    "kofta": "\\b(?:kofta|kofte|kufta|kefta|kafta|kufteh)s?\\b",
+    "shawarma": "\\b(?:shawarma|shawerma|shwarma|shawarama|shaurma|shawrma|shawarmah)s?\\b"
+  },
+  "excluded_standalone": [
+    "shakshuka",
+    "generic dolma/dolmeh",
+    "baklava"
+  ],
+  "scope": "Adds to broader ME classification, not an assertion of exclusive national cuisine. Specific dolmeh barg and dolmeh bademjan remain qualifying. Hummus and falafel remain excluded; not requested additions.",
+  "authorization": "User requested all seven additions after discussion of existing exclusions."
+}

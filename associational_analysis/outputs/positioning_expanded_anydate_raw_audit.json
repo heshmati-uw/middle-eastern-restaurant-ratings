@@ -1,0 +1,373 @@
+{
+  "metadata_restaurants": 176,
+  "raw_files": [
+    {
+      "file": "review-Kansas.json.gz",
+      "rows": 5546880,
+      "selected_text_min_time": 1297977722827,
+      "selected_text_max_time": 1628616291643
+    },
+    {
+      "file": "review-New_Jersey.json.gz",
+      "rows": 15720266,
+      "selected_text_min_time": 1327374056332,
+      "selected_text_max_time": 1623763456326
+    },
+    {
+      "file": "review-Colorado.json.gz",
+      "rows": 15681222,
+      "selected_text_min_time": 1278524839384,
+      "selected_text_max_time": 1620964832862
+    },
+    {
+      "file": "review-Michigan.json.gz",
+      "rows": 20776155,
+      "selected_text_min_time": 1244661444264,
+      "selected_text_max_time": 1628952445574
+    },
+    {
+      "file": "review-Florida.json.gz",
+      "rows": 61803524,
+      "selected_text_min_time": 1292889107488,
+      "selected_text_max_time": 1624141986757
+    },
+    {
+      "file": "review-Texas.json.gz",
+      "rows": 66435184,
+      "selected_text_min_time": 1297481289966,
+      "selected_text_max_time": 1629993583318
+    },
+    {
+      "file": "review-Arizona.json.gz",
+      "rows": 18375050,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-North_Carolina.json.gz",
+      "rows": 22299136,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Ohio.json.gz",
+      "rows": 23039365,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Pennsylvania.json.gz",
+      "rows": 21944802,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Illinois.json.gz",
+      "rows": 23096838,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Georgia.json.gz",
+      "rows": 24060125,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-New_York.json.gz",
+      "rows": 33459761,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Indiana.json.gz",
+      "rows": 12865167,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-South_Carolina.json.gz",
+      "rows": 11995482,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Missouri.json.gz",
+      "rows": 13416511,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Washington.json.gz",
+      "rows": 16541734,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Virginia.json.gz",
+      "rows": 15957938,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Tennessee.json.gz",
+      "rows": 15951213,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Oregon.json.gz",
+      "rows": 11012170,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Utah.json.gz",
+      "rows": 9081167,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Maryland.json.gz",
+      "rows": 10728483,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Nevada.json.gz",
+      "rows": 8833403,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Alabama.json.gz",
+      "rows": 8967499,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Massachusetts.json.gz",
+      "rows": 10447007,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Minnesota.json.gz",
+      "rows": 9520258,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Kentucky.json.gz",
+      "rows": 7654993,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Oklahoma.json.gz",
+      "rows": 8482820,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Wisconsin.json.gz",
+      "rows": 10246685,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Hawaii.json.gz",
+      "rows": 3111531,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Idaho.json.gz",
+      "rows": 3892636,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Mississippi.json.gz",
+      "rows": 3861771,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Arkansas.json.gz",
+      "rows": 5106056,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-New_Mexico.json.gz",
+      "rows": 4705389,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Connecticut.json.gz",
+      "rows": 5181800,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Iowa.json.gz",
+      "rows": 4838887,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Louisiana.json.gz",
+      "rows": 7536078,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-District_of_Columbia.json.gz",
+      "rows": 1894317,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Maine.json.gz",
+      "rows": 2214773,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Montana.json.gz",
+      "rows": 1933939,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-New_Hampshire.json.gz",
+      "rows": 2648081,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Delaware.json.gz",
+      "rows": 1885948,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Rhode_Island.json.gz",
+      "rows": 1777094,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-other.json.gz",
+      "rows": 162952,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-West_Virginia.json.gz",
+      "rows": 2208199,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Nebraska.json.gz",
+      "rows": 3286810,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Vermont.json.gz",
+      "rows": 852203,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Alaska.json.gz",
+      "rows": 1051246,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-Wyoming.json.gz",
+      "rows": 1141421,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-South_Dakota.json.gz",
+      "rows": 1452599,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-North_Dakota.json.gz",
+      "rows": 1109558,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    },
+    {
+      "file": "review-California.json.gz",
+      "rows": 70529977,
+      "selected_text_min_time": null,
+      "selected_text_max_time": null,
+      "reused_zero_eligible_text": true
+    }
+  ],
+  "files_rescanned": 6,
+  "files_with_reused_empty_text": 46,
+  "cutoff_exclusive": null,
+  "evidence_window": "All valid positive-timestamp reviews in supplied raw corpus",
+  "dictionary_sha256": {
+    "country_food_dictionary.json": "3e12c4a10f009276ea58ffa1021032bf0901de9dabe1a2ef302955db357a60d7",
+    "food_dictionary_no_shawarma.json": "1e9988fff40a618f9df13631117c2a3bed3343f5d4d5989befdd5293da73cb54",
+    "me_food_additions_2026_11_05.json": "46bc45dce0dac666716f462af87db79b044eba42c36f4ba909d9d667c59a18b5",
+    "non_me_mediterranean_pilot.json": "275ddd5e9db1136551e01297a5cbc664b925cbfafb82774f2d35d3725a41a99f"
+  }
+}

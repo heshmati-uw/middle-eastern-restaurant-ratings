@@ -1,0 +1,10 @@
+version,previous_dictionary_group,any_date_group,restaurants
+Expanded broader,ME,ME,52
+Expanded broader,ME,WPME,0
+Expanded broader,ME,All other Mediterranean restaurants,0
+Expanded broader,WPME,ME,0
+Expanded broader,WPME,WPME,41
+Expanded broader,WPME,All other Mediterranean restaurants,0
+Expanded broader,All other Mediterranean restaurants,ME,0
+Expanded broader,All other Mediterranean restaurants,WPME,26
+Expanded broader,All other Mediterranean restaurants,All other Mediterranean restaurants,5

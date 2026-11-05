@@ -1,0 +1,8 @@
+food,new_WPME_restaurants_with_mention,note
+baba_ghanoush,7,Overlapping counts; a restaurant can mention multiple added foods
+tabbouleh,12,Overlapping counts; a restaurant can mention multiple added foods
+labneh,1,Overlapping counts; a restaurant can mention multiple added foods
+zaatar,1,Overlapping counts; a restaurant can mention multiple added foods
+kebab,22,Overlapping counts; a restaurant can mention multiple added foods
+kofta,10,Overlapping counts; a restaurant can mention multiple added foods
+shawarma,8,Overlapping counts; a restaurant can mention multiple added foods

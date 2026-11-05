@@ -139,4 +139,10 @@ Any-date food evidence can occur after April 2017 and is assigned retrospectivel
 
 Validation requires identical metadata IDs, inclusion of every earlier qualifying feature in the any-date feature set, and complete partition of monthly non-American activity into the three groups. Thus the total number of restaurants with reviews in each month cannot change; only the allocation between WPME and All other Mediterranean can change.
 
+### User expanded broader food dictionary
+
+The user explicitly added **baba ghanoush, shawarma, tabbouleh, labneh, zaatar, generic kebab and kofta** as standalone qualifying foods. The seven additions and spelling patterns are in `dictionaries/me_food_additions_2026_11_05.json`. Shakshuka, generic dolma/dolmeh and baklava remain excluded. The previously qualifying specific dishes dolmeh barg and dolmeh bademjan remain included. Hummus and falafel were not requested additions and remain excluded. This changes the broader ME dictionary; the original seven-country-only definition remains an unchanged reference, rather than attributing these added foods exclusively to those countries.
+
+Run step 13 with `--any-date --expanded`, step 17 with `--expanded`, and step 18 with `--expanded`. Separate outputs use the `positioning_expanded_anydate` prefix and preserve earlier dictionaries and results. The food scan may reuse a previous complete any-date scan's zero-eligible-text result for a source file only after verifying identical restaurant IDs and unchanged size/mtime for all 52 raw files against the source manifest. Files with eligible text are rescanned for the new terms. The audit records rescanned versus verified-empty files. The monthly activity universe and date range remain unchanged; only WPME versus All other Mediterranean assignments can change. Expanded profiles must retain all earlier features, and the seven-country indicator must be identical. Added-food counts describe overlapping mentions among newly classified WPME restaurants, not an additive attribution of changes.
+
 
