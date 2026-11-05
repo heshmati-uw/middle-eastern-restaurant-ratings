@@ -1,0 +1,4 @@
+Same 487 restaurants as pooled culinary analysis; shared culinary and history slopes; county FE; med x Trump majority interaction.
+CR1 covariance clustered by county. Displayed t df: other 49, Trump 6, difference 6 (smaller group county count minus one). Conventional df56 p-values also exported.
+This conservative df choice is not an exact small-sample correction; seven Trump-majority counties limit inference.
+Full food-adjusted absorbed coefficients and covariance match explicit county-dummy OLS to 1e-8.
