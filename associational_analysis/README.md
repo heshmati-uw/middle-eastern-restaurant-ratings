@@ -125,4 +125,6 @@ V2/V4 are residual classifications, not verified non-ME cuisine. They can includ
 
 Outputs with prefix `positioning_variants` contain four separate figures, monthly activity, unique counts, before/after overlap, mixed-food evidence counts, the Greek-salad sensitivity, source audit and partition validation. Private business assignments are not uploaded. The before/after table continues to use December 27-January 23 and January 27-February 23, 28 days each.
 
+For clarity, the four figures now annotate the number of restaurants at every monthly point and omit across-period N labels from their legends. The data are unchanged: all qualifying restaurants with a review in each month are counted; there is no fixed/balanced review cohort or requirement to appear both before and after. Food assignments still use the pre-election dictionary evidence described above; classifications do not update using newly arriving monthly reviews.
+
 
