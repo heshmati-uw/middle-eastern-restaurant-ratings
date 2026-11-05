@@ -99,7 +99,8 @@ for r in food:
     hits=[e for e in registry['entries'] if fs.intersection(e['feature_keys']) and e['country_list_qualifier']]
     cc=sorted({c for e in hits for c in e['countries']});tag=national_tags.get(category,'')
     eligible=bool(tag) or (category=='Middle Eastern restaurant' and bool(hits))
-    group='Nationally associated ME' if eligible else 'Other literal ME' if category=='Middle Eastern restaurant' else 'WPME' if r['broad_ME']=='1' else 'All other Mediterranean'
+    group='Nationally associated ME' if eligible else 'Other literal ME' if category=='Middle Eastern restaurant' else 'WPME' if hits else 'All other Mediterranean'
+    if category=='Mediterranean restaurant':assert (group=='WPME')==bool(hits)
     assert category in national_tags or category in ['Middle Eastern restaurant','Mediterranean restaurant']
     route='national tag + food evidence' if tag and hits else 'national tag only' if tag else 'literal ME + food evidence' if eligible else 'outside nationally associated group'
     assign.append(dict(gmap_id=g,primary_category=category,group=group,route=route,label_country=tag,food_countries='|'.join(cc),country_dish_ids='|'.join(e['dish_id'] for e in hits),active_in_plot=int(g in active)))
