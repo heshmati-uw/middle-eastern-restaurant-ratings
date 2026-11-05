@@ -1,0 +1,477 @@
+month,county_fips,county,label,restaurants
+2015-12,08041,"El Paso, CO",Middle Eastern,1
+2015-12,08041,"El Paso, CO",National,1
+2015-12,08041,"El Paso, CO",Mediterranean,2
+2015-12,08041,"El Paso, CO",American,23
+2015-12,12009,"Brevard, FL",Middle Eastern,1
+2015-12,12009,"Brevard, FL",National,1
+2015-12,12009,"Brevard, FL",Mediterranean,6
+2015-12,12009,"Brevard, FL",American,25
+2015-12,12071,"Lee, FL",Middle Eastern,1
+2015-12,12071,"Lee, FL",National,0
+2015-12,12071,"Lee, FL",Mediterranean,2
+2015-12,12071,"Lee, FL",American,38
+2015-12,20173,"Sedgwick, KS",Middle Eastern,1
+2015-12,20173,"Sedgwick, KS",National,1
+2015-12,20173,"Sedgwick, KS",Mediterranean,3
+2015-12,20173,"Sedgwick, KS",American,10
+2015-12,26099,"Macomb, MI",Middle Eastern,12
+2015-12,26099,"Macomb, MI",National,6
+2015-12,26099,"Macomb, MI",Mediterranean,5
+2015-12,26099,"Macomb, MI",American,60
+2015-12,34025,"Monmouth, NJ",Middle Eastern,0
+2015-12,34025,"Monmouth, NJ",National,1
+2015-12,34025,"Monmouth, NJ",Mediterranean,3
+2015-12,34025,"Monmouth, NJ",American,24
+2015-12,48085,"Collin, TX",Middle Eastern,1
+2015-12,48085,"Collin, TX",National,3
+2015-12,48085,"Collin, TX",Mediterranean,7
+2015-12,48085,"Collin, TX",American,27
+2016-01,08041,"El Paso, CO",Middle Eastern,3
+2016-01,08041,"El Paso, CO",National,1
+2016-01,08041,"El Paso, CO",Mediterranean,2
+2016-01,08041,"El Paso, CO",American,29
+2016-01,12009,"Brevard, FL",Middle Eastern,0
+2016-01,12009,"Brevard, FL",National,1
+2016-01,12009,"Brevard, FL",Mediterranean,3
+2016-01,12009,"Brevard, FL",American,21
+2016-01,12071,"Lee, FL",Middle Eastern,1
+2016-01,12071,"Lee, FL",National,0
+2016-01,12071,"Lee, FL",Mediterranean,2
+2016-01,12071,"Lee, FL",American,49
+2016-01,20173,"Sedgwick, KS",Middle Eastern,1
+2016-01,20173,"Sedgwick, KS",National,1
+2016-01,20173,"Sedgwick, KS",Mediterranean,3
+2016-01,20173,"Sedgwick, KS",American,10
+2016-01,26099,"Macomb, MI",Middle Eastern,7
+2016-01,26099,"Macomb, MI",National,5
+2016-01,26099,"Macomb, MI",Mediterranean,6
+2016-01,26099,"Macomb, MI",American,60
+2016-01,34025,"Monmouth, NJ",Middle Eastern,0
+2016-01,34025,"Monmouth, NJ",National,1
+2016-01,34025,"Monmouth, NJ",Mediterranean,1
+2016-01,34025,"Monmouth, NJ",American,27
+2016-01,48085,"Collin, TX",Middle Eastern,0
+2016-01,48085,"Collin, TX",National,1
+2016-01,48085,"Collin, TX",Mediterranean,8
+2016-01,48085,"Collin, TX",American,23
+2016-02,08041,"El Paso, CO",Middle Eastern,3
+2016-02,08041,"El Paso, CO",National,1
+2016-02,08041,"El Paso, CO",Mediterranean,1
+2016-02,08041,"El Paso, CO",American,30
+2016-02,12009,"Brevard, FL",Middle Eastern,1
+2016-02,12009,"Brevard, FL",National,0
+2016-02,12009,"Brevard, FL",Mediterranean,4
+2016-02,12009,"Brevard, FL",American,29
+2016-02,12071,"Lee, FL",Middle Eastern,1
+2016-02,12071,"Lee, FL",National,0
+2016-02,12071,"Lee, FL",Mediterranean,1
+2016-02,12071,"Lee, FL",American,43
+2016-02,20173,"Sedgwick, KS",Middle Eastern,1
+2016-02,20173,"Sedgwick, KS",National,1
+2016-02,20173,"Sedgwick, KS",Mediterranean,3
+2016-02,20173,"Sedgwick, KS",American,10
+2016-02,26099,"Macomb, MI",Middle Eastern,13
+2016-02,26099,"Macomb, MI",National,5
+2016-02,26099,"Macomb, MI",Mediterranean,7
+2016-02,26099,"Macomb, MI",American,56
+2016-02,34025,"Monmouth, NJ",Middle Eastern,0
+2016-02,34025,"Monmouth, NJ",National,1
+2016-02,34025,"Monmouth, NJ",Mediterranean,1
+2016-02,34025,"Monmouth, NJ",American,22
+2016-02,48085,"Collin, TX",Middle Eastern,1
+2016-02,48085,"Collin, TX",National,1
+2016-02,48085,"Collin, TX",Mediterranean,8
+2016-02,48085,"Collin, TX",American,24
+2016-03,08041,"El Paso, CO",Middle Eastern,1
+2016-03,08041,"El Paso, CO",National,1
+2016-03,08041,"El Paso, CO",Mediterranean,2
+2016-03,08041,"El Paso, CO",American,27
+2016-03,12009,"Brevard, FL",Middle Eastern,1
+2016-03,12009,"Brevard, FL",National,0
+2016-03,12009,"Brevard, FL",Mediterranean,2
+2016-03,12009,"Brevard, FL",American,38
+2016-03,12071,"Lee, FL",Middle Eastern,1
+2016-03,12071,"Lee, FL",National,0
+2016-03,12071,"Lee, FL",Mediterranean,3
+2016-03,12071,"Lee, FL",American,46
+2016-03,20173,"Sedgwick, KS",Middle Eastern,1
+2016-03,20173,"Sedgwick, KS",National,1
+2016-03,20173,"Sedgwick, KS",Mediterranean,4
+2016-03,20173,"Sedgwick, KS",American,14
+2016-03,26099,"Macomb, MI",Middle Eastern,10
+2016-03,26099,"Macomb, MI",National,4
+2016-03,26099,"Macomb, MI",Mediterranean,6
+2016-03,26099,"Macomb, MI",American,72
+2016-03,34025,"Monmouth, NJ",Middle Eastern,0
+2016-03,34025,"Monmouth, NJ",National,1
+2016-03,34025,"Monmouth, NJ",Mediterranean,2
+2016-03,34025,"Monmouth, NJ",American,29
+2016-03,48085,"Collin, TX",Middle Eastern,1
+2016-03,48085,"Collin, TX",National,3
+2016-03,48085,"Collin, TX",Mediterranean,11
+2016-03,48085,"Collin, TX",American,31
+2016-04,08041,"El Paso, CO",Middle Eastern,2
+2016-04,08041,"El Paso, CO",National,1
+2016-04,08041,"El Paso, CO",Mediterranean,4
+2016-04,08041,"El Paso, CO",American,31
+2016-04,12009,"Brevard, FL",Middle Eastern,1
+2016-04,12009,"Brevard, FL",National,1
+2016-04,12009,"Brevard, FL",Mediterranean,4
+2016-04,12009,"Brevard, FL",American,38
+2016-04,12071,"Lee, FL",Middle Eastern,1
+2016-04,12071,"Lee, FL",National,0
+2016-04,12071,"Lee, FL",Mediterranean,3
+2016-04,12071,"Lee, FL",American,55
+2016-04,20173,"Sedgwick, KS",Middle Eastern,0
+2016-04,20173,"Sedgwick, KS",National,0
+2016-04,20173,"Sedgwick, KS",Mediterranean,5
+2016-04,20173,"Sedgwick, KS",American,14
+2016-04,26099,"Macomb, MI",Middle Eastern,12
+2016-04,26099,"Macomb, MI",National,7
+2016-04,26099,"Macomb, MI",Mediterranean,8
+2016-04,26099,"Macomb, MI",American,67
+2016-04,34025,"Monmouth, NJ",Middle Eastern,0
+2016-04,34025,"Monmouth, NJ",National,1
+2016-04,34025,"Monmouth, NJ",Mediterranean,5
+2016-04,34025,"Monmouth, NJ",American,36
+2016-04,48085,"Collin, TX",Middle Eastern,1
+2016-04,48085,"Collin, TX",National,3
+2016-04,48085,"Collin, TX",Mediterranean,10
+2016-04,48085,"Collin, TX",American,25
+2016-05,08041,"El Paso, CO",Middle Eastern,3
+2016-05,08041,"El Paso, CO",National,1
+2016-05,08041,"El Paso, CO",Mediterranean,3
+2016-05,08041,"El Paso, CO",American,35
+2016-05,12009,"Brevard, FL",Middle Eastern,1
+2016-05,12009,"Brevard, FL",National,1
+2016-05,12009,"Brevard, FL",Mediterranean,3
+2016-05,12009,"Brevard, FL",American,39
+2016-05,12071,"Lee, FL",Middle Eastern,1
+2016-05,12071,"Lee, FL",National,0
+2016-05,12071,"Lee, FL",Mediterranean,1
+2016-05,12071,"Lee, FL",American,47
+2016-05,20173,"Sedgwick, KS",Middle Eastern,1
+2016-05,20173,"Sedgwick, KS",National,0
+2016-05,20173,"Sedgwick, KS",Mediterranean,5
+2016-05,20173,"Sedgwick, KS",American,16
+2016-05,26099,"Macomb, MI",Middle Eastern,12
+2016-05,26099,"Macomb, MI",National,5
+2016-05,26099,"Macomb, MI",Mediterranean,9
+2016-05,26099,"Macomb, MI",American,74
+2016-05,34025,"Monmouth, NJ",Middle Eastern,0
+2016-05,34025,"Monmouth, NJ",National,1
+2016-05,34025,"Monmouth, NJ",Mediterranean,5
+2016-05,34025,"Monmouth, NJ",American,38
+2016-05,48085,"Collin, TX",Middle Eastern,1
+2016-05,48085,"Collin, TX",National,3
+2016-05,48085,"Collin, TX",Mediterranean,10
+2016-05,48085,"Collin, TX",American,31
+2016-06,08041,"El Paso, CO",Middle Eastern,3
+2016-06,08041,"El Paso, CO",National,0
+2016-06,08041,"El Paso, CO",Mediterranean,4
+2016-06,08041,"El Paso, CO",American,37
+2016-06,12009,"Brevard, FL",Middle Eastern,1
+2016-06,12009,"Brevard, FL",National,1
+2016-06,12009,"Brevard, FL",Mediterranean,6
+2016-06,12009,"Brevard, FL",American,40
+2016-06,12071,"Lee, FL",Middle Eastern,1
+2016-06,12071,"Lee, FL",National,0
+2016-06,12071,"Lee, FL",Mediterranean,2
+2016-06,12071,"Lee, FL",American,56
+2016-06,20173,"Sedgwick, KS",Middle Eastern,2
+2016-06,20173,"Sedgwick, KS",National,0
+2016-06,20173,"Sedgwick, KS",Mediterranean,5
+2016-06,20173,"Sedgwick, KS",American,17
+2016-06,26099,"Macomb, MI",Middle Eastern,7
+2016-06,26099,"Macomb, MI",National,7
+2016-06,26099,"Macomb, MI",Mediterranean,9
+2016-06,26099,"Macomb, MI",American,79
+2016-06,34025,"Monmouth, NJ",Middle Eastern,0
+2016-06,34025,"Monmouth, NJ",National,2
+2016-06,34025,"Monmouth, NJ",Mediterranean,1
+2016-06,34025,"Monmouth, NJ",American,44
+2016-06,48085,"Collin, TX",Middle Eastern,1
+2016-06,48085,"Collin, TX",National,1
+2016-06,48085,"Collin, TX",Mediterranean,14
+2016-06,48085,"Collin, TX",American,35
+2016-07,08041,"El Paso, CO",Middle Eastern,4
+2016-07,08041,"El Paso, CO",National,1
+2016-07,08041,"El Paso, CO",Mediterranean,4
+2016-07,08041,"El Paso, CO",American,42
+2016-07,12009,"Brevard, FL",Middle Eastern,0
+2016-07,12009,"Brevard, FL",National,1
+2016-07,12009,"Brevard, FL",Mediterranean,4
+2016-07,12009,"Brevard, FL",American,45
+2016-07,12071,"Lee, FL",Middle Eastern,1
+2016-07,12071,"Lee, FL",National,0
+2016-07,12071,"Lee, FL",Mediterranean,2
+2016-07,12071,"Lee, FL",American,67
+2016-07,20173,"Sedgwick, KS",Middle Eastern,1
+2016-07,20173,"Sedgwick, KS",National,1
+2016-07,20173,"Sedgwick, KS",Mediterranean,5
+2016-07,20173,"Sedgwick, KS",American,18
+2016-07,26099,"Macomb, MI",Middle Eastern,11
+2016-07,26099,"Macomb, MI",National,7
+2016-07,26099,"Macomb, MI",Mediterranean,12
+2016-07,26099,"Macomb, MI",American,91
+2016-07,34025,"Monmouth, NJ",Middle Eastern,0
+2016-07,34025,"Monmouth, NJ",National,2
+2016-07,34025,"Monmouth, NJ",Mediterranean,5
+2016-07,34025,"Monmouth, NJ",American,53
+2016-07,48085,"Collin, TX",Middle Eastern,1
+2016-07,48085,"Collin, TX",National,2
+2016-07,48085,"Collin, TX",Mediterranean,12
+2016-07,48085,"Collin, TX",American,32
+2016-08,08041,"El Paso, CO",Middle Eastern,4
+2016-08,08041,"El Paso, CO",National,1
+2016-08,08041,"El Paso, CO",Mediterranean,3
+2016-08,08041,"El Paso, CO",American,40
+2016-08,12009,"Brevard, FL",Middle Eastern,0
+2016-08,12009,"Brevard, FL",National,1
+2016-08,12009,"Brevard, FL",Mediterranean,6
+2016-08,12009,"Brevard, FL",American,44
+2016-08,12071,"Lee, FL",Middle Eastern,1
+2016-08,12071,"Lee, FL",National,0
+2016-08,12071,"Lee, FL",Mediterranean,3
+2016-08,12071,"Lee, FL",American,60
+2016-08,20173,"Sedgwick, KS",Middle Eastern,2
+2016-08,20173,"Sedgwick, KS",National,1
+2016-08,20173,"Sedgwick, KS",Mediterranean,7
+2016-08,20173,"Sedgwick, KS",American,19
+2016-08,26099,"Macomb, MI",Middle Eastern,16
+2016-08,26099,"Macomb, MI",National,7
+2016-08,26099,"Macomb, MI",Mediterranean,13
+2016-08,26099,"Macomb, MI",American,99
+2016-08,34025,"Monmouth, NJ",Middle Eastern,0
+2016-08,34025,"Monmouth, NJ",National,2
+2016-08,34025,"Monmouth, NJ",Mediterranean,5
+2016-08,34025,"Monmouth, NJ",American,55
+2016-08,48085,"Collin, TX",Middle Eastern,1
+2016-08,48085,"Collin, TX",National,2
+2016-08,48085,"Collin, TX",Mediterranean,13
+2016-08,48085,"Collin, TX",American,38
+2016-09,08041,"El Paso, CO",Middle Eastern,4
+2016-09,08041,"El Paso, CO",National,1
+2016-09,08041,"El Paso, CO",Mediterranean,3
+2016-09,08041,"El Paso, CO",American,40
+2016-09,12009,"Brevard, FL",Middle Eastern,1
+2016-09,12009,"Brevard, FL",National,1
+2016-09,12009,"Brevard, FL",Mediterranean,6
+2016-09,12009,"Brevard, FL",American,42
+2016-09,12071,"Lee, FL",Middle Eastern,1
+2016-09,12071,"Lee, FL",National,0
+2016-09,12071,"Lee, FL",Mediterranean,1
+2016-09,12071,"Lee, FL",American,60
+2016-09,20173,"Sedgwick, KS",Middle Eastern,1
+2016-09,20173,"Sedgwick, KS",National,1
+2016-09,20173,"Sedgwick, KS",Mediterranean,7
+2016-09,20173,"Sedgwick, KS",American,19
+2016-09,26099,"Macomb, MI",Middle Eastern,14
+2016-09,26099,"Macomb, MI",National,8
+2016-09,26099,"Macomb, MI",Mediterranean,12
+2016-09,26099,"Macomb, MI",American,91
+2016-09,34025,"Monmouth, NJ",Middle Eastern,0
+2016-09,34025,"Monmouth, NJ",National,1
+2016-09,34025,"Monmouth, NJ",Mediterranean,4
+2016-09,34025,"Monmouth, NJ",American,51
+2016-09,48085,"Collin, TX",Middle Eastern,1
+2016-09,48085,"Collin, TX",National,2
+2016-09,48085,"Collin, TX",Mediterranean,11
+2016-09,48085,"Collin, TX",American,36
+2016-10,08041,"El Paso, CO",Middle Eastern,4
+2016-10,08041,"El Paso, CO",National,0
+2016-10,08041,"El Paso, CO",Mediterranean,3
+2016-10,08041,"El Paso, CO",American,37
+2016-10,12009,"Brevard, FL",Middle Eastern,0
+2016-10,12009,"Brevard, FL",National,1
+2016-10,12009,"Brevard, FL",Mediterranean,3
+2016-10,12009,"Brevard, FL",American,46
+2016-10,12071,"Lee, FL",Middle Eastern,1
+2016-10,12071,"Lee, FL",National,0
+2016-10,12071,"Lee, FL",Mediterranean,3
+2016-10,12071,"Lee, FL",American,58
+2016-10,20173,"Sedgwick, KS",Middle Eastern,2
+2016-10,20173,"Sedgwick, KS",National,1
+2016-10,20173,"Sedgwick, KS",Mediterranean,5
+2016-10,20173,"Sedgwick, KS",American,15
+2016-10,26099,"Macomb, MI",Middle Eastern,12
+2016-10,26099,"Macomb, MI",National,7
+2016-10,26099,"Macomb, MI",Mediterranean,15
+2016-10,26099,"Macomb, MI",American,101
+2016-10,34025,"Monmouth, NJ",Middle Eastern,0
+2016-10,34025,"Monmouth, NJ",National,2
+2016-10,34025,"Monmouth, NJ",Mediterranean,6
+2016-10,34025,"Monmouth, NJ",American,50
+2016-10,48085,"Collin, TX",Middle Eastern,0
+2016-10,48085,"Collin, TX",National,3
+2016-10,48085,"Collin, TX",Mediterranean,12
+2016-10,48085,"Collin, TX",American,37
+2016-11,08041,"El Paso, CO",Middle Eastern,4
+2016-11,08041,"El Paso, CO",National,1
+2016-11,08041,"El Paso, CO",Mediterranean,3
+2016-11,08041,"El Paso, CO",American,34
+2016-11,12009,"Brevard, FL",Middle Eastern,1
+2016-11,12009,"Brevard, FL",National,0
+2016-11,12009,"Brevard, FL",Mediterranean,5
+2016-11,12009,"Brevard, FL",American,51
+2016-11,12071,"Lee, FL",Middle Eastern,1
+2016-11,12071,"Lee, FL",National,0
+2016-11,12071,"Lee, FL",Mediterranean,3
+2016-11,12071,"Lee, FL",American,70
+2016-11,20173,"Sedgwick, KS",Middle Eastern,1
+2016-11,20173,"Sedgwick, KS",National,1
+2016-11,20173,"Sedgwick, KS",Mediterranean,7
+2016-11,20173,"Sedgwick, KS",American,19
+2016-11,26099,"Macomb, MI",Middle Eastern,15
+2016-11,26099,"Macomb, MI",National,9
+2016-11,26099,"Macomb, MI",Mediterranean,15
+2016-11,26099,"Macomb, MI",American,110
+2016-11,34025,"Monmouth, NJ",Middle Eastern,0
+2016-11,34025,"Monmouth, NJ",National,2
+2016-11,34025,"Monmouth, NJ",Mediterranean,3
+2016-11,34025,"Monmouth, NJ",American,58
+2016-11,48085,"Collin, TX",Middle Eastern,1
+2016-11,48085,"Collin, TX",National,2
+2016-11,48085,"Collin, TX",Mediterranean,15
+2016-11,48085,"Collin, TX",American,40
+2016-12,08041,"El Paso, CO",Middle Eastern,5
+2016-12,08041,"El Paso, CO",National,1
+2016-12,08041,"El Paso, CO",Mediterranean,4
+2016-12,08041,"El Paso, CO",American,36
+2016-12,12009,"Brevard, FL",Middle Eastern,1
+2016-12,12009,"Brevard, FL",National,1
+2016-12,12009,"Brevard, FL",Mediterranean,7
+2016-12,12009,"Brevard, FL",American,50
+2016-12,12071,"Lee, FL",Middle Eastern,1
+2016-12,12071,"Lee, FL",National,0
+2016-12,12071,"Lee, FL",Mediterranean,3
+2016-12,12071,"Lee, FL",American,66
+2016-12,20173,"Sedgwick, KS",Middle Eastern,2
+2016-12,20173,"Sedgwick, KS",National,1
+2016-12,20173,"Sedgwick, KS",Mediterranean,7
+2016-12,20173,"Sedgwick, KS",American,23
+2016-12,26099,"Macomb, MI",Middle Eastern,18
+2016-12,26099,"Macomb, MI",National,8
+2016-12,26099,"Macomb, MI",Mediterranean,15
+2016-12,26099,"Macomb, MI",American,111
+2016-12,34025,"Monmouth, NJ",Middle Eastern,0
+2016-12,34025,"Monmouth, NJ",National,2
+2016-12,34025,"Monmouth, NJ",Mediterranean,6
+2016-12,34025,"Monmouth, NJ",American,49
+2016-12,48085,"Collin, TX",Middle Eastern,1
+2016-12,48085,"Collin, TX",National,2
+2016-12,48085,"Collin, TX",Mediterranean,16
+2016-12,48085,"Collin, TX",American,41
+2017-01,08041,"El Paso, CO",Middle Eastern,4
+2017-01,08041,"El Paso, CO",National,1
+2017-01,08041,"El Paso, CO",Mediterranean,3
+2017-01,08041,"El Paso, CO",American,39
+2017-01,12009,"Brevard, FL",Middle Eastern,1
+2017-01,12009,"Brevard, FL",National,1
+2017-01,12009,"Brevard, FL",Mediterranean,6
+2017-01,12009,"Brevard, FL",American,50
+2017-01,12071,"Lee, FL",Middle Eastern,1
+2017-01,12071,"Lee, FL",National,0
+2017-01,12071,"Lee, FL",Mediterranean,3
+2017-01,12071,"Lee, FL",American,71
+2017-01,20173,"Sedgwick, KS",Middle Eastern,2
+2017-01,20173,"Sedgwick, KS",National,1
+2017-01,20173,"Sedgwick, KS",Mediterranean,7
+2017-01,20173,"Sedgwick, KS",American,20
+2017-01,26099,"Macomb, MI",Middle Eastern,15
+2017-01,26099,"Macomb, MI",National,9
+2017-01,26099,"Macomb, MI",Mediterranean,15
+2017-01,26099,"Macomb, MI",American,111
+2017-01,34025,"Monmouth, NJ",Middle Eastern,0
+2017-01,34025,"Monmouth, NJ",National,2
+2017-01,34025,"Monmouth, NJ",Mediterranean,5
+2017-01,34025,"Monmouth, NJ",American,54
+2017-01,48085,"Collin, TX",Middle Eastern,1
+2017-01,48085,"Collin, TX",National,2
+2017-01,48085,"Collin, TX",Mediterranean,16
+2017-01,48085,"Collin, TX",American,39
+2017-02,08041,"El Paso, CO",Middle Eastern,7
+2017-02,08041,"El Paso, CO",National,1
+2017-02,08041,"El Paso, CO",Mediterranean,4
+2017-02,08041,"El Paso, CO",American,41
+2017-02,12009,"Brevard, FL",Middle Eastern,1
+2017-02,12009,"Brevard, FL",National,1
+2017-02,12009,"Brevard, FL",Mediterranean,8
+2017-02,12009,"Brevard, FL",American,50
+2017-02,12071,"Lee, FL",Middle Eastern,1
+2017-02,12071,"Lee, FL",National,0
+2017-02,12071,"Lee, FL",Mediterranean,3
+2017-02,12071,"Lee, FL",American,75
+2017-02,20173,"Sedgwick, KS",Middle Eastern,2
+2017-02,20173,"Sedgwick, KS",National,1
+2017-02,20173,"Sedgwick, KS",Mediterranean,8
+2017-02,20173,"Sedgwick, KS",American,20
+2017-02,26099,"Macomb, MI",Middle Eastern,18
+2017-02,26099,"Macomb, MI",National,10
+2017-02,26099,"Macomb, MI",Mediterranean,14
+2017-02,26099,"Macomb, MI",American,112
+2017-02,34025,"Monmouth, NJ",Middle Eastern,0
+2017-02,34025,"Monmouth, NJ",National,2
+2017-02,34025,"Monmouth, NJ",Mediterranean,6
+2017-02,34025,"Monmouth, NJ",American,60
+2017-02,48085,"Collin, TX",Middle Eastern,1
+2017-02,48085,"Collin, TX",National,3
+2017-02,48085,"Collin, TX",Mediterranean,14
+2017-02,48085,"Collin, TX",American,41
+2017-03,08041,"El Paso, CO",Middle Eastern,6
+2017-03,08041,"El Paso, CO",National,1
+2017-03,08041,"El Paso, CO",Mediterranean,4
+2017-03,08041,"El Paso, CO",American,40
+2017-03,12009,"Brevard, FL",Middle Eastern,1
+2017-03,12009,"Brevard, FL",National,1
+2017-03,12009,"Brevard, FL",Mediterranean,8
+2017-03,12009,"Brevard, FL",American,46
+2017-03,12071,"Lee, FL",Middle Eastern,1
+2017-03,12071,"Lee, FL",National,0
+2017-03,12071,"Lee, FL",Mediterranean,2
+2017-03,12071,"Lee, FL",American,74
+2017-03,20173,"Sedgwick, KS",Middle Eastern,2
+2017-03,20173,"Sedgwick, KS",National,1
+2017-03,20173,"Sedgwick, KS",Mediterranean,7
+2017-03,20173,"Sedgwick, KS",American,22
+2017-03,26099,"Macomb, MI",Middle Eastern,17
+2017-03,26099,"Macomb, MI",National,10
+2017-03,26099,"Macomb, MI",Mediterranean,18
+2017-03,26099,"Macomb, MI",American,109
+2017-03,34025,"Monmouth, NJ",Middle Eastern,0
+2017-03,34025,"Monmouth, NJ",National,3
+2017-03,34025,"Monmouth, NJ",Mediterranean,9
+2017-03,34025,"Monmouth, NJ",American,58
+2017-03,48085,"Collin, TX",Middle Eastern,1
+2017-03,48085,"Collin, TX",National,3
+2017-03,48085,"Collin, TX",Mediterranean,15
+2017-03,48085,"Collin, TX",American,44
+2017-04,08041,"El Paso, CO",Middle Eastern,6
+2017-04,08041,"El Paso, CO",National,1
+2017-04,08041,"El Paso, CO",Mediterranean,3
+2017-04,08041,"El Paso, CO",American,43
+2017-04,12009,"Brevard, FL",Middle Eastern,0
+2017-04,12009,"Brevard, FL",National,1
+2017-04,12009,"Brevard, FL",Mediterranean,7
+2017-04,12009,"Brevard, FL",American,52
+2017-04,12071,"Lee, FL",Middle Eastern,1
+2017-04,12071,"Lee, FL",National,0
+2017-04,12071,"Lee, FL",Mediterranean,3
+2017-04,12071,"Lee, FL",American,73
+2017-04,20173,"Sedgwick, KS",Middle Eastern,1
+2017-04,20173,"Sedgwick, KS",National,1
+2017-04,20173,"Sedgwick, KS",Mediterranean,6
+2017-04,20173,"Sedgwick, KS",American,22
+2017-04,26099,"Macomb, MI",Middle Eastern,17
+2017-04,26099,"Macomb, MI",National,9
+2017-04,26099,"Macomb, MI",Mediterranean,17
+2017-04,26099,"Macomb, MI",American,114
+2017-04,34025,"Monmouth, NJ",Middle Eastern,0
+2017-04,34025,"Monmouth, NJ",National,3
+2017-04,34025,"Monmouth, NJ",Mediterranean,8
+2017-04,34025,"Monmouth, NJ",American,59
+2017-04,48085,"Collin, TX",Middle Eastern,1
+2017-04,48085,"Collin, TX",National,3
+2017-04,48085,"Collin, TX",Mediterranean,14
+2017-04,48085,"Collin, TX",American,43

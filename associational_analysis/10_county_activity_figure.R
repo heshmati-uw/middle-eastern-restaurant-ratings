@@ -1,0 +1,21 @@
+args<-commandArgs(FALSE);root<-dirname(normalizePath(sub('^--file=','',args[grepl('^--file=',args)])))
+out<-file.path(root,'outputs');d<-read.csv(file.path(out,'seven_county_monthly_counts.csv'));d$date<-as.Date(paste0(d$month,'-15'))
+labs<-c('Middle Eastern','National','Mediterranean','American');colors<-c('#B75A2A','#6B52A3','#007F86','#527896')
+draw<-function(){par(mfrow=c(2,1),mar=c(3,5,3,1),oma=c(6,0,4,0),family='sans')
+ for(panel in 1:2){groups<-if(panel==1)1:4 else 1:3;z<-d[d$label%in%labs[groups],];yr<-c(0,max(z$restaurants)*1.27)
+ plot(range(as.Date(c('2015-12-01','2017-04-30'))),yr,type='n',xlab='',ylab='Restaurants with at least one review',axes=FALSE)
+ axis(2,las=1);axis.Date(1,at=sort(unique(d$date)),format='%b\n%Y',cex.axis=.8);abline(h=axTicks(2),col='gray92')
+ abline(v=as.Date('2017-01-24'),lty=3,col='gray35');abline(v=as.Date('2017-01-27'),lty=2,col='gray35')
+ for(i in groups){s<-d[d$label==labs[i],];lines(s$date,s$restaurants,type='o',pch=16,cex=.65,lwd=2,col=colors[i])}
+ legend('topleft',legend=c('Literal Middle Eastern','National labels','Mediterranean','American')[groups],col=colors[groups],lty=1,pch=16,ncol=length(groups),bty='n',cex=.85)
+ title(if(panel==1)'All four positioning categories' else 'Closer view of Middle Eastern, national and Mediterranean categories',adj=0,cex.main=1)
+ }
+ mtext('Monthly restaurant review activity in seven Trump-majority counties',3,outer=TRUE,line=2.3,font=2,cex=1.2)
+ mtext('All available restaurants in four primary-label categories; no culinary requirement or matching',3,outer=TRUE,line=.7,cex=.9)
+ mtext('Vertical markers: January 24 coverage (dotted); January 27 implementation (dashed).',1,outer=TRUE,line=1,cex=.85)
+ mtext('Counted once per month; no requirement for reviews in both periods. January mixes pre- and post-ban days.',1,outer=TRUE,line=2.3,cex=.85)
+ mtext('El Paso (CO), Brevard and Lee (FL), Sedgwick (KS), Macomb (MI), Monmouth (NJ), Collin (TX).',1,outer=TRUE,line=3.6,cex=.85)
+ mtext('Counts measure recorded review activity, not the number of operating restaurants.',1,outer=TRUE,line=4.9,cex=.85)
+}
+png(file.path(out,'seven_county_monthly_activity.png'),width=1900,height=1400,res=150);draw();dev.off()
+pdf(file.path(out,'seven_county_monthly_activity.pdf'),width=1900/150,height=1400/150);draw();dev.off()

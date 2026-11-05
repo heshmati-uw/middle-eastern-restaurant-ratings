@@ -1,0 +1,227 @@
+{
+  "start": "2015-12-01",
+  "end_inclusive": "2017-04-30",
+  "timezone": "UTC",
+  "county_fips": [
+    "08041",
+    "12009",
+    "12071",
+    "20173",
+    "26099",
+    "34025",
+    "48085"
+  ],
+  "metadata_restaurants": 766,
+  "restaurants_with_activity": 600,
+  "raw_files": [
+    {
+      "file": "review-Colorado.json.gz",
+      "raw_rows": 15681222
+    },
+    {
+      "file": "review-Arizona.json.gz",
+      "raw_rows": 18375050
+    },
+    {
+      "file": "review-Michigan.json.gz",
+      "raw_rows": 20776155
+    },
+    {
+      "file": "review-Pennsylvania.json.gz",
+      "raw_rows": 21944802
+    },
+    {
+      "file": "review-North_Carolina.json.gz",
+      "raw_rows": 22299136
+    },
+    {
+      "file": "review-Ohio.json.gz",
+      "raw_rows": 23039365
+    },
+    {
+      "file": "review-Illinois.json.gz",
+      "raw_rows": 23096838
+    },
+    {
+      "file": "review-Georgia.json.gz",
+      "raw_rows": 24060125
+    },
+    {
+      "file": "review-South_Carolina.json.gz",
+      "raw_rows": 11995482
+    },
+    {
+      "file": "review-Indiana.json.gz",
+      "raw_rows": 12865167
+    },
+    {
+      "file": "review-Oregon.json.gz",
+      "raw_rows": 11012170
+    },
+    {
+      "file": "review-Missouri.json.gz",
+      "raw_rows": 13416511
+    },
+    {
+      "file": "review-New_York.json.gz",
+      "raw_rows": 33459761
+    },
+    {
+      "file": "review-New_Jersey.json.gz",
+      "raw_rows": 15720266
+    },
+    {
+      "file": "review-Washington.json.gz",
+      "raw_rows": 16541734
+    },
+    {
+      "file": "review-Virginia.json.gz",
+      "raw_rows": 15957938
+    },
+    {
+      "file": "review-Tennessee.json.gz",
+      "raw_rows": 15951213
+    },
+    {
+      "file": "review-Utah.json.gz",
+      "raw_rows": 9081167
+    },
+    {
+      "file": "review-Wisconsin.json.gz",
+      "raw_rows": 10246685
+    },
+    {
+      "file": "review-Massachusetts.json.gz",
+      "raw_rows": 10447007
+    },
+    {
+      "file": "review-Maryland.json.gz",
+      "raw_rows": 10728483
+    },
+    {
+      "file": "review-Oklahoma.json.gz",
+      "raw_rows": 8482820
+    },
+    {
+      "file": "review-Kentucky.json.gz",
+      "raw_rows": 7654993
+    },
+    {
+      "file": "review-Alabama.json.gz",
+      "raw_rows": 8967499
+    },
+    {
+      "file": "review-Nevada.json.gz",
+      "raw_rows": 8833403
+    },
+    {
+      "file": "review-Minnesota.json.gz",
+      "raw_rows": 9520258
+    },
+    {
+      "file": "review-Hawaii.json.gz",
+      "raw_rows": 3111531
+    },
+    {
+      "file": "review-Connecticut.json.gz",
+      "raw_rows": 5181800
+    },
+    {
+      "file": "review-Idaho.json.gz",
+      "raw_rows": 3892636
+    },
+    {
+      "file": "review-Iowa.json.gz",
+      "raw_rows": 4838887
+    },
+    {
+      "file": "review-New_Mexico.json.gz",
+      "raw_rows": 4705389
+    },
+    {
+      "file": "review-Mississippi.json.gz",
+      "raw_rows": 3861771
+    },
+    {
+      "file": "review-Arkansas.json.gz",
+      "raw_rows": 5106056
+    },
+    {
+      "file": "review-Kansas.json.gz",
+      "raw_rows": 5546880
+    },
+    {
+      "file": "review-Louisiana.json.gz",
+      "raw_rows": 7536078
+    },
+    {
+      "file": "review-District_of_Columbia.json.gz",
+      "raw_rows": 1894317
+    },
+    {
+      "file": "review-Montana.json.gz",
+      "raw_rows": 1933939
+    },
+    {
+      "file": "review-Rhode_Island.json.gz",
+      "raw_rows": 1777094
+    },
+    {
+      "file": "review-West_Virginia.json.gz",
+      "raw_rows": 2208199
+    },
+    {
+      "file": "review-Maine.json.gz",
+      "raw_rows": 2214773
+    },
+    {
+      "file": "review-Delaware.json.gz",
+      "raw_rows": 1885948
+    },
+    {
+      "file": "review-New_Hampshire.json.gz",
+      "raw_rows": 2648081
+    },
+    {
+      "file": "review-other.json.gz",
+      "raw_rows": 162952
+    },
+    {
+      "file": "review-Nebraska.json.gz",
+      "raw_rows": 3286810
+    },
+    {
+      "file": "review-South_Dakota.json.gz",
+      "raw_rows": 1452599
+    },
+    {
+      "file": "review-Vermont.json.gz",
+      "raw_rows": 852203
+    },
+    {
+      "file": "review-Wyoming.json.gz",
+      "raw_rows": 1141421
+    },
+    {
+      "file": "review-Alaska.json.gz",
+      "raw_rows": 1051246
+    },
+    {
+      "file": "review-North_Dakota.json.gz",
+      "raw_rows": 1109558
+    },
+    {
+      "file": "review-Florida.json.gz",
+      "raw_rows": 61803524
+    },
+    {
+      "file": "review-Texas.json.gz",
+      "raw_rows": 66435184
+    },
+    {
+      "file": "review-California.json.gz",
+      "raw_rows": 70529977
+    }
+  ],
+  "definition": "At least one valid-star review per restaurant-day; duplicates do not affect activity."
+}

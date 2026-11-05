@@ -1,0 +1,33 @@
+county_fips,county,label,before,after,both,either,before_only,after_only
+08041,"El Paso, CO",Middle Eastern,5,5,4,6,1,1
+08041,"El Paso, CO",National,1,1,1,1,0,0
+08041,"El Paso, CO",Mediterranean,4,4,4,4,0,0
+08041,"El Paso, CO",American,40,39,36,43,4,3
+12009,"Brevard, FL",Middle Eastern,0,1,0,1,0,1
+12009,"Brevard, FL",National,1,1,1,1,0,0
+12009,"Brevard, FL",Mediterranean,6,8,6,8,0,2
+12009,"Brevard, FL",American,52,50,50,52,2,0
+12071,"Lee, FL",Middle Eastern,1,1,1,1,0,0
+12071,"Lee, FL",National,0,0,0,0,0,0
+12071,"Lee, FL",Mediterranean,2,2,0,4,2,2
+12071,"Lee, FL",American,70,74,66,78,4,8
+20173,"Sedgwick, KS",Middle Eastern,2,2,2,2,0,0
+20173,"Sedgwick, KS",National,1,1,1,1,0,0
+20173,"Sedgwick, KS",Mediterranean,6,8,5,9,1,3
+20173,"Sedgwick, KS",American,21,19,18,22,3,1
+26099,"Macomb, MI",Middle Eastern,15,19,15,19,0,4
+26099,"Macomb, MI",National,7,10,7,10,0,3
+26099,"Macomb, MI",Mediterranean,15,14,13,16,2,1
+26099,"Macomb, MI",American,112,114,106,120,6,8
+34025,"Monmouth, NJ",Middle Eastern,0,0,0,0,0,0
+34025,"Monmouth, NJ",National,2,2,2,2,0,0
+34025,"Monmouth, NJ",Mediterranean,6,6,4,8,2,2
+34025,"Monmouth, NJ",American,53,61,46,68,7,15
+48085,"Collin, TX",Middle Eastern,1,1,1,1,0,0
+48085,"Collin, TX",National,2,3,2,3,0,1
+48085,"Collin, TX",Mediterranean,16,14,14,16,2,0
+48085,"Collin, TX",American,35,41,33,43,2,8
+ALL,All seven counties,Middle Eastern,24,29,23,30,1,6
+ALL,All seven counties,National,14,18,14,18,0,4
+ALL,All seven counties,Mediterranean,55,56,46,65,9,10
+ALL,All seven counties,American,383,398,355,426,28,43
