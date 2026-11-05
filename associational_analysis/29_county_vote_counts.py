@@ -1,8 +1,9 @@
 """Identical category rules applied to all available counties in both vote groups."""
 from pathlib import Path
 from collections import defaultdict
-import csv,json
+import csv,json,argparse
 ROOT=Path(__file__).resolve().parent;P=ROOT/'private';O=ROOT/'outputs'
+parser=argparse.ArgumentParser();parser.add_argument('--start-month',default='2015-12');parser.add_argument('--activity-suffix',default='');parser.add_argument('--output-prefix',default='county_vote');args=parser.parse_args()
 def read(path):
  with path.open(newline='') as f:return list(csv.DictReader(f))
 def save(path,rows):
@@ -12,10 +13,10 @@ registry=json.loads((ROOT/'dictionaries/country_food_registry_v1.json').read_tex
 national={'Afghani restaurant':'Afghanistan','Armenian restaurant':'Armenia','Egyptian restaurant':'Egypt','Lebanese restaurant':'Lebanon','Moroccan restaurant':'Morocco','Persian restaurant':'Iran','Syrian restaurant':'Syria','Yemenite restaurant':'Yemen'}
 ban={'Iran','Iraq','Syria','Yemen','Libya','Somalia','Sudan'}
 groups=['ME','Other ME','WPME','Medit','Excluded other national tags']
-months=[f'{y}-{m:02d}' for y in [2015,2016,2017] for m in range(1,13) if '2015-12'<=f'{y}-{m:02d}'<='2017-04']
+months=[f'{y}-{m:02d}' for y in [2015,2016,2017] for m in range(1,13) if args.start_month<=f'{y}-{m:02d}'<='2017-04']
 assign=[];monthly=[];totals=[];coverage=[];ids_by_vote={};counties_by_vote={};source_audits=[]
 for vote,prefix in [('Trump-majority','all_trump'),('Other counties','all_nontrump')]:
- rows=read(P/f'{prefix}_food_activity.csv');ids_by_vote[vote]={r['gmap_id'] for r in rows};counties_by_vote[vote]={r['county_fips'] for r in rows}
+ rows=read(P/f'{prefix}_food_activity{args.activity_suffix}.csv');ids_by_vote[vote]={r['gmap_id'] for r in rows};counties_by_vote[vote]={r['county_fips'] for r in rows}
  audit=json.loads((O/f'{prefix}_raw_audit.json').read_text());source_audits.append(audit)
  for version,countries in [('Broad',set(registry['countries'])),('Ban countries',ban)]:
   eligible={e['dish_id'] for e in registry['entries'] if countries.intersection(e['countries'])}
@@ -42,10 +43,10 @@ for field in ['dictionary_sha256','metadata_sha256']:assert source_audits[0][fie
 assert {r['file']:r['rows'] for r in source_audits[0]['raw_files']}=={r['file']:r['rows'] for r in source_audits[1]['raw_files']}
 old={(r['version'],r['month'],r['group']):int(r['restaurants']) for r in read(O/'all_trump_monthly.csv')}
 for r in monthly:
- if r['vote_group']=='Trump-majority':assert r['restaurants']==old[r['version'],r['month'],r['group']]
+ if r['vote_group']=='Trump-majority' and r['month']>='2015-12':assert r['restaurants']==old[r['version'],r['month'],r['group']]
 old_assign={(r['version'],r['gmap_id']):r['group'] for r in read(P/'all_trump_assignments.csv')}
 for r in assign:
  if r['vote_group']=='Trump-majority':assert r['group']==old_assign[r['version'],r['gmap_id']]
-save(P/'county_vote_assignments.csv',assign);save(O/'county_vote_monthly.csv',monthly);save(O/'county_vote_totals.csv',totals);save(O/'county_vote_coverage.csv',coverage)
-(O/'county_vote_validation.json').write_text(json.dumps(dict(trump_counts_and_assignments_unchanged=True,vote_groups_disjoint=True,monthly_partition_verified=True,dictionary_identical=True,metadata_universe_identical=True,vote_definition='Trump-majority >0.5; other <=0.5; linked 2016 vote share',counts_not_rates=True),indent=2)+'\n')
+save(P/f'{args.output_prefix}_assignments.csv',assign);save(O/f'{args.output_prefix}_monthly.csv',monthly);save(O/f'{args.output_prefix}_totals.csv',totals);save(O/f'{args.output_prefix}_coverage.csv',coverage)
+(O/f'{args.output_prefix}_validation.json').write_text(json.dumps(dict(trump_counts_and_assignments_unchanged=True,vote_groups_disjoint=True,monthly_partition_verified=True,dictionary_identical=True,metadata_universe_identical=True,vote_definition='Trump-majority >0.5; other <=0.5; linked 2016 vote share',counts_not_rates=True),indent=2)+'\n')
 print(json.dumps(coverage,indent=2));print(json.dumps(totals,indent=2))

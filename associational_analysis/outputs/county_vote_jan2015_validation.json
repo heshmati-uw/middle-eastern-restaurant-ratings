@@ -1,0 +1,9 @@
+{
+  "trump_counts_and_assignments_unchanged": true,
+  "vote_groups_disjoint": true,
+  "monthly_partition_verified": true,
+  "dictionary_identical": true,
+  "metadata_universe_identical": true,
+  "vote_definition": "Trump-majority >0.5; other <=0.5; linked 2016 vote share",
+  "counts_not_rates": true
+}

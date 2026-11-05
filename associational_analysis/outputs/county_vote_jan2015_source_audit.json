@@ -1,0 +1,27 @@
+{
+  "start": "2015-01-01",
+  "end_inclusive": "2017-04-30",
+  "raw_files_verified_unchanged": 52,
+  "cache": "dedup.sqlite built from all 52 raw sources; full pre-Nov8 history, not outcome-only",
+  "cache_rows": 1595419,
+  "source_manifest_sha256": "bd545a2a9fd16e3d82dd84b3e8d3760876e9d4d40f1147900eace41b1f45606f",
+  "overlap_months_verified": [
+    "2015-12",
+    "2016-01",
+    "2016-02",
+    "2016-03",
+    "2016-04",
+    "2016-05",
+    "2016-06",
+    "2016-07",
+    "2016-08",
+    "2016-09",
+    "2016-10"
+  ],
+  "original_months_preserved": true,
+  "food_and_label_assignments_unchanged": true,
+  "earliest_recorded_utc": "1990-12-31T00:00:00+00:00",
+  "earliest_year_reviews": 21,
+  "earliest_year_restaurants": 18,
+  "early_timestamp_caution": "The 1990-12-31 cluster is suspicious; no claim that review collection began then. Counts are recorded dates, not verified dates of collection."
+}
