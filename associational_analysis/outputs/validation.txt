@@ -1,0 +1,4 @@
+Raw outcome sample: 34234 restaurants
+County-FE support: 24706 restaurants in 526 counties
+Price missing: 4790
+Absorbed coefficients and clustered covariance agree with explicit dummy OLS on 20 counties to 1e-8.

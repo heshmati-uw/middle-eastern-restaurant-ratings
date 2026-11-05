@@ -1,0 +1,18 @@
+{
+  "outcome_start": "2016-11-14",
+  "outcome_end_inclusive": "2017-04-09",
+  "history_end_exclusive": "2016-11-08",
+  "time_zone": "UTC",
+  "geography_sha256": "947ae8e7295f23c7b20253992e61b80087c60fe002663ff9a67e270cca0346ea",
+  "raw_label_eligible": 45335,
+  "with_geography_nonconflicting": 45151,
+  "metadata_conflicts_excluded": 0,
+  "deduplicated_selected_reviews": 1595419,
+  "outcome_restaurants": 34234,
+  "metadata_assumption": "Primary category and price are snapshot attributes, not historical measurements. Geography/vote are frozen linked inputs.",
+  "dedup_key": "SHA256 of JSON [gmap_id,user_id,time,rating,text]; repeated identical records count once across all state files.",
+  "raw_metadata_files": 52,
+  "raw_review_files": 52,
+  "raw_review_rows_scanned": 666324103,
+  "selected_rows_before_dedup": 1626521
+}
