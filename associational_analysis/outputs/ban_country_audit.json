@@ -1,0 +1,16 @@
+{
+  "countries": [
+    "Iran",
+    "Iraq",
+    "Libya",
+    "Somalia",
+    "Sudan",
+    "Syria",
+    "Yemen"
+  ],
+  "qualifying_entries": 88,
+  "other_national_tags": "exclude",
+  "monthly_partition_including_exclusions_verified": true,
+  "review_active_restaurants": 124,
+  "evidence_window": "Any available valid-star positive-timestamp review; retrospective, not rolling"
+}

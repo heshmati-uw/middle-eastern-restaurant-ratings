@@ -1,0 +1,35 @@
+version,month,plotted_restaurants,plotted_counties,excluded_restaurants
+Broad,2015-12,301,127,0
+Broad,2016-01,290,129,0
+Broad,2016-02,309,129,0
+Broad,2016-03,359,150,0
+Broad,2016-04,378,151,0
+Broad,2016-05,393,160,0
+Broad,2016-06,417,158,0
+Broad,2016-07,489,183,0
+Broad,2016-08,511,178,0
+Broad,2016-09,491,175,0
+Broad,2016-10,501,181,0
+Broad,2016-11,542,183,0
+Broad,2016-12,549,175,0
+Broad,2017-01,571,190,0
+Broad,2017-02,620,200,0
+Broad,2017-03,613,201,0
+Broad,2017-04,610,203,0
+Ban countries,2015-12,277,126,24
+Ban countries,2016-01,264,122,26
+Ban countries,2016-02,288,126,21
+Ban countries,2016-03,331,146,28
+Ban countries,2016-04,344,144,34
+Ban countries,2016-05,354,150,39
+Ban countries,2016-06,385,153,32
+Ban countries,2016-07,447,174,42
+Ban countries,2016-08,467,172,44
+Ban countries,2016-09,453,168,38
+Ban countries,2016-10,466,176,35
+Ban countries,2016-11,498,175,44
+Ban countries,2016-12,508,168,41
+Ban countries,2017-01,527,182,44
+Ban countries,2017-02,568,192,52
+Ban countries,2017-03,564,192,49
+Ban countries,2017-04,564,196,46

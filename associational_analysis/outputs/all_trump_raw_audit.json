@@ -1,0 +1,375 @@
+{
+  "metadata_restaurants": 1062,
+  "metadata_counties": 277,
+  "active_restaurants": 741,
+  "active_counties": 225,
+  "dictionary_sha256": "2cf8ba5a5312b90b9d32e216d577178ba2ff0546c2d54de24edec7ef4476e255",
+  "metadata_sha256": "e7e03203acf6ab852efaa62524ec48ade55809dd070fe6502ed8b237ff7161ae",
+  "raw_files": [
+    {
+      "file": "review-Colorado.json.gz",
+      "rows": 15681222,
+      "selected_valid_records": 7161,
+      "text_min_time": 1278524839384,
+      "text_max_time": 1620964832862
+    },
+    {
+      "file": "review-Illinois.json.gz",
+      "rows": 23096838,
+      "selected_valid_records": 377,
+      "text_min_time": 1266549965052,
+      "text_max_time": 1621726109342
+    },
+    {
+      "file": "review-Arizona.json.gz",
+      "rows": 18375050,
+      "selected_valid_records": 1060,
+      "text_min_time": 1422576592639,
+      "text_max_time": 1622100188595
+    },
+    {
+      "file": "review-Ohio.json.gz",
+      "rows": 23039365,
+      "selected_valid_records": 14954,
+      "text_min_time": 1228486938642,
+      "text_max_time": 1629151034782
+    },
+    {
+      "file": "review-North_Carolina.json.gz",
+      "rows": 22299136,
+      "selected_valid_records": 5674,
+      "text_min_time": 1297005250744,
+      "text_max_time": 1622424446217
+    },
+    {
+      "file": "review-Pennsylvania.json.gz",
+      "rows": 21944802,
+      "selected_valid_records": 5273,
+      "text_min_time": 1291314917731,
+      "text_max_time": 1624751381044
+    },
+    {
+      "file": "review-Michigan.json.gz",
+      "rows": 20776155,
+      "selected_valid_records": 31046,
+      "text_min_time": 1244661444264,
+      "text_max_time": 1628952445574
+    },
+    {
+      "file": "review-Georgia.json.gz",
+      "rows": 24060125,
+      "selected_valid_records": 10701,
+      "text_min_time": 1231560103492,
+      "text_max_time": 1623524250219
+    },
+    {
+      "file": "review-Virginia.json.gz",
+      "rows": 15957938,
+      "selected_valid_records": 3249,
+      "text_min_time": 1220728814253,
+      "text_max_time": 1628962851634
+    },
+    {
+      "file": "review-Indiana.json.gz",
+      "rows": 12865167,
+      "selected_valid_records": 4080,
+      "text_min_time": 1282699127723,
+      "text_max_time": 1627776347832
+    },
+    {
+      "file": "review-Missouri.json.gz",
+      "rows": 13416511,
+      "selected_valid_records": 13744,
+      "text_min_time": 1259958845307,
+      "text_max_time": 1622252527782
+    },
+    {
+      "file": "review-Oregon.json.gz",
+      "rows": 11012170,
+      "selected_valid_records": 594,
+      "text_min_time": 1330989234696,
+      "text_max_time": 1620361936273
+    },
+    {
+      "file": "review-Tennessee.json.gz",
+      "rows": 15951213,
+      "selected_valid_records": 15138,
+      "text_min_time": 1300219401137,
+      "text_max_time": 1628549318760
+    },
+    {
+      "file": "review-New_York.json.gz",
+      "rows": 33459761,
+      "selected_valid_records": 12910,
+      "text_min_time": 1256568356166,
+      "text_max_time": 1630195613223
+    },
+    {
+      "file": "review-Washington.json.gz",
+      "rows": 16541734,
+      "selected_valid_records": 1516,
+      "text_min_time": 1327872535689,
+      "text_max_time": 1622526383965
+    },
+    {
+      "file": "review-South_Carolina.json.gz",
+      "rows": 11995482,
+      "selected_valid_records": 13605,
+      "text_min_time": 1265761038075,
+      "text_max_time": 1627575465431
+    },
+    {
+      "file": "review-New_Jersey.json.gz",
+      "rows": 15720266,
+      "selected_valid_records": 6659,
+      "text_min_time": 1283187256980,
+      "text_max_time": 1630281879269
+    },
+    {
+      "file": "review-Maryland.json.gz",
+      "rows": 10728483,
+      "selected_valid_records": 825,
+      "text_min_time": 1289930029450,
+      "text_max_time": 1620866221775
+    },
+    {
+      "file": "review-Utah.json.gz",
+      "rows": 9081167,
+      "selected_valid_records": 2839,
+      "text_min_time": 1384820860807,
+      "text_max_time": 1621300879295
+    },
+    {
+      "file": "review-Massachusetts.json.gz",
+      "rows": 10447007,
+      "selected_valid_records": 0,
+      "text_min_time": null,
+      "text_max_time": null
+    },
+    {
+      "file": "review-Wisconsin.json.gz",
+      "rows": 10246685,
+      "selected_valid_records": 3418,
+      "text_min_time": 1337177954775,
+      "text_max_time": 1622075251214
+    },
+    {
+      "file": "review-Minnesota.json.gz",
+      "rows": 9520258,
+      "selected_valid_records": 3779,
+      "text_min_time": 1315189618066,
+      "text_max_time": 1621315414410
+    },
+    {
+      "file": "review-Nevada.json.gz",
+      "rows": 8833403,
+      "selected_valid_records": 98,
+      "text_min_time": 1525049273189,
+      "text_max_time": 1567790296837
+    },
+    {
+      "file": "review-Kentucky.json.gz",
+      "rows": 7654993,
+      "selected_valid_records": 1278,
+      "text_min_time": 1455311179160,
+      "text_max_time": 1621785249444
+    },
+    {
+      "file": "review-Alabama.json.gz",
+      "rows": 8967499,
+      "selected_valid_records": 12368,
+      "text_min_time": 1255710553036,
+      "text_max_time": 1627238199315
+    },
+    {
+      "file": "review-Oklahoma.json.gz",
+      "rows": 8482820,
+      "selected_valid_records": 20869,
+      "text_min_time": 1257094979855,
+      "text_max_time": 1630029395967
+    },
+    {
+      "file": "review-Connecticut.json.gz",
+      "rows": 5181800,
+      "selected_valid_records": 296,
+      "text_min_time": 1452726628890,
+      "text_max_time": 1621218413477
+    },
+    {
+      "file": "review-New_Mexico.json.gz",
+      "rows": 4705389,
+      "selected_valid_records": 0,
+      "text_min_time": null,
+      "text_max_time": null
+    },
+    {
+      "file": "review-Kansas.json.gz",
+      "rows": 5546880,
+      "selected_valid_records": 6259,
+      "text_min_time": 1297977722827,
+      "text_max_time": 1628616291643
+    },
+    {
+      "file": "review-Louisiana.json.gz",
+      "rows": 7536078,
+      "selected_valid_records": 9719,
+      "text_min_time": 1255433813706,
+      "text_max_time": 1626066800758
+    },
+    {
+      "file": "review-Arkansas.json.gz",
+      "rows": 5106056,
+      "selected_valid_records": 1274,
+      "text_min_time": 1219444106540,
+      "text_max_time": 1618769293492
+    },
+    {
+      "file": "review-Iowa.json.gz",
+      "rows": 4838887,
+      "selected_valid_records": 462,
+      "text_min_time": 1399212837517,
+      "text_max_time": 1623456098449
+    },
+    {
+      "file": "review-District_of_Columbia.json.gz",
+      "rows": 1894317,
+      "selected_valid_records": 0,
+      "text_min_time": null,
+      "text_max_time": null
+    },
+    {
+      "file": "review-Hawaii.json.gz",
+      "rows": 3111531,
+      "selected_valid_records": 0,
+      "text_min_time": null,
+      "text_max_time": null
+    },
+    {
+      "file": "review-Idaho.json.gz",
+      "rows": 3892636,
+      "selected_valid_records": 2304,
+      "text_min_time": 1291957934939,
+      "text_max_time": 1621653293280
+    },
+    {
+      "file": "review-Nebraska.json.gz",
+      "rows": 3286810,
+      "selected_valid_records": 462,
+      "text_min_time": 1445882203842,
+      "text_max_time": 1619656456496
+    },
+    {
+      "file": "review-Maine.json.gz",
+      "rows": 2214773,
+      "selected_valid_records": 34,
+      "text_min_time": 1598645672942,
+      "text_max_time": 1617838542410
+    },
+    {
+      "file": "review-Mississippi.json.gz",
+      "rows": 3861771,
+      "selected_valid_records": 2552,
+      "text_min_time": 1300474076636,
+      "text_max_time": 1622052238939
+    },
+    {
+      "file": "review-Montana.json.gz",
+      "rows": 1933939,
+      "selected_valid_records": 282,
+      "text_min_time": 1380677652089,
+      "text_max_time": 1621087908383
+    },
+    {
+      "file": "review-New_Hampshire.json.gz",
+      "rows": 2648081,
+      "selected_valid_records": 2212,
+      "text_min_time": 1284148421609,
+      "text_max_time": 1621771720134
+    },
+    {
+      "file": "review-other.json.gz",
+      "rows": 162952,
+      "selected_valid_records": 0,
+      "text_min_time": null,
+      "text_max_time": null
+    },
+    {
+      "file": "review-Wyoming.json.gz",
+      "rows": 1141421,
+      "selected_valid_records": 188,
+      "text_min_time": 1566612246585,
+      "text_max_time": 1620700024632
+    },
+    {
+      "file": "review-Alaska.json.gz",
+      "rows": 1051246,
+      "selected_valid_records": 0,
+      "text_min_time": null,
+      "text_max_time": null
+    },
+    {
+      "file": "review-Delaware.json.gz",
+      "rows": 1885948,
+      "selected_valid_records": 624,
+      "text_min_time": 1353897407558,
+      "text_max_time": 1628458074071
+    },
+    {
+      "file": "review-Vermont.json.gz",
+      "rows": 852203,
+      "selected_valid_records": 0,
+      "text_min_time": null,
+      "text_max_time": null
+    },
+    {
+      "file": "review-North_Dakota.json.gz",
+      "rows": 1109558,
+      "selected_valid_records": 0,
+      "text_min_time": null,
+      "text_max_time": null
+    },
+    {
+      "file": "review-South_Dakota.json.gz",
+      "rows": 1452599,
+      "selected_valid_records": 882,
+      "text_min_time": 1297704077215,
+      "text_max_time": 1619295300703
+    },
+    {
+      "file": "review-Rhode_Island.json.gz",
+      "rows": 1777094,
+      "selected_valid_records": 0,
+      "text_min_time": null,
+      "text_max_time": null
+    },
+    {
+      "file": "review-West_Virginia.json.gz",
+      "rows": 2208199,
+      "selected_valid_records": 2997,
+      "text_min_time": 1337013873315,
+      "text_max_time": 1620925211583
+    },
+    {
+      "file": "review-California.json.gz",
+      "rows": 70529977,
+      "selected_valid_records": 6226,
+      "text_min_time": 1313002770969,
+      "text_max_time": 1624932139290
+    },
+    {
+      "file": "review-Florida.json.gz",
+      "rows": 61803524,
+      "selected_valid_records": 28728,
+      "text_min_time": 1238243593212,
+      "text_max_time": 1624735959982
+    },
+    {
+      "file": "review-Texas.json.gz",
+      "rows": 66435184,
+      "selected_valid_records": 55363,
+      "text_min_time": 1208042408018,
+      "text_max_time": 1629993583318
+    }
+  ],
+  "definition": "Trump vote share >0.5; primary ME/national/Mediterranean tags; all months Dec2015-Apr2017; any-date food; no matching or fixed review cohort"
+}

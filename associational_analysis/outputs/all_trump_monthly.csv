@@ -1,0 +1,171 @@
+version,month,group,restaurants,counties
+Broad,2015-12,ME,76,41
+Broad,2016-01,ME,71,46
+Broad,2016-02,ME,77,44
+Broad,2016-03,ME,82,52
+Broad,2016-04,ME,96,58
+Broad,2016-05,ME,97,59
+Broad,2016-06,ME,94,61
+Broad,2016-07,ME,108,62
+Broad,2016-08,ME,123,68
+Broad,2016-09,ME,117,66
+Broad,2016-10,ME,110,65
+Broad,2016-11,ME,126,72
+Broad,2016-12,ME,127,69
+Broad,2017-01,ME,133,75
+Broad,2017-02,ME,149,77
+Broad,2017-03,ME,144,76
+Broad,2017-04,ME,139,77
+Broad,2015-12,Other ME,0,0
+Broad,2016-01,Other ME,1,1
+Broad,2016-02,Other ME,1,1
+Broad,2016-03,Other ME,0,0
+Broad,2016-04,Other ME,1,1
+Broad,2016-05,Other ME,1,1
+Broad,2016-06,Other ME,0,0
+Broad,2016-07,Other ME,1,1
+Broad,2016-08,Other ME,2,2
+Broad,2016-09,Other ME,1,1
+Broad,2016-10,Other ME,1,1
+Broad,2016-11,Other ME,4,4
+Broad,2016-12,Other ME,1,1
+Broad,2017-01,Other ME,1,1
+Broad,2017-02,Other ME,2,1
+Broad,2017-03,Other ME,2,2
+Broad,2017-04,Other ME,1,1
+Broad,2015-12,WPME,193,103
+Broad,2016-01,WPME,194,99
+Broad,2016-02,WPME,207,106
+Broad,2016-03,WPME,238,114
+Broad,2016-04,WPME,241,109
+Broad,2016-05,WPME,261,122
+Broad,2016-06,WPME,282,124
+Broad,2016-07,WPME,327,141
+Broad,2016-08,WPME,334,138
+Broad,2016-09,WPME,325,136
+Broad,2016-10,WPME,336,145
+Broad,2016-11,WPME,359,144
+Broad,2016-12,WPME,370,139
+Broad,2017-01,WPME,381,147
+Broad,2017-02,WPME,404,155
+Broad,2017-03,WPME,406,156
+Broad,2017-04,WPME,410,159
+Broad,2015-12,Medit,32,29
+Broad,2016-01,Medit,24,22
+Broad,2016-02,Medit,24,22
+Broad,2016-03,Medit,39,34
+Broad,2016-04,Medit,40,37
+Broad,2016-05,Medit,34,31
+Broad,2016-06,Medit,41,38
+Broad,2016-07,Medit,53,46
+Broad,2016-08,Medit,52,46
+Broad,2016-09,Medit,48,45
+Broad,2016-10,Medit,54,49
+Broad,2016-11,Medit,53,46
+Broad,2016-12,Medit,51,45
+Broad,2017-01,Medit,56,48
+Broad,2017-02,Medit,65,56
+Broad,2017-03,Medit,61,51
+Broad,2017-04,Medit,60,52
+Broad,2015-12,Excluded other national tags,0,0
+Broad,2016-01,Excluded other national tags,0,0
+Broad,2016-02,Excluded other national tags,0,0
+Broad,2016-03,Excluded other national tags,0,0
+Broad,2016-04,Excluded other national tags,0,0
+Broad,2016-05,Excluded other national tags,0,0
+Broad,2016-06,Excluded other national tags,0,0
+Broad,2016-07,Excluded other national tags,0,0
+Broad,2016-08,Excluded other national tags,0,0
+Broad,2016-09,Excluded other national tags,0,0
+Broad,2016-10,Excluded other national tags,0,0
+Broad,2016-11,Excluded other national tags,0,0
+Broad,2016-12,Excluded other national tags,0,0
+Broad,2017-01,Excluded other national tags,0,0
+Broad,2017-02,Excluded other national tags,0,0
+Broad,2017-03,Excluded other national tags,0,0
+Broad,2017-04,Excluded other national tags,0,0
+Ban countries,2015-12,ME,52,31
+Ban countries,2016-01,ME,45,31
+Ban countries,2016-02,ME,56,34
+Ban countries,2016-03,ME,54,38
+Ban countries,2016-04,ME,62,41
+Ban countries,2016-05,ME,58,36
+Ban countries,2016-06,ME,62,46
+Ban countries,2016-07,ME,66,41
+Ban countries,2016-08,ME,79,47
+Ban countries,2016-09,ME,79,46
+Ban countries,2016-10,ME,75,45
+Ban countries,2016-11,ME,82,51
+Ban countries,2016-12,ME,86,49
+Ban countries,2017-01,ME,89,54
+Ban countries,2017-02,ME,97,54
+Ban countries,2017-03,ME,95,55
+Ban countries,2017-04,ME,93,56
+Ban countries,2015-12,Other ME,0,0
+Ban countries,2016-01,Other ME,1,1
+Ban countries,2016-02,Other ME,1,1
+Ban countries,2016-03,Other ME,0,0
+Ban countries,2016-04,Other ME,1,1
+Ban countries,2016-05,Other ME,1,1
+Ban countries,2016-06,Other ME,0,0
+Ban countries,2016-07,Other ME,1,1
+Ban countries,2016-08,Other ME,2,2
+Ban countries,2016-09,Other ME,1,1
+Ban countries,2016-10,Other ME,1,1
+Ban countries,2016-11,Other ME,4,4
+Ban countries,2016-12,Other ME,1,1
+Ban countries,2017-01,Other ME,1,1
+Ban countries,2017-02,Other ME,2,1
+Ban countries,2017-03,Other ME,2,2
+Ban countries,2017-04,Other ME,1,1
+Ban countries,2015-12,WPME,193,103
+Ban countries,2016-01,WPME,194,99
+Ban countries,2016-02,WPME,207,106
+Ban countries,2016-03,WPME,238,114
+Ban countries,2016-04,WPME,240,108
+Ban countries,2016-05,WPME,261,122
+Ban countries,2016-06,WPME,282,124
+Ban countries,2016-07,WPME,327,141
+Ban countries,2016-08,WPME,333,137
+Ban countries,2016-09,WPME,324,135
+Ban countries,2016-10,WPME,335,144
+Ban countries,2016-11,WPME,358,143
+Ban countries,2016-12,WPME,369,138
+Ban countries,2017-01,WPME,380,146
+Ban countries,2017-02,WPME,403,154
+Ban countries,2017-03,WPME,405,155
+Ban countries,2017-04,WPME,410,159
+Ban countries,2015-12,Medit,32,29
+Ban countries,2016-01,Medit,24,22
+Ban countries,2016-02,Medit,24,22
+Ban countries,2016-03,Medit,39,34
+Ban countries,2016-04,Medit,41,37
+Ban countries,2016-05,Medit,34,31
+Ban countries,2016-06,Medit,41,38
+Ban countries,2016-07,Medit,53,46
+Ban countries,2016-08,Medit,53,46
+Ban countries,2016-09,Medit,49,45
+Ban countries,2016-10,Medit,55,49
+Ban countries,2016-11,Medit,54,46
+Ban countries,2016-12,Medit,52,45
+Ban countries,2017-01,Medit,57,48
+Ban countries,2017-02,Medit,66,56
+Ban countries,2017-03,Medit,62,51
+Ban countries,2017-04,Medit,60,52
+Ban countries,2015-12,Excluded other national tags,24,17
+Ban countries,2016-01,Excluded other national tags,26,21
+Ban countries,2016-02,Excluded other national tags,21,16
+Ban countries,2016-03,Excluded other national tags,28,20
+Ban countries,2016-04,Excluded other national tags,34,24
+Ban countries,2016-05,Excluded other national tags,39,30
+Ban countries,2016-06,Excluded other national tags,32,21
+Ban countries,2016-07,Excluded other national tags,42,30
+Ban countries,2016-08,Excluded other national tags,44,30
+Ban countries,2016-09,Excluded other national tags,38,28
+Ban countries,2016-10,Excluded other national tags,35,27
+Ban countries,2016-11,Excluded other national tags,44,29
+Ban countries,2016-12,Excluded other national tags,41,30
+Ban countries,2017-01,Excluded other national tags,44,31
+Ban countries,2017-02,Excluded other national tags,52,34
+Ban countries,2017-03,Excluded other national tags,49,32
+Ban countries,2017-04,Excluded other national tags,46,31

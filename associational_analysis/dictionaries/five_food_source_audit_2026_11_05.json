@@ -1,0 +1,34 @@
+{
+  "status": "Research audit only; classification dictionary and chart counts not changed",
+  "scope": "Five previously unmapped broader-food entries; documented associations are nonexclusive and not exhaustive",
+  "findings": [
+    {"dish": "kabsa", "links": [
+      {"country": "Saudi Arabia", "evidence": "Saudi culinary reference", "url": "https://saudipedia.com/en/saudi-kabsa"},
+      {"country": "Yemen", "evidence": "Yemeni restaurant menu describes chicken and veal kabsa with Yemeni spices; menu evidence, not exclusive origin", "url": "https://yemenipalace.com/menu"}
+    ], "coding_note": "Split kabsa from machboos before transferring country links; current combined feature cannot distinguish them."},
+    {"dish": "machboos", "links": [
+      {"country": "Qatar", "evidence": "National tourism cuisine page", "url": "https://visitqatar.com/intl-en/about-qatar/cuisine"},
+      {"country": "Bahrain", "evidence": "UN Tourism gastronomy brochure", "url": "https://pre-webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2024-11/un-tourism-follet-gastronomico-barein.pdf"}
+    ], "coding_note": "No seven-country link established for the machboos term in this audit."},
+    {"dish": "manakish", "links": [
+      {"country": "Lebanon", "evidence": "UNESCO inscription of Al-Man'ouche", "url": "https://ich.unesco.org/en/decisions/18.COM/8.B.40"},
+      {"country": "Syria", "evidence": "Local tour operator describes Syrian street food and breakfast practice", "url": "https://syriascopetravel.com/syria-travel-guide/syria-food/syria-street-food/"}
+    ], "coding_note": "Missing links within existing twelve-country registry; shared entry."},
+    {"dish": "mansaf", "links": [
+      {"country": "Jordan", "evidence": "UNESCO heritage inscription", "url": "https://ich.unesco.org/en/RL/al-mansaf-in-jordan-a-festive-banquet-and-its-social-and-cultural-meanings-01849"},
+      {"country": "Syria", "evidence": "Jordan Tourism Board describes regional consumption in South Syria; geographic distribution rather than country-specific recipe", "url": "https://edutravel.visitjordan.com/en/page/79/Food-and-Drinks"},
+      {"country": "Iraq", "evidence": "Jordan Tourism Board describes Syrian Desert regional distribution including Iraq", "url": "https://edutravel.visitjordan.com/en/page/79/Food-and-Drinks"}
+    ], "coding_note": "Strong Jordanian association; retain regional-distribution evidence separately for additional country links."},
+    {"dish": "maqluba", "links": [
+      {"country": "Palestine", "evidence": "Cookbook author Reem Kassis discusses Palestinian family dish", "url": "https://www.cookerybythebook.com/home/2017/11/13/75"},
+      {"country": "Iraq", "evidence": "Nawal Nasrallah's Iraqi cookbook website discusses contemporary layered maqlouba", "url": "https://www.iraqicookbook.com/recipes/stew_and_rice"},
+      {"country": "Jordan", "evidence": "Jordan Tourism Board lists popular Jordanian dishes", "url": "https://edutravel.visitjordan.com/en/page/79/Food-and-Drinks"},
+      {"country": "Yemen", "evidence": "Shrimp maqluba on Yemeni restaurant menu; menu evidence only", "url": "https://yemenipalace.com/menu"}
+    ], "coding_note": "Iraq is a supported missing link within the existing registry; Palestinian association does not preclude shared use."},
+    {"dish": "musakhan", "links": [
+      {"country": "Palestine", "evidence": "Reem Kassis cookbook interview", "url": "https://www.cookerybythebook.com/home/2017/11/13/75"},
+      {"country": "Jordan", "evidence": "Jordan Tourism Board explicitly describes Palestinian origin and popularity in Jordan", "url": "https://edutravel.visitjordan.com/en/page/79/Food-and-Drinks"}
+    ], "adaptation_not_automatic_country_link": {"country": "Syria", "evidence": "Syrian author labels dish Palestinian and her recipe a Syrian-twist adaptation", "url": "https://www.omayahcooks.com/blog/musakhan-rolls"}, "coding_note": "Do not infer a traditional Syrian association merely from the author's identity."}
+  ],
+  "recommendation": "Include all five original entries in broader ME food evidence; expand geographic coverage and preserve source type. Apply only documented links to the seven-country subset; do not propagate kabsa links to all machboos aliases. Current online sources do not validate 2015-2017 restaurant menus."
+}

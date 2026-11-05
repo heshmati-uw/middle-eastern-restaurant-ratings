@@ -1,0 +1,443 @@
+version,county_fips,active_restaurants
+Broad,01003,5
+Broad,01069,1
+Broad,01081,3
+Broad,01089,7
+Broad,01097,4
+Broad,01117,4
+Broad,01125,6
+Broad,04025,2
+Broad,05143,5
+Broad,06017,1
+Broad,06029,11
+Broad,06031,1
+Broad,06039,1
+Broad,06089,1
+Broad,06107,4
+Broad,06115,1
+Broad,08035,1
+Broad,08041,12
+Broad,09005,3
+Broad,10005,2
+Broad,12005,5
+Broad,12009,10
+Broad,12015,1
+Broad,12017,1
+Broad,12021,5
+Broad,12033,4
+Broad,12061,2
+Broad,12069,2
+Broad,12071,5
+Broad,12081,3
+Broad,12083,2
+Broad,12087,6
+Broad,12089,1
+Broad,12091,1
+Broad,12101,5
+Broad,12105,3
+Broad,12109,4
+Broad,12115,7
+Broad,12127,2
+Broad,12131,1
+Broad,13073,2
+Broad,13077,2
+Broad,13113,4
+Broad,13115,2
+Broad,13117,3
+Broad,13127,1
+Broad,13255,2
+Broad,13285,1
+Broad,16055,1
+Broad,17109,1
+Broad,17179,1
+Broad,18003,1
+Broad,18013,1
+Broad,18035,2
+Broad,18057,3
+Broad,18063,1
+Broad,18095,1
+Broad,18163,3
+Broad,18167,1
+Broad,18173,1
+Broad,19043,1
+Broad,19049,1
+Broad,19193,1
+Broad,20037,1
+Broad,20103,1
+Broad,20173,12
+Broad,21015,1
+Broad,21021,1
+Broad,21093,1
+Broad,21117,1
+Broad,21151,1
+Broad,21227,1
+Broad,22005,1
+Broad,22051,14
+Broad,22055,8
+Broad,22063,3
+Broad,22079,1
+Broad,22097,1
+Broad,22103,4
+Broad,22105,1
+Broad,22109,1
+Broad,22121,1
+Broad,24013,1
+Broad,24045,1
+Broad,24047,1
+Broad,26025,1
+Broad,26043,1
+Broad,26047,2
+Broad,26055,1
+Broad,26093,5
+Broad,26099,52
+Broad,26107,1
+Broad,26111,1
+Broad,26115,2
+Broad,26137,1
+Broad,27003,3
+Broad,27145,4
+Broad,28003,1
+Broad,28035,1
+Broad,28047,3
+Broad,28081,1
+Broad,29021,1
+Broad,29037,1
+Broad,29047,3
+Broad,29051,1
+Broad,29077,3
+Broad,29095,11
+Broad,29097,1
+Broad,29159,1
+Broad,29167,1
+Broad,29169,1
+Broad,29183,1
+Broad,29195,1
+Broad,29209,1
+Broad,30041,1
+Broad,30111,1
+Broad,31153,1
+Broad,33011,5
+Broad,33015,4
+Broad,34019,3
+Broad,34025,13
+Broad,34029,3
+Broad,34037,1
+Broad,36011,1
+Broad,36039,1
+Broad,36063,3
+Broad,36065,3
+Broad,36069,1
+Broad,36077,1
+Broad,36085,9
+Broad,36099,1
+Broad,36101,1
+Broad,36103,22
+Broad,36105,1
+Broad,36113,2
+Broad,37001,1
+Broad,37031,1
+Broad,37089,1
+Broad,37125,1
+Broad,37133,3
+Broad,37155,1
+Broad,37161,1
+Broad,37179,1
+Broad,39017,8
+Broad,39041,2
+Broad,39045,2
+Broad,39055,1
+Broad,39057,2
+Broad,39063,1
+Broad,39085,1
+Broad,39133,2
+Broad,39151,5
+Broad,39155,2
+Broad,39165,2
+Broad,39173,5
+Broad,40027,11
+Broad,40109,17
+Broad,40143,20
+Broad,41011,1
+Broad,41033,1
+Broad,42001,1
+Broad,42011,1
+Broad,42019,1
+Broad,42021,2
+Broad,42041,3
+Broad,42055,1
+Broad,42073,2
+Broad,42079,1
+Broad,42081,1
+Broad,42125,3
+Broad,45007,2
+Broad,45013,2
+Broad,45015,1
+Broad,45045,11
+Broad,45051,7
+Broad,45063,1
+Broad,45077,1
+Broad,46099,2
+Broad,47001,1
+Broad,47065,6
+Broad,47093,8
+Broad,47125,2
+Broad,47141,2
+Broad,47149,4
+Broad,47179,2
+Broad,47187,6
+Broad,47189,2
+Broad,48021,1
+Broad,48039,3
+Broad,48041,3
+Broad,48085,20
+Broad,48097,1
+Broad,48121,15
+Broad,48167,1
+Broad,48183,1
+Broad,48259,1
+Broad,48303,2
+Broad,48309,2
+Broad,48339,7
+Broad,48423,2
+Broad,48439,39
+Broad,48441,1
+Broad,48485,2
+Broad,48491,7
+Broad,49049,4
+Broad,49053,1
+Broad,51023,1
+Broad,51047,1
+Broad,51069,1
+Broad,51179,3
+Broad,51680,2
+Broad,51775,1
+Broad,53005,2
+Broad,53007,1
+Broad,53077,2
+Broad,54033,1
+Broad,54037,1
+Broad,54039,3
+Broad,54061,6
+Broad,54107,1
+Broad,55073,1
+Broad,55087,2
+Broad,55089,1
+Broad,55127,1
+Broad,55133,3
+Ban countries,01003,5
+Ban countries,01069,1
+Ban countries,01081,3
+Ban countries,01089,7
+Ban countries,01097,4
+Ban countries,01117,4
+Ban countries,01125,6
+Ban countries,04025,2
+Ban countries,05143,5
+Ban countries,06017,1
+Ban countries,06029,11
+Ban countries,06031,1
+Ban countries,06039,1
+Ban countries,06089,1
+Ban countries,06107,4
+Ban countries,06115,1
+Ban countries,08035,1
+Ban countries,08041,11
+Ban countries,09005,3
+Ban countries,10005,2
+Ban countries,12005,5
+Ban countries,12009,9
+Ban countries,12015,1
+Ban countries,12017,1
+Ban countries,12021,4
+Ban countries,12033,4
+Ban countries,12061,2
+Ban countries,12069,2
+Ban countries,12071,5
+Ban countries,12081,3
+Ban countries,12083,2
+Ban countries,12087,6
+Ban countries,12089,1
+Ban countries,12091,1
+Ban countries,12101,5
+Ban countries,12105,3
+Ban countries,12109,4
+Ban countries,12115,6
+Ban countries,12127,2
+Ban countries,12131,1
+Ban countries,13073,2
+Ban countries,13077,2
+Ban countries,13113,3
+Ban countries,13115,2
+Ban countries,13117,3
+Ban countries,13127,1
+Ban countries,13255,2
+Ban countries,13285,1
+Ban countries,16055,1
+Ban countries,17109,1
+Ban countries,17179,1
+Ban countries,18003,1
+Ban countries,18013,1
+Ban countries,18035,1
+Ban countries,18057,3
+Ban countries,18095,1
+Ban countries,18163,3
+Ban countries,18167,1
+Ban countries,18173,1
+Ban countries,19043,1
+Ban countries,19049,1
+Ban countries,19193,1
+Ban countries,20037,1
+Ban countries,20103,1
+Ban countries,20173,11
+Ban countries,21015,1
+Ban countries,21021,1
+Ban countries,21093,1
+Ban countries,21117,1
+Ban countries,21151,1
+Ban countries,21227,1
+Ban countries,22005,1
+Ban countries,22051,11
+Ban countries,22055,5
+Ban countries,22063,3
+Ban countries,22079,1
+Ban countries,22097,1
+Ban countries,22103,3
+Ban countries,22109,1
+Ban countries,22121,1
+Ban countries,24013,1
+Ban countries,24045,1
+Ban countries,24047,1
+Ban countries,26025,1
+Ban countries,26043,1
+Ban countries,26047,2
+Ban countries,26055,1
+Ban countries,26093,5
+Ban countries,26099,42
+Ban countries,26107,1
+Ban countries,26111,1
+Ban countries,26115,2
+Ban countries,26137,1
+Ban countries,27003,3
+Ban countries,27145,4
+Ban countries,28003,1
+Ban countries,28035,1
+Ban countries,28047,3
+Ban countries,28081,1
+Ban countries,29021,1
+Ban countries,29037,1
+Ban countries,29047,2
+Ban countries,29051,1
+Ban countries,29077,2
+Ban countries,29095,11
+Ban countries,29097,1
+Ban countries,29159,1
+Ban countries,29167,1
+Ban countries,29169,1
+Ban countries,29183,1
+Ban countries,29195,1
+Ban countries,29209,1
+Ban countries,30041,1
+Ban countries,30111,1
+Ban countries,31153,1
+Ban countries,33011,4
+Ban countries,33015,3
+Ban countries,34019,3
+Ban countries,34025,10
+Ban countries,34029,3
+Ban countries,34037,1
+Ban countries,36011,1
+Ban countries,36039,1
+Ban countries,36063,2
+Ban countries,36065,2
+Ban countries,36069,1
+Ban countries,36077,1
+Ban countries,36085,9
+Ban countries,36099,1
+Ban countries,36101,1
+Ban countries,36103,20
+Ban countries,36105,1
+Ban countries,36113,2
+Ban countries,37001,1
+Ban countries,37031,1
+Ban countries,37089,1
+Ban countries,37125,1
+Ban countries,37133,3
+Ban countries,37155,1
+Ban countries,37161,1
+Ban countries,37179,1
+Ban countries,39017,5
+Ban countries,39041,2
+Ban countries,39045,2
+Ban countries,39057,2
+Ban countries,39133,2
+Ban countries,39151,4
+Ban countries,39155,2
+Ban countries,39165,2
+Ban countries,39173,5
+Ban countries,40027,11
+Ban countries,40109,16
+Ban countries,40143,18
+Ban countries,41011,1
+Ban countries,42001,1
+Ban countries,42011,1
+Ban countries,42021,2
+Ban countries,42041,1
+Ban countries,42055,1
+Ban countries,42073,2
+Ban countries,42079,1
+Ban countries,42081,1
+Ban countries,42125,2
+Ban countries,45007,2
+Ban countries,45013,2
+Ban countries,45015,1
+Ban countries,45045,11
+Ban countries,45051,6
+Ban countries,45063,1
+Ban countries,45077,1
+Ban countries,46099,1
+Ban countries,47001,1
+Ban countries,47065,6
+Ban countries,47093,8
+Ban countries,47125,2
+Ban countries,47141,2
+Ban countries,47149,4
+Ban countries,47179,2
+Ban countries,47187,6
+Ban countries,47189,2
+Ban countries,48021,1
+Ban countries,48039,3
+Ban countries,48041,3
+Ban countries,48085,20
+Ban countries,48097,1
+Ban countries,48121,15
+Ban countries,48167,1
+Ban countries,48183,1
+Ban countries,48259,1
+Ban countries,48303,2
+Ban countries,48309,2
+Ban countries,48339,7
+Ban countries,48423,2
+Ban countries,48439,37
+Ban countries,48441,1
+Ban countries,48485,2
+Ban countries,48491,7
+Ban countries,49049,4
+Ban countries,49053,1
+Ban countries,51023,1
+Ban countries,51047,1
+Ban countries,51069,1
+Ban countries,51179,3
+Ban countries,51680,2
+Ban countries,51775,1
+Ban countries,53005,2
+Ban countries,53007,1
+Ban countries,53077,2
+Ban countries,54033,1
+Ban countries,54037,1
+Ban countries,54039,3
+Ban countries,54061,6
+Ban countries,55073,1
+Ban countries,55087,2
+Ban countries,55089,1
+Ban countries,55127,1
+Ban countries,55133,3

@@ -1,0 +1,11 @@
+version,group,metadata_restaurants,active_restaurants,active_counties
+Broad,ME,227,168,87
+Broad,Other ME,8,6,5
+Broad,WPME,689,479,172
+Broad,Medit,138,88,70
+Broad,Excluded other national tags,0,0,0
+Ban countries,ME,147,111,62
+Ban countries,Other ME,8,6,5
+Ban countries,WPME,687,478,171
+Ban countries,Medit,140,89,70
+Ban countries,Excluded other national tags,80,57,36
