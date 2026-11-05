@@ -1,0 +1,103 @@
+version,scope,rule,month,group,restaurants
+V2,broad_ME,residual,2015-12,ME,30
+V2,broad_ME,residual,2016-01,ME,22
+V2,broad_ME,residual,2016-02,ME,29
+V2,broad_ME,residual,2016-03,ME,25
+V2,broad_ME,residual,2016-04,ME,30
+V2,broad_ME,residual,2016-05,ME,30
+V2,broad_ME,residual,2016-06,ME,26
+V2,broad_ME,residual,2016-07,ME,32
+V2,broad_ME,residual,2016-08,ME,38
+V2,broad_ME,residual,2016-09,ME,36
+V2,broad_ME,residual,2016-10,ME,33
+V2,broad_ME,residual,2016-11,ME,38
+V2,broad_ME,residual,2016-12,ME,43
+V2,broad_ME,residual,2017-01,ME,40
+V2,broad_ME,residual,2017-02,ME,48
+V2,broad_ME,residual,2017-03,ME,47
+V2,broad_ME,residual,2017-04,ME,44
+V2,broad_ME,residual,2015-12,WPME,8
+V2,broad_ME,residual,2016-01,WPME,8
+V2,broad_ME,residual,2016-02,WPME,10
+V2,broad_ME,residual,2016-03,WPME,9
+V2,broad_ME,residual,2016-04,WPME,13
+V2,broad_ME,residual,2016-05,WPME,13
+V2,broad_ME,residual,2016-06,WPME,11
+V2,broad_ME,residual,2016-07,WPME,13
+V2,broad_ME,residual,2016-08,WPME,15
+V2,broad_ME,residual,2016-09,WPME,12
+V2,broad_ME,residual,2016-10,WPME,13
+V2,broad_ME,residual,2016-11,WPME,14
+V2,broad_ME,residual,2016-12,WPME,13
+V2,broad_ME,residual,2017-01,WPME,14
+V2,broad_ME,residual,2017-02,WPME,11
+V2,broad_ME,residual,2017-03,WPME,14
+V2,broad_ME,residual,2017-04,WPME,14
+V2,broad_ME,residual,2015-12,All other Mediterranean restaurants,20
+V2,broad_ME,residual,2016-01,All other Mediterranean restaurants,17
+V2,broad_ME,residual,2016-02,All other Mediterranean restaurants,15
+V2,broad_ME,residual,2016-03,All other Mediterranean restaurants,21
+V2,broad_ME,residual,2016-04,All other Mediterranean restaurants,26
+V2,broad_ME,residual,2016-05,All other Mediterranean restaurants,23
+V2,broad_ME,residual,2016-06,All other Mediterranean restaurants,30
+V2,broad_ME,residual,2016-07,All other Mediterranean restaurants,31
+V2,broad_ME,residual,2016-08,All other Mediterranean restaurants,35
+V2,broad_ME,residual,2016-09,All other Mediterranean restaurants,32
+V2,broad_ME,residual,2016-10,All other Mediterranean restaurants,34
+V2,broad_ME,residual,2016-11,All other Mediterranean restaurants,37
+V2,broad_ME,residual,2016-12,All other Mediterranean restaurants,45
+V2,broad_ME,residual,2017-01,All other Mediterranean restaurants,41
+V2,broad_ME,residual,2017-02,All other Mediterranean restaurants,46
+V2,broad_ME,residual,2017-03,All other Mediterranean restaurants,49
+V2,broad_ME,residual,2017-04,All other Mediterranean restaurants,44
+V4,seven_ME,residual,2015-12,ME,30
+V4,seven_ME,residual,2016-01,ME,22
+V4,seven_ME,residual,2016-02,ME,29
+V4,seven_ME,residual,2016-03,ME,25
+V4,seven_ME,residual,2016-04,ME,30
+V4,seven_ME,residual,2016-05,ME,30
+V4,seven_ME,residual,2016-06,ME,26
+V4,seven_ME,residual,2016-07,ME,32
+V4,seven_ME,residual,2016-08,ME,38
+V4,seven_ME,residual,2016-09,ME,36
+V4,seven_ME,residual,2016-10,ME,33
+V4,seven_ME,residual,2016-11,ME,38
+V4,seven_ME,residual,2016-12,ME,43
+V4,seven_ME,residual,2017-01,ME,40
+V4,seven_ME,residual,2017-02,ME,48
+V4,seven_ME,residual,2017-03,ME,47
+V4,seven_ME,residual,2017-04,ME,44
+V4,seven_ME,residual,2015-12,WPME,1
+V4,seven_ME,residual,2016-01,WPME,3
+V4,seven_ME,residual,2016-02,WPME,4
+V4,seven_ME,residual,2016-03,WPME,2
+V4,seven_ME,residual,2016-04,WPME,4
+V4,seven_ME,residual,2016-05,WPME,3
+V4,seven_ME,residual,2016-06,WPME,3
+V4,seven_ME,residual,2016-07,WPME,4
+V4,seven_ME,residual,2016-08,WPME,4
+V4,seven_ME,residual,2016-09,WPME,3
+V4,seven_ME,residual,2016-10,WPME,3
+V4,seven_ME,residual,2016-11,WPME,4
+V4,seven_ME,residual,2016-12,WPME,4
+V4,seven_ME,residual,2017-01,WPME,4
+V4,seven_ME,residual,2017-02,WPME,3
+V4,seven_ME,residual,2017-03,WPME,3
+V4,seven_ME,residual,2017-04,WPME,4
+V4,seven_ME,residual,2015-12,All other Mediterranean restaurants,27
+V4,seven_ME,residual,2016-01,All other Mediterranean restaurants,22
+V4,seven_ME,residual,2016-02,All other Mediterranean restaurants,21
+V4,seven_ME,residual,2016-03,All other Mediterranean restaurants,28
+V4,seven_ME,residual,2016-04,All other Mediterranean restaurants,35
+V4,seven_ME,residual,2016-05,All other Mediterranean restaurants,33
+V4,seven_ME,residual,2016-06,All other Mediterranean restaurants,38
+V4,seven_ME,residual,2016-07,All other Mediterranean restaurants,40
+V4,seven_ME,residual,2016-08,All other Mediterranean restaurants,46
+V4,seven_ME,residual,2016-09,All other Mediterranean restaurants,41
+V4,seven_ME,residual,2016-10,All other Mediterranean restaurants,44
+V4,seven_ME,residual,2016-11,All other Mediterranean restaurants,47
+V4,seven_ME,residual,2016-12,All other Mediterranean restaurants,54
+V4,seven_ME,residual,2017-01,All other Mediterranean restaurants,51
+V4,seven_ME,residual,2017-02,All other Mediterranean restaurants,54
+V4,seven_ME,residual,2017-03,All other Mediterranean restaurants,60
+V4,seven_ME,residual,2017-04,All other Mediterranean restaurants,54

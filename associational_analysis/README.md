@@ -127,4 +127,6 @@ Outputs with prefix `positioning_variants` contain four separate figures, monthl
 
 For clarity, the four figures now annotate the number of restaurants at every monthly point and omit across-period N labels from their legends. The data are unchanged: all qualifying restaurants with a review in each month are counted; there is no fixed/balanced review cohort or requirement to appear both before and after. Food assignments still use the pre-election dictionary evidence described above; classifications do not update using newly arriving monthly reviews.
 
+The subsequent requested primary comparison is **ME, WPME, and All other Mediterranean restaurants**. The last group includes every Mediterranean-primary-label restaurant outside WPME, without any positive other-cuisine requirement. This selects V2 and V4 from the earlier alternatives, preserving broader and seven-country ME-food definitions. Run step 15 then `16_all_other_mediterranean.py` for the two-figure packet and the relabeled monthly table. Their counts are unchanged from the residual versions. Both definitions exhaust all non-American review-active restaurants in the seven counties every month. No fixed review cohort is imposed. Prior positive-evidence versions remain documented as earlier sensitivity definitions, not the current primary comparison.
+
 
