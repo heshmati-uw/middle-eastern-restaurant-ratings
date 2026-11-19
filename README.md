@@ -1,5 +1,18 @@
 # Middle Eastern restaurant ratings
 
+## Primary analysis — final 11/18 (November 18, 2026)
+
+**Start here next time:** [Primary analysis — final 11/18](primary_analysis_final_2026-11-18/README.md).
+
+- [Shareable PDF](primary_analysis_final_2026-11-18/restaurant_positioning_ban_results.pdf)
+- [Code, frozen analysis data, results and reproducibility bundle](primary_analysis_final_2026-11-18/primary_analysis_final_2026-11-18.zip)
+
+The approved primary analysis is ban-only, restaurant-level, equal-weighted, with original primary-category ME/WPME/MED rules, county fixed effects and all controls. The figure shows observed pre/post rating means annotated with all-controls relative-change estimates. Compact main tables, full-coefficient appendix, and progressive control checks are preserved. The dated checkpoint documents all definitions, timing caveats, key results and reproduction steps. These are exploratory correlational findings, not established causal effects.
+
+## Historical snapshots (preserved below)
+
+These earlier analyses use different definitions and specifications. They are retained as provenance and do not supersede the final 11/18 primary analysis.
+
 ## Latest analysis: symmetric food verification, shawarma excluded
 
 The November3 update applies the same pre-election core/broad food rules to ME and Mediterranean labels, tests WPME-ME changes directly across county types, and audits cuisines associated with the original seven targeted countries. It also adds the requested review-cuisine association variant. Raw before/after group ratings are shown directly before conditional gaps and difference tests. All restaurant weights are equal.
@@ -60,3 +73,4 @@ county_four_week_restaurant_changes.csv contains each eligible restaurant's pre/
 Outcomes were extracted from the original Google Reviews/Reviews_Data_Combined.csv business-level weekly arrays. Source coverage and selection checks are recorded in both_county_data_audit.json. No candidate IDs were missing from that source. This repository contains the current aggregate analysis data, not the multi-gigabyte original raw review/metadata files or review text. It can reproduce the current estimates without those original files. Rebuilding selection/extraction from raw sources requires the original project files and the local paths/dependencies documented in the historical archive; prepare_county_comparison.py is retained as provenance rather than as the portable entry point.
 
 SHA256SUMS.json records the packaged file hashes before upload. Existing source files were not modified. This private research snapshot grants no additional license or redistribution rights to underlying data.
+
