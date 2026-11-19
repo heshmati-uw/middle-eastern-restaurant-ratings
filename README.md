@@ -1,5 +1,11 @@
 # Middle Eastern restaurant ratings
 
+## Final 11-19 with pre-trends (November 19, 2026)
+
+**Start here:** [November 19 checkpoint](primary_analysis_final_2026-11-19/README.md) · [Standalone results summary](primary_analysis_final_2026-11-19/travel_ban_summary_results.html) · [Analysis archive](primary_analysis_final_2026-11-19/primary_analysis_final_2026-11-19.zip).
+
+The six-week restaurant-level analysis includes observed and adjusted pre/post figures, the Friday-aligned weekly event study, regression and descriptive tables, starred correlations, and the exact raw-review pretrend checks. Earlier analyses are preserved below.
+
 ## Primary analysis — final 11/18 (November 18, 2026)
 
 **Start here next time:** [Primary analysis — final 11/18](primary_analysis_final_2026-11-18/README.md).
