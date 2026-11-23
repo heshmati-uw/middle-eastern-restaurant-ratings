@@ -64,6 +64,12 @@ also rebuilds the sample, county assignment, review extract and frozen tables fr
 | `07_events.py` | Exhibit 3 |
 | `08_figures.py` | Figures 1–3 |
 | `10_positioning_over_time.py` | Exhibit 4 and figure 4 |
+| `11_story_figures.py` | Figure 5 (each group's change by county Trump share) and figure 6 (the gap over time) |
+| `12_scan_text_and_reviewers.py` | Raw pass for review text and reviewer activity around the two events (output stays in `built/`) |
+| `13_star_breakdown.py` | Which star ratings move after the events |
+| `14_labels_and_pairs.py` | First categories of restaurants serving baba ghanoush; example WPME and ME pairs in the same county |
+| `15_map.R` | County map of the WPME share |
+| `16_text_and_reviewers.py` | Political mentions in review text; results by reviewer activity |
 | `09_results_summary.py` | Writes RESULTS.md from the output tables |
 | `inputs/` | MIT Election Lab county returns (2016); ACS 2017–2021 county tables; county land area |
 | `frozen/` | `restaurants.csv`, `event_cells.csv.gz`, `timeline_cells.csv.gz`. No names, addresses, reviewer IDs or review text |

@@ -1,0 +1,13 @@
+county,group,window,reviews_with_text,political,per_1000
+Trump share 50% or less,ME,after election,4340,4,0.9216589861751152
+Trump share 50% or less,ME,after travel ban,5793,3,0.5178663904712584
+Trump share 50% or less,ME,before,15593,27,1.7315462066311806
+Trump share 50% or less,WPME,after election,3778,4,1.0587612493382743
+Trump share 50% or less,WPME,after travel ban,5223,7,1.3402259237985832
+Trump share 50% or less,WPME,before,13027,24,1.8423274737084516
+Trump share above 50%,ME,after election,485,0,0.0
+Trump share above 50%,ME,after travel ban,806,3,3.7220843672456576
+Trump share above 50%,ME,before,1775,4,2.2535211267605635
+Trump share above 50%,WPME,after election,482,1,2.074688796680498
+Trump share above 50%,WPME,after travel ban,707,2,2.828854314002829
+Trump share above 50%,WPME,before,1760,1,0.5681818181818182

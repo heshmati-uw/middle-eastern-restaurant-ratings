@@ -24,5 +24,12 @@ if a.from_raw:
     run(a.rscript, "02_geocode_counties.R", a.from_raw, ".")
     run(sys.executable, "03_extract_reviews.py", a.from_raw, a.workers)
     run(sys.executable, "04_build_frozen.py")
-for s in ["05_label_choice.py", "06_levels.py", "07_events.py", "08_figures.py", "10_positioning_over_time.py", "09_results_summary.py"]:
+for s in ["05_label_choice.py", "06_levels.py", "07_events.py", "08_figures.py", "10_positioning_over_time.py", "11_story_figures.py", "13_star_breakdown.py",
+          "09_results_summary.py"]:
     run(sys.executable, s)
+if a.from_raw:
+    # descriptives that need the raw files: review text, reviewer activity, business names, county boundaries
+    run(sys.executable, "12_scan_text_and_reviewers.py", a.from_raw, a.workers)
+    run(sys.executable, "14_labels_and_pairs.py", a.from_raw)
+    run(a.rscript, "15_map.R", a.from_raw, ".")
+    run(sys.executable, "16_text_and_reviewers.py")

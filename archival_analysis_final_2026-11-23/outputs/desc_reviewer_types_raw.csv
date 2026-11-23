@@ -1,0 +1,37 @@
+county,group,window,rtype,mean,size
+Trump share 50% or less,ME,after election,frequent (10+),4.397837002703747,5178
+Trump share 50% or less,ME,after election,light (2-9),4.309157509157509,1365
+Trump share 50% or less,ME,after election,one-time (1 review ever),4.208226221079691,389
+Trump share 50% or less,ME,after travel ban,frequent (10+),4.42132600061106,6546
+Trump share 50% or less,ME,after travel ban,light (2-9),4.360479797979798,1584
+Trump share 50% or less,ME,after travel ban,one-time (1 review ever),4.344827586206897,435
+Trump share 50% or less,ME,before,frequent (10+),4.351274083281542,16090
+Trump share 50% or less,ME,before,light (2-9),4.285448801338041,5381
+Trump share 50% or less,ME,before,one-time (1 review ever),4.1784406070120355,1911
+Trump share 50% or less,WPME,after election,frequent (10+),4.458278145695364,4530
+Trump share 50% or less,WPME,after election,light (2-9),4.435018050541516,1108
+Trump share 50% or less,WPME,after election,one-time (1 review ever),4.220338983050848,295
+Trump share 50% or less,WPME,after travel ban,frequent (10+),4.457384403036577,5796
+Trump share 50% or less,WPME,after travel ban,light (2-9),4.501812907904278,1379
+Trump share 50% or less,WPME,after travel ban,one-time (1 review ever),4.471264367816092,348
+Trump share 50% or less,WPME,before,frequent (10+),4.414643092949894,13631
+Trump share 50% or less,WPME,before,light (2-9),4.4006849315068495,4088
+Trump share 50% or less,WPME,before,one-time (1 review ever),4.299285714285714,1400
+Trump share above 50%,ME,after election,frequent (10+),4.5,514
+Trump share above 50%,ME,after election,light (2-9),4.5,150
+Trump share above 50%,ME,after election,one-time (1 review ever),4.372549019607843,51
+Trump share above 50%,ME,after travel ban,frequent (10+),4.481481481481482,783
+Trump share above 50%,ME,after travel ban,light (2-9),4.48,250
+Trump share above 50%,ME,after travel ban,one-time (1 review ever),4.5,72
+Trump share above 50%,ME,before,frequent (10+),4.413455657492355,1635
+Trump share above 50%,ME,before,light (2-9),4.3930921052631575,608
+Trump share above 50%,ME,before,one-time (1 review ever),4.22707423580786,229
+Trump share above 50%,WPME,after election,frequent (10+),4.470588235294118,493
+Trump share above 50%,WPME,after election,light (2-9),4.506756756756757,148
+Trump share above 50%,WPME,after election,one-time (1 review ever),4.574074074074074,54
+Trump share above 50%,WPME,after travel ban,frequent (10+),4.4805755395683455,695
+Trump share above 50%,WPME,after travel ban,light (2-9),4.354260089686099,223
+Trump share above 50%,WPME,after travel ban,one-time (1 review ever),4.721311475409836,61
+Trump share above 50%,WPME,before,frequent (10+),4.4295729764181,1569
+Trump share above 50%,WPME,before,light (2-9),4.373608903020668,629
+Trump share above 50%,WPME,before,one-time (1 review ever),4.216931216931217,189
