@@ -1,0 +1,41 @@
+me_list,comparison,outcome,n_wpme,n_me,quantity,est,se,p
+national,WPME vs all ME,mean_rating,1726,2121,"gap, all counties",0.026328699001990967,0.009720956480157864,0.007015842761772276
+national,WPME vs all ME,mean_rating,1726,2121,"gap, Trump share 50% or less",0.03129750464674402,0.010083241981979156,0.002103881607825918
+national,WPME vs all ME,mean_rating,1726,2121,"gap, Trump share above 50%",-0.018430313730735993,0.03028743355675119,0.5436591249352032
+national,WPME vs all ME,mean_rating,1726,2121,interaction with Trump measure: continuous,-0.013613546492831101,0.006189058584216045,0.028338647206195593
+national,WPME vs all ME,mean_rating,1726,2121,interaction with Trump measure: majority,-0.049727818377480054,0.028049979328750547,0.07692897305125089
+national,WPME vs all ME,logrev,1726,2121,"gap, all counties",0.21053725062810733,0.03986824153754403,2.0004068818534647e-07
+national,WPME vs all ME,logrev,1726,2121,"gap, Trump share 50% or less",0.2160479517533007,0.042767606946941525,7.879848074122704e-07
+national,WPME vs all ME,logrev,1726,2121,"gap, Trump share above 50%",0.14549611471884497,0.12243800460162896,0.23636292486047303
+national,WPME vs all ME,logrev,1726,2121,interaction with Trump measure: continuous,0.022169925878812426,0.030093826918792702,0.4616901202362461
+national,WPME vs all ME,logrev,1726,2121,interaction with Trump measure: majority,-0.055584498302305746,0.09579957657349278,0.5620570922277432
+national,WPME vs ME with a baba mention,mean_rating,1726,1020,"gap, all counties",0.0005703611858483406,0.011642378076495223,0.9609504788572105
+national,WPME vs ME with a baba mention,mean_rating,1726,1020,"gap, Trump share 50% or less",0.004842023829374409,0.012322365910180143,0.6946694624892327
+national,WPME vs ME with a baba mention,mean_rating,1726,1020,"gap, Trump share above 50%",-0.03539619319902726,0.02964734141850282,0.23441134110261028
+national,WPME vs ME with a baba mention,mean_rating,1726,1020,interaction with Trump measure: continuous,-0.009322238695964538,0.007245858668004645,0.1989560644453495
+national,WPME vs ME with a baba mention,mean_rating,1726,1020,interaction with Trump measure: majority,-0.0402382170284017,0.028230907052116335,0.15480599959708183
+national,WPME vs ME with a baba mention,logrev,1726,1020,"gap, all counties",-0.07871249282236262,0.04821252165761201,0.10329940832188308
+national,WPME vs ME with a baba mention,logrev,1726,1020,"gap, Trump share 50% or less",-0.07183325437443315,0.051775151018977256,0.1664614776744694
+national,WPME vs ME with a baba mention,logrev,1726,1020,"gap, Trump share above 50%",-0.12472193033973684,0.14524562129476146,0.3918871847946702
+national,WPME vs ME with a baba mention,logrev,1726,1020,interaction with Trump measure: continuous,0.0331077479358706,0.03180999318179622,0.2985684904048779
+national,WPME vs ME with a baba mention,logrev,1726,1020,interaction with Trump measure: majority,-0.046168921478183335,0.11906024134245265,0.6983769070650583
+original,WPME vs all ME,mean_rating,1726,2070,"gap, all counties",0.03869873030467153,0.010091224730443675,0.00014366254564408256
+original,WPME vs all ME,mean_rating,1726,2070,"gap, Trump share 50% or less",0.044257932588840615,0.010482415261290885,3.2854099916884195e-05
+original,WPME vs all ME,mean_rating,1726,2070,"gap, Trump share above 50%",-0.012293341816492399,0.030555597140304643,0.687951790795976
+original,WPME vs all ME,mean_rating,1726,2070,interaction with Trump measure: continuous,-0.01640554090671494,0.006334301404268412,0.009912308302512152
+original,WPME vs all ME,mean_rating,1726,2070,interaction with Trump measure: majority,-0.05655127440533302,0.028297611000383506,0.046273439753835265
+original,WPME vs all ME,logrev,1726,2070,"gap, all counties",0.18793945457552116,0.039975957076163936,3.4485745245299295e-06
+original,WPME vs all ME,logrev,1726,2070,"gap, Trump share 50% or less",0.19231406977839044,0.04224750481357215,7.96114105257051e-06
+original,WPME vs all ME,logrev,1726,2070,"gap, Trump share above 50%",0.12978487507404843,0.13333155190544313,0.3317459330343582
+original,WPME vs all ME,logrev,1726,2070,interaction with Trump measure: continuous,0.024584645528818127,0.030018008529450944,0.4132248015827985
+original,WPME vs all ME,logrev,1726,2070,interaction with Trump measure: majority,-0.04825034108272584,0.10993162255027632,0.6609371586834734
+original,WPME vs ME with a baba mention,mean_rating,1726,971,"gap, all counties",0.016039791218760074,0.011696522548824662,0.17101674669113576
+original,WPME vs ME with a baba mention,mean_rating,1726,971,"gap, Trump share 50% or less",0.01916984440820669,0.012170090665871774,0.11640800040762858
+original,WPME vs ME with a baba mention,mean_rating,1726,971,"gap, Trump share above 50%",-0.01353698173896858,0.03801635594783201,0.7222923508658308
+original,WPME vs ME with a baba mention,mean_rating,1726,971,interaction with Trump measure: continuous,-0.008926997378861252,0.007331925003498401,0.22408959150677085
+original,WPME vs ME with a baba mention,mean_rating,1726,971,interaction with Trump measure: majority,-0.03270682614717526,0.03442612494637156,0.3426382431169789
+original,WPME vs ME with a baba mention,logrev,1726,971,"gap, all counties",-0.10408166658789074,0.04905789472617718,0.034465523086699375
+original,WPME vs ME with a baba mention,logrev,1726,971,"gap, Trump share 50% or less",-0.09812191325801699,0.0514445943033393,0.05755465205986577
+original,WPME vs ME with a baba mention,logrev,1726,971,"gap, Trump share above 50%",-0.1545883930503609,0.1762439778261756,0.3818585377032817
+original,WPME vs ME with a baba mention,logrev,1726,971,interaction with Trump measure: continuous,0.034757099812453125,0.03495720649872129,0.32067084945497776
+original,WPME vs ME with a baba mention,logrev,1726,971,interaction with Trump measure: majority,-0.05883936474368803,0.1421064465742353,0.6790514511139817

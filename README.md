@@ -1,5 +1,17 @@
 # Middle Eastern restaurant ratings
 
+## Consolidated archival analysis (November 23, 2026)
+
+**Start here:** [README](archival_analysis_final_2026-11-23/README.md) · [Results](archival_analysis_final_2026-11-23/RESULTS.md) · [Measures and models](archival_analysis_final_2026-11-23/METHODS.md).
+
+This supersedes the November 18 and 19 checkpoints below. It uses every review with its exact date, no matching, WPME defined as Mediterranean-first with a baba ghanoush mention, and ME as an explicit Middle Eastern first label.
+
+- Restaurants serving Middle Eastern food lead with "Mediterranean" more where the local Middle Eastern community is small; county Trump share adds nothing once county size is held fixed.
+- After the 2016 election and the January 2017 travel ban, the WPME-minus-ME rating gap rises by 0.043 stars per 10 points of county Trump share for about six weeks (p < .01), because ratings of explicitly Middle Eastern restaurants fall while broadly positioned ones do not.
+- The event result holds with continuous Trump share and not with a Trump-majority split, and the two events were chosen from six tested. All results are exploratory.
+
+`python run_all.py` inside the folder rebuilds every table and figure from the frozen analysis tables.
+
 ## Final 11-19 with pre-trends (November 19, 2026)
 
 **Start here:** [November 19 checkpoint](primary_analysis_final_2026-11-19/README.md) · [Standalone results summary](primary_analysis_final_2026-11-19/travel_ban_summary_results.html) · [Analysis archive](primary_analysis_final_2026-11-19/primary_analysis_final_2026-11-19.zip).
