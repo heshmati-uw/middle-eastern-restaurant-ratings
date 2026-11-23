@@ -7,7 +7,7 @@ Start with [RESULTS.md](RESULTS.md) for the numbers and [METHODS.md](METHODS.md)
 ## The three steps
 
 1. **Who positions broadly.** Restaurants serving Middle Eastern food lead with "Mediterranean" more where the local Middle Eastern community is small. County Trump share adds nothing once county size is held fixed.
-2. **Broad positioning shields ratings after stigma events.** Ordinarily the broad label carries a rating advantage only in less Trump-leaning counties; in Trump-leaning counties the two positions are rated alike. After the 2016 election and the January 2017 travel ban, ratings of explicitly Middle Eastern restaurants fell relative to other restaurants in more Trump-leaning counties, while broadly positioned ones did not, for about six weeks.
+2. **Broad positioning shields ratings after stigma events.** After the 2016 election and the January 2017 travel ban, ratings of explicitly Middle Eastern restaurants fell relative to other restaurants in more Trump-leaning counties, while broadly positioned ones did not, for about six weeks.
 3. **Mechanism.** Left to the experiment: animus versus unfamiliarity.
 
 ## Definitions
@@ -21,16 +21,18 @@ Start with [RESULTS.md](RESULTS.md) for the numbers and [METHODS.md](METHODS.md)
 | Exhibit | Result |
 |---|---|
 | 1. Label choice | −5.8 points in the chance of being WPME per percentage point of Middle Eastern ancestry in the county (p < .001) |
-| 2. Ordinary times | WPME rates +0.026 stars above ME overall (p < .01); +0.031 where Trump share is 50% or less; −0.018 where it is above 50% (p = .54) |
 | 3. Events | The WPME-minus-ME gap rises +0.043 stars per 10 points of Trump share in the six weeks after the election and the travel ban, pooled (p < .01); zero in weeks 7–18 |
 | 3. Which group moves | Against American-first restaurants: ME −0.027 per 10 points (p = .02); WPME +0.006 (p = .65) |
+| 4. Positioning over time | Among restaurants first reviewed within two years of the election, 47% are WPME before it and 48% after (+2 points, p = .48); no differential shift in Trump-leaning counties |
+
+Exhibit 2 (ordinary-times rating and review-volume levels) is kept as a background table. The paper makes no claim about which position performs better in ordinary times.
 
 ## What to keep in mind
 
 - The event result holds with continuous Trump share and not with the over-50% split (+0.092 pooled, p = .17).
 - Six events were tested. The focus on the election and the first travel ban was chosen after seeing all six; the other four and the six-event pooled estimate (+0.019, p = .02) are in RESULTS.md.
 - WPME requires a baba mention and ME does not. Against ME restaurants that also have one, the ordinary-times rating gap is zero. The event models use restaurant fixed effects and are not affected by this.
-- Google categories are from 2021, not what customers saw at the time of each review. Owner identity is not observed.
+- Google categories are from 2021, not what customers saw at the time of each review, so a restaurant changing its label cannot be seen. Exhibit 4 uses the date of each restaurant's first review as a stand-in for when it opened. Owner identity is not observed.
 
 ## Run it
 
@@ -58,9 +60,10 @@ also rebuilds the sample, county assignment, review extract and frozen tables fr
 | `03_extract_reviews.py` | Every review of the sample with its exact timestamp |
 | `04_build_frozen.py` | Analysis-ready tables in `frozen/` |
 | `05_label_choice.py` | Exhibit 1 |
-| `06_levels.py` | Exhibit 2 |
+| `06_levels.py` | Exhibit 2 (background) |
 | `07_events.py` | Exhibit 3 |
-| `08_figures.py` | Three figures |
+| `08_figures.py` | Figures 1–3 |
+| `10_positioning_over_time.py` | Exhibit 4 and figure 4 |
 | `09_results_summary.py` | Writes RESULTS.md from the output tables |
 | `inputs/` | MIT Election Lab county returns (2016); ACS 2017–2021 county tables; county land area |
 | `frozen/` | `restaurants.csv`, `event_cells.csv.gz`, `timeline_cells.csv.gz`. No names, addresses, reviewer IDs or review text |

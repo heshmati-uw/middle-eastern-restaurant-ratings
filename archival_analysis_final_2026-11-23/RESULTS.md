@@ -25,9 +25,9 @@ Restaurants: 3895 in 455 counties; 45% are WPME.
 | Share WPME | 38% | 46% | 51% | 48% | 60% |
 | Restaurants | 1585 | 838 | 969 | 383 | 120 |
 
-## Exhibit 2. Ordinary-times performance
+## Exhibit 2. Ordinary-times levels (background; no claim is made from this table)
 
-WPME minus ME in the same county, all years, restaurants with 10+ reviews. County fixed effects; county-clustered SEs.
+WPME minus ME in the same county, all years, restaurants with 10+ reviews. County fixed effects; county-clustered SEs. WPME requires a baba ghanoush mention and ME does not, so the second pair of columns holds the review evidence equal.
 
 **Rating (stars)**
 
@@ -136,6 +136,26 @@ Election: 2730 restaurants, 398 counties, 14275 reviews in the six weeks after. 
 | All six events pooled | +0.019 | .02 |
 
 The focus on the election and the first travel ban was chosen after all six results were seen.
+
+## Exhibit 4. Positioning over time
+
+Categories are a 2021 snapshot, so relabeling is not observable. Each restaurant's first review date stands in for when it opened. Outcome: 1 if WPME, 0 if ME. After = first reviewed on or after Nov 8, 2016. County fixed effects; the Trump interactions add first-review-year fixed effects. Coefficients in percentage points.
+
+| Sample | Window | Before / after (n) | Share WPME before | after | After | p | After x 10 pts Trump share | p | After x Trump share above 50% | p |
+|---|---|---|---|---|---|---|---|---|---|---|
+| WPME vs all ME | first reviewed within 2 years of the election | 781 / 653 | 47% | 48% | +2.1 | .48 | -2.1 | .32 | -6.8 | .54 |
+| WPME vs all ME | within 1 year | 385 / 363 | 50% | 46% | -1.9 | .68 | -3.9 | .19 | +2.7 | .86 |
+| both with a baba mention | first reviewed within 2 years of the election | 570 / 465 | 64% | 68% | +6.3 | .09 | -0.3 | .91 | -6.0 | .60 |
+| both with a baba mention | within 1 year | 292 / 255 | 66% | 65% | +3.2 | .54 | +0.0 | 1.00 | +13.0 | .50 |
+
+**Share WPME by year of first review**
+
+| County | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 |
+|---|---|---|---|---|---|---|---|---|---|
+| Trump share 50% or less | 46% (300) | 40% (315) | 41% (271) | 47% (346) | 48% (315) | 44% (298) | 51% (258) | 46% (197) | 43% (152) |
+| Trump share above 50% | 60% (47) | 46% (41) | 51% (53) | 45% (62) | 45% (51) | 55% (58) | 62% (37) | 51% (37) | 43% (28) |
+
+Restaurants in parentheses. Controlling for log review count changes the overall estimate to +4.0 points (p = .18) in the two-year window.
 
 ## Original 20-category ME list
 

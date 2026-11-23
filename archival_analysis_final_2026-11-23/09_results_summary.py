@@ -26,7 +26,9 @@ for var, title in [("mena", "County residents with Middle Eastern ancestry"), ("
 # ---- Exhibit 2
 v = pd.read_csv(OUT / "exhibit2_levels.csv")
 v = v[v.me_list.eq("national")]
-L += ["## Exhibit 2. Ordinary-times performance", "", "WPME minus ME in the same county, all years, restaurants with 10+ reviews. County fixed effects; county-clustered SEs.", ""]
+L += ["## Exhibit 2. Ordinary-times levels (background; no claim is made from this table)", "",
+      "WPME minus ME in the same county, all years, restaurants with 10+ reviews. County fixed effects; county-clustered SEs. "
+      "WPME requires a baba ghanoush mention and ME does not, so the second pair of columns holds the review evidence equal.", ""]
 for out, title in [("mean_rating", "Rating (stars)"), ("logrev", "Review volume (log points; adds first-review-year fixed effects)")]:
     L += ["**%s**" % title, "", "| Quantity | WPME vs all ME | p | WPME vs ME with a baba mention | p |", "|---|---|---|---|---|"]
     for q in v.quantity.unique():
@@ -82,7 +84,28 @@ for name, lab in [("Travel ban 2.0", "Travel ban 2.0 (Mar 6, 2017)"), ("Travel b
                   ("Soleimani strike", "Soleimani strike (Jan 3, 2020)"), ("POOLED: all six events", "All six events pooled")]:
     a = e[e.event.eq(name) & e.trump_measure.eq("continuous") & e.window.eq("first 6 weeks")].iloc[0]
     L.append("| %s | %s | %s |" % (lab, fe(a.est), fp(a.p)))
-L += ["", "The focus on the election and the first travel ban was chosen after all six results were seen.", "",
+L += ["", "The focus on the election and the first travel ban was chosen after all six results were seen.", ""]
+x4, c4 = pd.read_csv(OUT / "exhibit4_positioning_over_time.csv"), pd.read_csv(OUT / "exhibit4_cohorts.csv")
+x4 = x4[x4.me_list.eq("national") & x4.control.eq("no review-count control")]
+L += ["## Exhibit 4. Positioning over time", "",
+      "Categories are a 2021 snapshot, so relabeling is not observable. Each restaurant's first review date stands in for when it opened. "
+      "Outcome: 1 if WPME, 0 if ME. After = first reviewed on or after Nov 8, 2016. County fixed effects; the Trump interactions add first-review-year fixed effects. Coefficients in percentage points.", "",
+      "| Sample | Window | Before / after (n) | Share WPME before | after | After | p | After x 10 pts Trump share | p | After x Trump share above 50% | p |", "|---|---|---|---|---|---|---|---|---|---|---|"]
+for comp in x4.comparison.unique():
+    for win in x4.window.unique():
+        g = lambda mdl: x4[x4.comparison.eq(comp) & x4.window.eq(win) & x4.model.eq(mdl)].iloc[0]
+        a, t, j = g("overall: After"), g("by Trump: After x continuous"), g("by Trump: After x majority")
+        L.append("| %s | %s | %d / %d | %.0f%% | %.0f%% | %s | %s | %s | %s | %s | %s |" % (comp, win, a.n_before, a.n_after, 100 * a.share_before, 100 * a.share_after,
+                 fe(100 * a.est, 1), fp(a.p), fe(100 * t.est, 1), fp(t.p), fe(100 * j.est, 1), fp(j.p)))
+c4 = c4[c4.me_list.eq("national") & c4.comparison.eq("WPME vs all ME") & c4.first_review_year.between(2012, 2020)]
+yrs = sorted(c4.first_review_year.unique())
+L += ["", "**Share WPME by year of first review**", "", "| County | " + " | ".join(str(y) for y in yrs) + " |", "|---|" + "---|" * len(yrs)]
+for ct in ["Trump share 50% or less", "Trump share above 50%"]:
+    d = c4[c4.county_type.eq(ct)].set_index("first_review_year")
+    L.append("| %s | %s |" % (ct, " | ".join("%.0f%% (%d)" % (100 * d.loc[y, "share_wpme"], d.loc[y, "restaurants"]) for y in yrs)))
+L += ["", "Restaurants in parentheses. Controlling for log review count changes the overall estimate to %s points (p = %s) in the two-year window." % (
+    fe(100 * pd.read_csv(OUT / "exhibit4_positioning_over_time.csv").query("me_list == 'national' and comparison == 'WPME vs all ME' and window.str.contains('2 years') and model == 'overall: After' and control == 'controlling log review count'", engine="python").est.iloc[0], 1),
+    fp(pd.read_csv(OUT / "exhibit4_positioning_over_time.csv").query("me_list == 'national' and comparison == 'WPME vs all ME' and window.str.contains('2 years') and model == 'overall: After' and control == 'controlling log review count'", engine="python").p.iloc[0])), "",
       "## Original 20-category ME list", "", "| Quantity | Estimate | p |", "|---|---|---|"]
 eo = pd.read_csv(OUT / "exhibit3_events.csv")
 eo = eo[eo.me_list.eq("original") & eo.trump_measure.eq("continuous") & eo.window.eq("first 6 weeks")].set_index("event")

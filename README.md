@@ -8,7 +8,8 @@ This supersedes the November 18 and 19 checkpoints below. It uses every review w
 
 - Restaurants serving Middle Eastern food lead with "Mediterranean" more where the local Middle Eastern community is small; county Trump share adds nothing once county size is held fixed.
 - After the 2016 election and the January 2017 travel ban, the WPME-minus-ME rating gap rises by 0.043 stars per 10 points of county Trump share for about six weeks (p < .01), because ratings of explicitly Middle Eastern restaurants fall while broadly positioned ones do not.
-- The event result holds with continuous Trump share and not with a Trump-majority split, and the two events were chosen from six tested. All results are exploratory.
+- Restaurants first reviewed after the 2016 election are not more often positioned as WPME than those first reviewed before it (47% versus 48%).
+- The event result holds with continuous Trump share and not with a Trump-majority split, and the two events were chosen from six tested. No claim is made about which position performs better in ordinary times. All results are exploratory.
 
 `python run_all.py` inside the folder rebuilds every table and figure from the frozen analysis tables.
 

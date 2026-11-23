@@ -124,7 +124,7 @@ Four other events were tested with the same model and are not in focus: travel b
 
 ## 8. Level specifications (supporting analyses)
 
-**Ratings and review volume** (`06_levels.py`). One row per restaurant.
+**Ratings and review volume** (`06_levels.py`; background table, no claim is made from it). One row per restaurant.
 - Rating: mean of all the restaurant's reviews, all years; restaurants with 10 or more reviews.
 - Volume: log of total reviews.
 - Model: outcome(i) = county fixed effect + β · WPME(i) + δ · WPME(i) · Z(c) + e(i). The volume model adds fixed effects for the year of the restaurant's first review.
@@ -136,6 +136,16 @@ Four other events were tested with the same model and are not in focus: travel b
 - Model: linear probability, state fixed effects, county Trump share, county controls.
 - Controls: log population; log population per square kilometer; Middle Eastern ancestry share (Arab, Iranian, Turkish, Afghan, Armenian, Assyrian/Chaldean/Syriac as a percent of residents, table B04006); percent of adults 25+ with a bachelor's degree or more; percent foreign-born.
 - Results: −5.8 points per percentage point of Middle Eastern ancestry (p < .001); −0.8 points per 10 points of Trump share (p = .44).
+
+## 8b. Positioning over time (Exhibit 4)
+
+`10_positioning_over_time.py`. One row per WPME or ME restaurant.
+- Google categories are a 2021 snapshot, so a restaurant changing its label cannot be observed. The date of each restaurant's first review is used as a stand-in for when it opened. Google reviews were sparse before 2016, so many restaurants first reviewed in 2016-17 are older than that.
+- Outcome: 1 if WPME, 0 if ME. After = first review on or after November 8, 2016.
+- Samples: restaurants first reviewed within two years of the election (main) or within one year.
+- Models: linear probability. Overall shift: After with county fixed effects. Differential shift: After x Trump measure with county and first-review-year fixed effects. County-clustered standard errors.
+- Checks: controlling for log review count, and requiring a baba mention on both sides, because newer restaurants have fewer reviews and are less likely to have any given dish mentioned.
+- Results: 47% WPME before and 48% after (+2.1 points, p = .48); After x Trump share -2.1 points per 10 points (p = .32).
 
 ## 9. Known limitations
 
@@ -157,5 +167,6 @@ Four other events were tested with the same model and are not in focus: travel b
 | Label choice (Exhibit 1) | `05_label_choice.py` |
 | Levels (Exhibit 2) | `06_levels.py` |
 | Events (Exhibit 3) | `07_events.py` |
+| Positioning over time (Exhibit 4) | `10_positioning_over_time.py` |
 | Figures | `08_figures.py` |
 | Results summary | `09_results_summary.py` |

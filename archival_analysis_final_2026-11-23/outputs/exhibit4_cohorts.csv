@@ -1,0 +1,145 @@
+me_list,comparison,first_review_year,county_type,restaurants,share_wpme,se,median_reviews
+national,WPME vs all ME,2010,Trump share 50% or less,328,0.40853658536585363,0.027142040774204956,424.5
+national,WPME vs all ME,2010,Trump share above 50%,23,0.6521739130434783,0.09931134621220186,494.0
+national,WPME vs all ME,2011,Trump share 50% or less,401,0.40399002493765584,0.02450416447320731,378.0
+national,WPME vs all ME,2011,Trump share above 50%,52,0.5,0.06933752452815364,350.0
+national,WPME vs all ME,2012,Trump share 50% or less,300,0.45666666666666667,0.02875889556422628,328.0
+national,WPME vs all ME,2012,Trump share above 50%,47,0.5957446808510638,0.07158285722640818,333.0
+national,WPME vs all ME,2013,Trump share 50% or less,315,0.3968253968253968,0.02756550646834538,298.0
+national,WPME vs all ME,2013,Trump share above 50%,41,0.4634146341463415,0.07787756353770713,346.0
+national,WPME vs all ME,2014,Trump share 50% or less,271,0.4132841328413284,0.02991256374916189,318.0
+national,WPME vs all ME,2014,Trump share above 50%,53,0.5094339622641509,0.06866805584483521,277.0
+national,WPME vs all ME,2015,Trump share 50% or less,346,0.47109826589595377,0.026835222398422037,293.5
+national,WPME vs all ME,2015,Trump share above 50%,62,0.45161290322580644,0.06320201722813824,289.5
+national,WPME vs all ME,2016,Trump share 50% or less,315,0.4793650793650794,0.028147807157557006,265.0
+national,WPME vs all ME,2016,Trump share above 50%,51,0.45098039215686275,0.0696767153903395,212.0
+national,WPME vs all ME,2017,Trump share 50% or less,298,0.4429530201342282,0.028775084888894208,248.5
+national,WPME vs all ME,2017,Trump share above 50%,58,0.5517241379310345,0.06530097606537921,274.0
+national,WPME vs all ME,2018,Trump share 50% or less,258,0.5077519379844961,0.03112489889510583,173.5
+national,WPME vs all ME,2018,Trump share above 50%,37,0.6216216216216216,0.07973065827541162,268.0
+national,WPME vs all ME,2019,Trump share 50% or less,197,0.45685279187817257,0.035490637818270804,128.0
+national,WPME vs all ME,2019,Trump share above 50%,37,0.5135135135135135,0.08216946643938353,151.0
+national,WPME vs all ME,2020,Trump share 50% or less,152,0.4342105263157895,0.04020275464772894,76.5
+national,WPME vs all ME,2020,Trump share above 50%,28,0.42857142857142855,0.09352195295828244,102.5
+national,WPME vs all ME,2021,Trump share 50% or less,48,0.25,0.0625,38.0
+national,WPME vs all ME,2021,Trump share above 50%,5,0.0,0.0,38.0
+national,WPME vs all ME,2010,all counties,351,0.42450142450142453,0.026382026013454764,434.0
+national,WPME vs all ME,2011,all counties,453,0.41501103752759383,0.023150189938043058,377.0
+national,WPME vs all ME,2012,all counties,347,0.4755043227665706,0.02680917526477014,328.0
+national,WPME vs all ME,2013,all counties,356,0.4044943820224719,0.02601202600736186,301.0
+national,WPME vs all ME,2014,all counties,324,0.42901234567901236,0.02749639442884161,308.5
+national,WPME vs all ME,2015,all counties,408,0.4681372549019608,0.02470337584470091,291.5
+national,WPME vs all ME,2016,all counties,366,0.47540983606557374,0.02610379261003151,258.0
+national,WPME vs all ME,2017,all counties,356,0.4606741573033708,0.02641785434815084,252.0
+national,WPME vs all ME,2018,all counties,295,0.5220338983050847,0.029082845274128858,178.0
+national,WPME vs all ME,2019,all counties,234,0.4658119658119658,0.03260952474239093,130.5
+national,WPME vs all ME,2020,all counties,180,0.43333333333333335,0.03693504475243258,78.0
+national,WPME vs all ME,2021,all counties,53,0.22641509433962265,0.05748688109486494,38.0
+national,both with a baba mention,2010,Trump share 50% or less,239,0.5606694560669456,0.03210333844528957,468.0
+national,both with a baba mention,2010,Trump share above 50%,23,0.6521739130434783,0.09931134621220186,494.0
+national,both with a baba mention,2011,Trump share 50% or less,279,0.5806451612903226,0.029542288379975835,437.0
+national,both with a baba mention,2011,Trump share above 50%,44,0.5909090909090909,0.07412145088699214,405.5
+national,both with a baba mention,2012,Trump share 50% or less,224,0.6116071428571429,0.03256476004381125,381.0
+national,both with a baba mention,2012,Trump share above 50%,38,0.7368421052631579,0.0714337781619259,384.0
+national,both with a baba mention,2013,Trump share 50% or less,211,0.5924170616113744,0.033828329270701674,331.0
+national,both with a baba mention,2013,Trump share above 50%,28,0.6785714285714286,0.08825940761227649,380.0
+national,both with a baba mention,2014,Trump share 50% or less,179,0.6256983240223464,0.036171528923746296,383.0
+national,both with a baba mention,2014,Trump share above 50%,42,0.6428571428571429,0.07393559564382367,286.5
+national,both with a baba mention,2015,Trump share 50% or less,253,0.6442687747035574,0.030097766954942824,344.0
+national,both with a baba mention,2015,Trump share above 50%,46,0.6086956521739131,0.07195790665661354,334.0
+national,both with a baba mention,2016,Trump share 50% or less,236,0.6398305084745762,0.031248554468244392,303.0
+national,both with a baba mention,2016,Trump share above 50%,38,0.6052631578947368,0.07929287277821243,244.5
+national,both with a baba mention,2017,Trump share 50% or less,206,0.6407766990291263,0.03342735356067255,272.5
+national,both with a baba mention,2017,Trump share above 50%,42,0.7619047619047619,0.0657205294611766,313.0
+national,both with a baba mention,2018,Trump share 50% or less,178,0.7359550561797753,0.03304110577964315,215.0
+national,both with a baba mention,2018,Trump share above 50%,34,0.6764705882352942,0.08023094083513455,277.0
+national,both with a baba mention,2019,Trump share 50% or less,130,0.6923076923076923,0.040479600891093655,147.5
+national,both with a baba mention,2019,Trump share above 50%,30,0.6333333333333333,0.08798147953257401,185.5
+national,both with a baba mention,2020,Trump share 50% or less,97,0.6804123711340206,0.047347299462697064,85.0
+national,both with a baba mention,2020,Trump share above 50%,19,0.631578947368421,0.11066473327112565,118.0
+national,both with a baba mention,2021,Trump share 50% or less,24,0.5,0.10206207261596575,48.0
+national,both with a baba mention,2021,Trump share above 50%,2,0.0,0.0,62.0
+national,both with a baba mention,2010,all counties,262,0.5687022900763359,0.030597110783765126,469.0
+national,both with a baba mention,2011,all counties,323,0.5820433436532507,0.027443659695239167,437.0
+national,both with a baba mention,2012,all counties,262,0.6297709923664122,0.029831555705367257,381.0
+national,both with a baba mention,2013,all counties,239,0.602510460251046,0.031655282765155,345.0
+national,both with a baba mention,2014,all counties,221,0.6289592760180995,0.03249570143023428,363.0
+national,both with a baba mention,2015,all counties,299,0.6387959866220736,0.02777933076439645,339.0
+national,both with a baba mention,2016,all counties,274,0.635036496350365,0.029083641315450146,294.5
+national,both with a baba mention,2017,all counties,248,0.6612903225806451,0.030052738042952967,278.5
+national,both with a baba mention,2018,all counties,212,0.7264150943396226,0.03061755916962626,222.0
+national,both with a baba mention,2019,all counties,160,0.68125,0.036839893245977244,150.0
+national,both with a baba mention,2020,all counties,116,0.6724137931034483,0.04357647696150485,88.0
+national,both with a baba mention,2021,all counties,26,0.46153846153846156,0.09776752450803732,52.5
+original,WPME vs all ME,2010,Trump share 50% or less,304,0.4407894736842105,0.028475180419314707,419.0
+original,WPME vs all ME,2010,Trump share above 50%,23,0.6521739130434783,0.09931134621220186,494.0
+original,WPME vs all ME,2011,Trump share 50% or less,379,0.42744063324538256,0.0254113980563295,378.0
+original,WPME vs all ME,2011,Trump share above 50%,49,0.5306122448979592,0.07129457294832352,352.0
+original,WPME vs all ME,2012,Trump share 50% or less,288,0.4756944444444444,0.029427951091579384,324.0
+original,WPME vs all ME,2012,Trump share above 50%,43,0.6511627906976745,0.07268117870127568,332.0
+original,WPME vs all ME,2013,Trump share 50% or less,293,0.42662116040955633,0.02889403648453828,284.0
+original,WPME vs all ME,2013,Trump share above 50%,36,0.5277777777777778,0.08320463312783069,360.5
+original,WPME vs all ME,2014,Trump share 50% or less,257,0.4357976653696498,0.03093095487951841,328.0
+original,WPME vs all ME,2014,Trump share above 50%,52,0.5192307692307693,0.06928622039643194,281.0
+original,WPME vs all ME,2015,Trump share 50% or less,342,0.4766081871345029,0.027007299375612037,298.0
+original,WPME vs all ME,2015,Trump share above 50%,60,0.4666666666666667,0.06440611887195306,281.5
+original,WPME vs all ME,2016,Trump share 50% or less,317,0.47634069400630913,0.028051340787913773,278.0
+original,WPME vs all ME,2016,Trump share above 50%,49,0.46938775510204084,0.07129457294832352,205.0
+original,WPME vs all ME,2017,Trump share 50% or less,320,0.4125,0.027519524319108424,258.0
+original,WPME vs all ME,2017,Trump share above 50%,61,0.5245901639344263,0.0639409722460115,294.0
+original,WPME vs all ME,2018,Trump share 50% or less,285,0.45964912280701753,0.02952084049519943,178.0
+original,WPME vs all ME,2018,Trump share above 50%,39,0.5897435897435898,0.07876386131162097,285.0
+original,WPME vs all ME,2019,Trump share 50% or less,215,0.4186046511627907,0.033644848058400845,136.0
+original,WPME vs all ME,2019,Trump share above 50%,35,0.5428571428571428,0.0842043882986294,128.0
+original,WPME vs all ME,2020,Trump share 50% or less,155,0.4258064516129032,0.03971635864945906,77.0
+original,WPME vs all ME,2020,Trump share above 50%,30,0.4,0.08944271909999159,91.5
+original,WPME vs all ME,2021,Trump share 50% or less,52,0.23076923076923078,0.05842727117790384,38.0
+original,WPME vs all ME,2021,Trump share above 50%,7,0.0,0.0,45.0
+original,WPME vs all ME,2010,all counties,327,0.45565749235474007,0.027541114220836608,428.0
+original,WPME vs all ME,2011,all counties,428,0.4392523364485981,0.0239893727139342,377.5
+original,WPME vs all ME,2012,all counties,331,0.4984894259818731,0.02748236007524729,326.0
+original,WPME vs all ME,2013,all counties,329,0.4376899696048632,0.027351003388525624,294.0
+original,WPME vs all ME,2014,all counties,309,0.44983818770226536,0.02830050216182873,315.0
+original,WPME vs all ME,2015,all counties,402,0.47512437810945274,0.024906851513735333,293.0
+original,WPME vs all ME,2016,all counties,366,0.47540983606557374,0.02610379261003151,265.5
+original,WPME vs all ME,2017,all counties,381,0.4304461942257218,0.025366720717380477,262.0
+original,WPME vs all ME,2018,all counties,324,0.47530864197530864,0.027743886927545786,191.0
+original,WPME vs all ME,2019,all counties,250,0.436,0.03136265294900927,136.0
+original,WPME vs all ME,2020,all counties,185,0.42162162162162165,0.03630626703423185,78.0
+original,WPME vs all ME,2021,all counties,59,0.2033898305084746,0.05240364965848236,38.0
+original,both with a baba mention,2010,Trump share 50% or less,229,0.5851528384279476,0.03255824435652693,470.0
+original,both with a baba mention,2010,Trump share above 50%,23,0.6521739130434783,0.09931134621220186,494.0
+original,both with a baba mention,2011,Trump share 50% or less,266,0.6090225563909775,0.02991932022203684,437.5
+original,both with a baba mention,2011,Trump share above 50%,41,0.6341463414634146,0.07522401651262858,443.0
+original,both with a baba mention,2012,Trump share 50% or less,214,0.6401869158878505,0.03280839508289303,378.5
+original,both with a baba mention,2012,Trump share above 50%,35,0.8,0.06761234037828132,378.0
+original,both with a baba mention,2013,Trump share 50% or less,198,0.6313131313131313,0.034286144501407795,325.5
+original,both with a baba mention,2013,Trump share above 50%,27,0.7037037037037037,0.08787718725951697,385.0
+original,both with a baba mention,2014,Trump share 50% or less,169,0.6627218934911243,0.03636774575409773,383.0
+original,both with a baba mention,2014,Trump share above 50%,41,0.6585365853658537,0.07405768205084984,288.0
+original,both with a baba mention,2015,Trump share 50% or less,253,0.6442687747035574,0.030097766954942824,348.0
+original,both with a baba mention,2015,Trump share above 50%,43,0.6511627906976745,0.07268117870127568,335.0
+original,both with a baba mention,2016,Trump share 50% or less,239,0.6317991631799164,0.031198445714495277,314.0
+original,both with a baba mention,2016,Trump share above 50%,36,0.6388888888888888,0.08005377993421567,244.5
+original,both with a baba mention,2017,Trump share 50% or less,215,0.6139534883720931,0.033202311665656674,279.0
+original,both with a baba mention,2017,Trump share above 50%,43,0.7441860465116279,0.06653783233847355,330.0
+original,both with a baba mention,2018,Trump share 50% or less,185,0.7081081081081081,0.033425270852541364,214.0
+original,both with a baba mention,2018,Trump share above 50%,33,0.696969696969697,0.08000055652754638,286.0
+original,both with a baba mention,2019,Trump share 50% or less,142,0.6338028169014085,0.04042875895483941,148.0
+original,both with a baba mention,2019,Trump share above 50%,25,0.76,0.0854166260162505,185.0
+original,both with a baba mention,2020,Trump share 50% or less,98,0.673469387755102,0.047370486324407934,84.5
+original,both with a baba mention,2020,Trump share above 50%,19,0.631578947368421,0.11066473327112565,118.0
+original,both with a baba mention,2021,Trump share 50% or less,26,0.46153846153846156,0.09776752450803732,48.0
+original,both with a baba mention,2021,Trump share above 50%,2,0.0,0.0,62.0
+original,both with a baba mention,2010,all counties,252,0.5912698412698413,0.03096784149154007,478.5
+original,both with a baba mention,2011,all counties,307,0.6123778501628665,0.02780640488124011,438.0
+original,both with a baba mention,2012,all counties,249,0.6626506024096386,0.029962813735879525,378.0
+original,both with a baba mention,2013,all counties,225,0.64,0.032,339.0
+original,both with a baba mention,2014,all counties,210,0.6619047619047619,0.03264432044764284,366.0
+original,both with a baba mention,2015,all counties,296,0.6452702702702703,0.027808256878007514,343.0
+original,both with a baba mention,2016,all counties,275,0.6327272727272727,0.02906941354597366,298.0
+original,both with a baba mention,2017,all counties,258,0.6356589147286822,0.029960999122673165,290.5
+original,both with a baba mention,2018,all counties,218,0.7064220183486238,0.030843638686692453,222.0
+original,both with a baba mention,2019,all counties,167,0.6526946107784432,0.03684279240680132,148.0
+original,both with a baba mention,2020,all counties,117,0.6666666666666666,0.0435813633640409,88.0
+original,both with a baba mention,2021,all counties,28,0.42857142857142855,0.09352195295828244,52.5
