@@ -58,27 +58,27 @@ xs = np.linspace(.15, .72, 60)
 for g, colr, lab, off in [("ME", ORANGE, "Explicitly Middle Eastern (ME)", -0.004), ("WP", BLUE, "Broadly positioned (WPME)", +0.004)]:
     fit = [lin.lin(**{g + "p": 1, g + "pZ": (x - .4) / .1}) for x in xs]
     est, se = np.array([f["est"] for f in fit]), np.array([f["se"] for f in fit])
-    ax.fill_between(100 * xs, est - 1.96 * se, est + 1.96 * se, color=colr, alpha=.07, lw=0)
-    ax.plot(100 * xs, est, color=colr, lw=1.6, alpha=.75, label=lab)
+    ax.fill_between(100 * xs, est - 1.96 * se, est + 1.96 * se, color=colr, alpha=.14, lw=0)
+    ax.plot(100 * xs, est, color=colr, lw=2.4, label=lab)
     for k in range(5):
         b = binned.lin(**{"%sb%d" % (g, k): 1})
         n = int(tl[tl[g].eq(1) & tl.k.eq(k)].gmap_id.nunique())
         xk = 100 * (xmid[k] + off)
-        ax.errorbar([xk], [b["est"]], yerr=[1.96 * b["se"]], fmt="none", ecolor=colr, elinewidth=1.7, capsize=3.5, capthick=1.7, zorder=4)
-        ax.scatter([xk], [b["est"]], s=40, color=colr, edgecolor=SURF, linewidth=1.1, zorder=5)
         rows5.append(dict(group=lab, trump_share_bin=MID[k], mean_share=xmid[k], restaurants=n, **b))
     sl = lin.lin(**{g + "pZ": 1})
     rows5.append(dict(group=lab, trump_share_bin="slope per 10 pts (linear fit)", **sl))
-ax.text(15, 0.27, "Zero line = American-first restaurants in the same county", fontsize=8.2, color=MUTED, ha="left", va="top")
+    ax.text(71.5, est[-1] + (0.075 if g == "WP" else -0.085), "%+.3f stars per 10 points (p = %.2f)" % (sl["est"], sl["p"]), color=INK, fontsize=8.6, ha="right", va="center")
+ax.text(15, 0.185, "Zero line = American-first restaurants in the same county", fontsize=8.2, color=MUTED, ha="left", va="top")
 ax.set_xlim(14, 73)
-ax.set_ylim(-0.42, 0.3)
+ax.set_ylim(-0.3, 0.2)
 ax.set_xlabel("County 2016 Trump vote share (%)")
 ax.set_ylabel("Change in rating after the events,\nrelative to American-first restaurants (stars)")
 ax.legend(frameon=False, fontsize=9, loc="lower left")
-fig.suptitle("Rating change after the 2016 election and the travel ban, by county Trump share:\nthe fitted line falls for explicitly Middle Eastern restaurants, but the binned points are uneven",
+fig.suptitle("After the 2016 election and the travel ban, ratings of explicitly Middle Eastern restaurants\nfall as county Trump share rises",
              x=0.01, ha="left", fontsize=11.2, fontweight="bold", y=0.985)
 fig.text(0.01, 0.012, "Six weeks after the 2016 election and the January 2017 travel ban versus the 210 days before the election. Lines: linear fit with 95% bands.\n"
-         "Points: the same model with Trump share in five bins. Restaurant and county-by-period fixed effects; county-clustered intervals.", fontsize=7.6, color=MUTED, va="bottom")
+         "Restaurant and county-by-period fixed effects; county-clustered intervals. Separate estimates for five Trump-share groups are uneven (see figure5_data.csv).\n"
+         "The difference between the two lines is not robust to accounting for each reviewer's usual rating (desc_star_breakdown_leniency.csv).", fontsize=7.6, color=MUTED, va="bottom")
 fig.tight_layout(rect=(0, 0.065, 1, 0.9))
 fig.savefig(OUT / "figure5_which_group_moves_by_trump_share.png", dpi=150, facecolor=SURF)
 plt.close(fig)

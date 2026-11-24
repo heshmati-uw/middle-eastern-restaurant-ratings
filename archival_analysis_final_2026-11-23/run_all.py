@@ -33,3 +33,8 @@ if a.from_raw:
     run(sys.executable, "14_labels_and_pairs.py", a.from_raw)
     run(a.rscript, "15_map.R", a.from_raw, ".")
     run(sys.executable, "16_text_and_reviewers.py")
+    run(sys.executable, "17_identity_lens.py")
+    run(sys.executable, "18_scan_reviewer_leniency.py", a.from_raw, a.workers)
+    run(sys.executable, "19_star_breakdown_leniency.py")
+    run(sys.executable, "21_each_group_over_time.py")
+    run(sys.executable, "20_results_summary_html.py")

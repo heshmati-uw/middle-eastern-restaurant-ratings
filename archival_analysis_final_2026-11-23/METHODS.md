@@ -1,6 +1,6 @@
 # Measures and empirical specification
 
-Hiding Their True Colors (Heshmati, Choe, Frake). Written 2026-11-23. Describes exactly what the scripts in this folder do. All results are exploratory.
+Hiding Their True Colors (Heshmati, Choe). Written 2026-11-23. Describes exactly what the scripts in this folder do. All results are exploratory.
 
 ## 1. Data sources
 
@@ -110,7 +110,26 @@ Events in focus: the 2016 election (Nov 8, 2016) and the first travel ban (Jan 2
 | WPME | +0.020 | −0.008 | +0.006 | .65 |
 | WPME minus ME | | | +0.033 | .02 |
 
-At 60% Trump share the average change is −0.093 stars for ME (p = .02) and −0.034 for WPME (p = .33).
+At 60% Trump share the average change is −0.093 stars for ME (p = .02) and −0.034 for WPME (p = .33). At 40% it is −0.038 for ME (p = .07) and −0.046 for WPME (p = .01): both groups are below American-first restaurants after the events, and ME differs in its slope.
+
+This is the lead estimate for step 2 as worded on November 24 ("ratings of explicitly Middle Eastern restaurants fell in more Trump-leaning counties"). The WPME-minus-ME gap above is reported as the comparison.
+
+**Each group over time** (`21_each_group_over_time.py`, figure 7). The same three-group model on eleven consecutive periods of about six weeks (April 12, 2016 to July 13, 2017), with {ME, WPME} × period × {1, Z}; each group's Trump-share slope is shown relative to its average over the five pre-election periods. 1,652 ME, 1,304 WPME and 31,655 American restaurants.
+
+| Per 10 points of Trump share, relative to American-first | After election | Between | After ban | Three later periods | Pre-period joint test |
+|---|---|---|---|---|---|
+| ME | −0.017 (p = .22) | +0.010 (p = .51) | −0.037 (p < .01) | −0.006 (p = .51) | p = .28 |
+| WPME | +0.020 (p = .21) | −0.028 (p = .07) | −0.012 (p = .40) | +0.001 (p = .94) | p = .06 |
+
+**Reviewer leniency** (`18_scan_reviewer_leniency.py`, `19_star_breakdown_leniency.py`). For each review on the shared timeline, the reviewer's history is every other review that person wrote in the data (any business, any year): their average rating and their share of reviews at each star level. 948,043 reviews by 701,414 reviewers; 94% of reviews come from people with other reviews. Two adjustments to the three-group model: (a) add the average leniency of the restaurant's reviewers in the period as a control, with the share of reviewers who have no other reviews; (b) express each review relative to that reviewer's own history (rating minus their usual average; a one-star indicator minus their usual one-star share), dropping reviewers with no other reviews.
+
+| Per 10 points of Trump share | As estimated | + leniency control | Relative to the reviewer's usual |
+|---|---|---|---|
+| ME mean rating | −0.027 (p = .02) | −0.027 (p = .02) | −0.025 (p = .04) |
+| ME share of one-star reviews | +0.74 pts (p < .01) | +0.73 pts (p < .01) | +0.74 pts (p < .01) |
+| WPME minus ME mean rating | +0.033 (p = .03) | +0.027 (p = .06) | +0.009 (p = .61) |
+
+The ME decline does not depend on who is reviewing. The contrast with WPME does: against each reviewer's usual rating WPME is −0.016 (p = .18).
 
 **Gap levels by window** (restaurant mean rating in the window; county fixed effects; WPME and WPME × Z).
 
