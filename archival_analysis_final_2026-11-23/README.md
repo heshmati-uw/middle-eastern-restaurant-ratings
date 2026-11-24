@@ -32,6 +32,8 @@ Exhibit 2 (ordinary-times rating and review-volume levels) is kept as a backgrou
 
 - The contrast between WPME and ME is not robust to who is reviewing. WPME restaurants in more Trump-leaning counties drew somewhat more lenient reviewers after the events; against each reviewer's usual rating the WPME-minus-ME difference is +0.009 (p = .61). The ME decline itself is unchanged. At 40% Trump share both groups are below American-first restaurants after the events (WPME −0.046, p = .01; ME −0.038, p = .07).
 - For ME on its own, the travel ban carries the result; the election alone is not significant.
+- Estimates are for the average restaurant: each restaurant-period counts equally, whatever its number of reviews. Weighted by reviews, the ME travel-ban estimate is −0.013 (p = .18) rather than −0.035 (p = .01); the decline is concentrated in restaurants with fewer reviews. The paper reports the average-restaurant estimate and shows the review-weighted one as robustness (decided November 24). See [REGRESSIONS.md](REGRESSIONS.md).
+- Every regression was re-estimated in R (`25_verify_with_fixest.R`); all estimates and standard errors match.
 - The event result holds with continuous Trump share and not with the over-50% split (+0.092 pooled, p = .17).
 - Six events were tested. The focus on the election and the first travel ban was chosen after seeing all six; the other four and the six-event pooled estimate (+0.019, p = .02) are in RESULTS.md.
 - WPME requires a baba mention and ME does not. Against ME restaurants that also have one, the ordinary-times rating gap is zero. The event models use restaurant fixed effects and are not affected by this.
@@ -79,6 +81,9 @@ also rebuilds the sample, county assignment, review extract and frozen tables fr
 | `21_each_group_over_time.py` | Figure 7: ME and WPME over time, each relative to American-first restaurants |
 | `22_scan_authentic_reviews.py` | Raw pass for reviews (all years) of WPME and ME restaurants that contain "authentic" (output stays in `built/`) |
 | `23_authentic_mentions.py` | How often reviewers call WPME restaurants authentic Lebanese, Turkish, Middle Eastern and so on |
+| `24_pilot_label_meanings.py` | Pilot survey aggregates and figure (reads the local export in `built/`) |
+| `25_verify_with_fixest.R`, `26_verification_report.py` | Independent re-estimation in R, alternative specifications, and data checks |
+| `30_publication_figures.py`, `31_publication_map.R` | Publication figures and captions in `outputs/publication/` |
 | `20_results_summary_html.py` | Writes RESULTS_SUMMARY.html, the working summary with figures and include/leave-out recommendations (local; it quotes three reviews) |
 | `09_results_summary.py` | Writes RESULTS.md from the output tables |
 | `inputs/` | MIT Election Lab county returns (2016); ACS 2017–2021 county tables; county land area |

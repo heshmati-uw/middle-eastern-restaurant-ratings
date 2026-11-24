@@ -58,6 +58,9 @@ rows = []
 base_cols = ["rating"] + ["i%d" % k for k in range(1, 6)]
 c_all = cells(r.assign(nohist=(~r.has_hist).astype(float), lenfill=r.len_mean.fillna(r.len_mean.mean())), base_cols + ["nohist", "lenfill"])
 c_rel = cells(r[r.has_hist], ["rel_mean"] + ["rel%d" % k for k in range(1, 6)] + ["len_mean"])
+# restaurant-by-period cells relative to each reviewer's usual (no reviewer IDs), so the model can be re-estimated from frozen/
+c_rel[["gmap_id", "bin", "rel_mean", "rel1", "len_mean", "n"]].to_csv(FROZEN / "leniency_cells.csv.gz", index=False)
+c_all[["gmap_id", "bin", "rating", "i1", "lenfill", "nohist", "n"]].to_csv(FROZEN / "leniency_cells_all.csv.gz", index=False)
 X = ["MEp", "MEpZ", "WPp", "WPpZ"]
 LAB = {"rating": "mean rating", **{"i%d" % k: "share %d-star" % k for k in range(1, 6)}}
 for y, lab in LAB.items():

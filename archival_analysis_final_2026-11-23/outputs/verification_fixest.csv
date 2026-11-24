@@ -1,0 +1,25 @@
+"model","term","est","se","p","n"
+"label choice: state FE only","Trump share per 10 pts",0.0260661788957167,0.00860097105770011,0.00258006581111178,3895
+"label choice: + population, density","Trump share per 10 pts",-0.00674445771282087,0.0110530530963073,0.542041542004582,3895
+"label choice: + college, foreign-born","Trump share per 10 pts",-0.00759539371250708,0.00991901700804924,0.444228595216701,3895
+"label choice: + college, foreign-born","Middle Eastern ancestry per 1 pt",-0.0581514153568612,0.0109317204865869,1.63704521135389e-07,3895
+"event gap: 2016 election","WPME x After x Trump share",0.048261746426882,0.0226121554802655,0.0334280394254826,13683
+"event gap: Travel ban","WPME x After x Trump share",0.0380363600765478,0.0179085238232327,0.0342849114341535,14639
+"event gap: pooled election and travel ban","WPME x After x Trump share",0.042892058201938,0.0153379876294437,0.00541399033554768,28322
+"which group moves","ME x after election x Trump share",-0.0190387068899965,0.0137766414930425,0.167100895891103,170379
+"which group moves","ME x after travel ban x Trump share",-0.0353172485937153,0.0138459770933625,0.010805307434936,170379
+"which group moves","WPME x after election x Trump share",0.0194658698497128,0.0168777439438772,0.248871802551081,170379
+"which group moves","WPME x after travel ban x Trump share",-0.00793080077137176,0.0153928535224029,0.606437629140273,170379
+"which group moves","ME: average of the two events",-0.0271779777418559,0.0118777512736123,NA,170379
+"which group moves","WPME: average of the two events",0.00576753453917053,0.0128865684142811,NA,170379
+"which group moves","ME: change at 60% Trump share after travel ban",-0.107435862972305,0.0470019765879549,NA,170379
+"which group moves","WPME: change at 60% Trump share after travel ban",-0.0509439464691523,0.0418178880203635,NA,170379
+"each group over time","ME: period after election vs pre-election average",-0.016974627658418,0.0138030675058646,NA,285105
+"each group over time","ME: period after travel ban vs pre-election average",-0.0365448556533673,0.0134810402371704,NA,285105
+"each group over time","WPME: period after election vs pre-election average",0.0199931055869474,0.0159309811555595,NA,285105
+"each group over time","WPME: period after travel ban vs pre-election average",-0.0124157294781606,0.0147813950562092,NA,285105
+"star breakdown: share 1-star","ME x After x Trump share",0.00735890517282397,0.00257603546611957,0.00431408715731497,170379
+"star breakdown: share 1-star","WPME x After x Trump share",-7.65033400740649e-05,0.00323095615079656,0.981111035541241,170379
+"leniency: rating relative to reviewer's usual","ME x after travel ban x Trump share",-0.0374409535097157,0.0138689021473829,0.00698548932179292,166026
+"leniency: rating relative to reviewer's usual","ME x after election x Trump share",-0.0121758910404591,0.0157441512263097,0.439378238808245,166026
+"leniency: rating relative to reviewer's usual","WPME x after travel ban x Trump share",-0.0259208214336467,0.0152384523960895,0.0890571408527864,166026

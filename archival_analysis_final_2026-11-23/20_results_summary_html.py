@@ -58,6 +58,41 @@ rest = pd.read_csv(FROZEN / "restaurants.csv", dtype={"county_fips": str})
 n_wp, n_me = int((rest.wpme & rest.trump_share.notna()).sum()), int((rest.me_national & rest.trump_share.notna()).sum())
 
 parts = []
+# ---------------- the argument, and the pilot that comes before the archival study
+pa, pc, pf, pp = R("pilot_associations.csv").set_index("association"), R("pilot_cuisine_sort.csv").set_index("cuisine"), R("pilot_frequency.csv").set_index("how_often"), R("pilot_by_party.csv").set_index("party")
+p_me, p_wh, p_eu = pa.loc["Owners of Middle Eastern ancestry"], pa.loc["Owners perceived as racially White"], pa.loc["Owners of European ancestry"]
+n_pilot = int(p_me.n)
+rare = lambda col: pf.loc[["Never", "Less than once a year"], col].sum()
+parts.append("""<h2 class='plain'>The argument in three steps</h2>
+<ol>
+<li><b>The labels carry different racial meanings</b> (pilot survey, below).</li>
+<li><b>Restaurants serving food that customers call authentic Lebanese or Persian often lead with the less racialized label</b>, more so where the local Middle Eastern community is small (archival, results <a href="#r1">1</a> to <a href="#r5">5</a>).</li>
+<li><b>The explicit label is penalized after the travel ban in Trump-leaning counties</b> (archival, results <a href="#r6">6</a> to <a href="#r9">9</a>).</li>
+</ol>
+<p>The experiment then tests whether the label itself causes the penalty, and why (last section).</p>""")
+parts.append("<section id='pilot'><h2>Before the archival study: what the two labels mean to people <span class='tag main'>Main text</span></h2>"
+    "<p><b>What we did.</b> A Prolific pilot run by Susie Choe in November 2026 (%d respondents). Each respondent rated &ldquo;Middle Eastern restaurants&rdquo; and &ldquo;Mediterranean restaurants&rdquo; "
+    "on how strongly they associate each with three kinds of owners (1 = not at all, 7 = very strongly), sorted 12 national cuisines into Middle Eastern, Mediterranean, Both, Neither or Not sure, "
+    "rated how much the two cuisines overlap, and reported how often they eat each.</p>" % n_pilot
+    + table(["The category is associated with&hellip;", "Middle Eastern restaurants", "Mediterranean restaurants", "Difference (95% interval)", "Effect size (d<sub>z</sub>)"],
+            [[k, "%.2f" % r_.mean_middle_eastern, "%.2f" % r_.mean_mediterranean, "%s [%s, %s], %s" % (fe(r_.gap_med_minus_me, 2), fe(r_.ci_low, 2), fe(r_.ci_high, 2), fp(r_.p)), "%.2f" % abs(r_.dz)] for k, r_ in pa.iterrows()])
+    + "<p><b>Result: the label is a racial signal.</b> &ldquo;Mediterranean&rdquo; reads as far less Middle Eastern (%.1f against %.1f) and as more White and more European. "
+      "The same respondents rated both labels, so this is how one person reads the two words.</p>" % (p_me.mean_mediterranean, p_me.mean_middle_eastern)
+    + img("figure0_pilot.png", "Pilot survey: owner associations by label, and how national cuisines are sorted")
+    + "<p><b>Result: the cuisines our restaurants serve are seen as Middle Eastern.</b> Respondents place Persian (%.0f%%), Syrian (%.0f%%), Palestinian (%.0f%%) and Lebanese (%.0f%%) cuisine in the Middle Eastern group, "
+      "and few place them under Mediterranean (Lebanese %.0f%%, Persian %.0f%%). These are the cuisines reviewers name at Mediterranean-labeled restaurants in <a href='#r2'>result 2</a>, "
+      "so leading with &ldquo;Mediterranean&rdquo; there is a positioning choice, not a plain description of the food.</p>" % (
+        pc.loc["Iranian / Persian", "Middle Eastern"], pc.loc["Syrian", "Middle Eastern"], pc.loc["Palestinian", "Middle Eastern"], pc.loc["Lebanese", "Middle Eastern"],
+        pc.loc["Lebanese", "Mediterranean"], pc.loc["Iranian / Persian", "Mediterranean"])
+    + "<p><b>Result: the broad label is the familiar one.</b> %.0f%% of respondents eat Middle Eastern food less than once a year or never, against %.0f%% for Mediterranean food. "
+      "That is the unfamiliarity account the experiment will set against animus.</p>" % (rare("Middle Eastern food"), rare("Mediterranean food"))
+    + "<p><b>Result: the meaning is shared across parties.</b> The gap in Middle Eastern-ancestry association is %.1f among Democrats and %.1f among Republicans, and none of the three gaps differs by party (p = %.2f, %.2f, %.2f). "
+      "People across the spectrum read the labels the same way, which suggests the Trump-share pattern in the archival results reflects how people respond to that meaning.</p>" % (
+        pp.loc["Democrat", "me_ancestry_gap"], pp.loc["Republican", "me_ancestry_gap"], pp.loc["ANOVA p", "white_gap"], pp.loc["ANOVA p", "me_ancestry_gap"], pp.loc["ANOVA p", "european_gap"])
+    + "<p><b>How solid.</b> The association gaps are large and precise. Four limits: the pilot measures what the labels mean, not how restaurants are rated; &ldquo;Mediterranean&rdquo; sits below the scale midpoint on White owners (%.1f), "
+      "so &ldquo;less racialized&rdquo; describes it better than &ldquo;White&rdquo;; it sorts national cuisines rather than dishes such as baba ghanoush; and it measures 2026 perceptions, not those of 2017. The party comparison rests on %d Republicans.</p>" % (
+        p_wh.mean_mediterranean, int(pp.loc["Republican", "n"]))
+    + "<p class='rec'><b>Recommendation: main text, before the archival study.</b> It establishes why the choice of label matters before showing who makes it and what follows.</p></section>")
 # ---------------- overview
 overview = [
     ("1", "How these restaurants label themselves", "Main text", "Opens the paper: most do not call themselves Middle Eastern"),
@@ -80,11 +115,16 @@ parts.append("<h2 class='plain'>At a glance</h2>" + table(["#", "Result", "Recom
 _me = lambda q: wg.loc["ME vs American: " + q]
 _wp = lambda q: wg.loc["WPME vs American: " + q]
 _ban, _elec = "relative to the reviewer's usual | travel ban", "relative to the reviewer's usual | election"
+vrb, vsz = R("verification_robustness.csv"), R("verification_by_size.csv")
+VR = lambda variant: vrb[vrb.variant.str.startswith(variant) & (vrb.term == "MEgBZ")].iloc[0]
+_rbw = "%s, %s" % (fe(VR("weighted").est), fp(VR("weighted").p))
 parts.append("<h2 class='plain'>The Step 2 claim</h2>"
     "<p class='rec'>After the January 2017 travel ban, ratings of explicitly Middle Eastern restaurants fell in more Trump-leaning counties, relative to other restaurants in the same county, for about six weeks. "
     "The 2016 election shows a smaller dip in the same direction. Broadly positioned restaurants show no such pattern across counties, though we cannot say they were spared.</p>"
     "<ul><li><b>The travel ban.</b> ME against American-first restaurants in the same county: %s stars per 10 points of Trump share (%s). "
     "It is just as large when each review is measured against that reviewer's usual rating (%s, %s), and one-star reviews rise by %s points (%s).</li>"
+    "<li><b>Whose ratings.</b> This is the change for the average restaurant: each restaurant counts equally in each six-week period, however many reviews it received. "
+    "Weighted by number of reviews the estimate is smaller and not significant (RBWTOKEN), because the decline is concentrated in restaurants with fewer reviews (see <a href='#r8'>result 8</a>).</li>"
     "<li><b>The election.</b> Same direction, smaller: %s (%s). One-star reviews of ME restaurants rise here too (%s points, %s). The two events together: %s (%s).</li>"
     "<li><b>Brief.</b> ME ratings are back to baseline in the months that follow (%s, %s).</li>"
     "<li><b>Broadly positioned restaurants.</b> WPME shows no gradient with Trump share (%s, %s). The WPME-minus-ME difference is not significant once each reviewer's usual rating is accounted for (%s, %s), "
@@ -98,6 +138,7 @@ parts.append("<h2 class='plain'>The Step 2 claim</h2>"
         fe(_wp("average, per 10 pts").est), fp(_wp("average, per 10 pts").p),
         fe(L("relative to the reviewer's usual", "mean rating", "WPME minus ME").est), fp(L("relative to the reviewer's usual", "mean rating", "WPME minus ME").p),
         fe(_wp("average change at 40% Trump share").est), fp(_wp("average change at 40% Trump share").p), fe(_me("average change at 40% Trump share").est), fp(_me("average change at 40% Trump share").p)))
+parts[-1] = parts[-1].replace("RBWTOKEN", _rbw)
 parts.append("""<h2 class='plain'>How to read this</h2>
 <ul>
 <li><b>WPME</b> (broadly positioned): first Google category contains "Mediterranean" and at least one review mentions baba ghanoush. %d restaurants.</li>
@@ -139,7 +180,7 @@ if axp.exists() and aep.exists():
         where = "%s County, %s" % (cn.county, cn.state_po) if cn is not None else "county not assigned"
         rq.append("<blockquote>&ldquo;%s&rdquo;<footer>%d-star review, %s. Restaurant: first category &ldquo;%s&rdquo; (WPME); %s; the restaurant averages %.2f stars over %d reviews "
                   "and has %d reviews of this kind.</footer></blockquote>" % (html.escape(ex), x.rating, str(x["date"])[:10], html.escape(str(x.first_category)), where, x.mean_rating, x.n_reviews, x.mentions_at_restaurant))
-    au_quotes = "<p><b>Three examples.</b> Restaurant names are withheld.</p>" + "".join(rq)
+    au_quotes = "<p><b>Examples.</b> Restaurant names are withheld.</p>" + "".join(rq)
 parts.append(sec(2, "Reviewers call these restaurants authentic Middle Eastern food", "Main text",
     "<p><b>What we did.</b> Read every review with text of the WPME restaurants, all years (%s reviews), and counted those where &ldquo;authentic&rdquo; is followed in the same sentence by a cuisine word, "
     "as in &ldquo;authentic Lebanese food&rdquo;. Negated uses (&ldquo;not authentic&rdquo;) are left out.</p>" % format(int(a_any.text_reviews_in_group), ",")
@@ -237,6 +278,14 @@ parts.append(sec(8, "Which group moves", "Main text",
             for bn in b5.trump_share_bin.unique() for m_ in [b5[(b5.trump_share_bin == bn) & b5.group.str.contains("ME\\)") & b5.group.str.startswith("Explicitly")].iloc[0]]
             for w_ in [b5[(b5.trump_share_bin == bn) & b5.group.str.startswith("Broadly")].iloc[0]]])
     + "<p>The ME decline sits mostly in counties at 50–60%%; above 60%% there are only %d ME restaurants and no decline. In counties under 30%%, WPME fell while ME held.</p>" % int(b5[(b5.trump_share_bin == "over 60%") & b5.group.str.startswith("Explicitly")].restaurants.iloc[0])
+    + "<p><b>Checked independently.</b> Every regression in this summary was re-estimated in R (fixest) with separately written code; all estimates and standard errors match. "
+      "The travel-ban estimate for ME is also stable across fixed-effect structures, clustering and the definition of explicit labels. It is sensitive to one thing, weighting:</p>"
+    + table(["ME after the travel ban, per 10 pts of Trump share", "Estimate", ""],
+            [[lab_, fe(VR(k_).est), fp(VR(k_).p)] for k_, lab_ in [("as reported", "As reported: each restaurant-period counts equally"), ("clustered by state", "Standard errors clustered by state"),
+              ("state-by-period", "State-by-period fixed effects"), ("original", "Original 20-category list of explicit labels"), ("cells with 3", "Restaurant-periods with 3 or more reviews only"), ("weighted", "Weighted by number of reviews")]])
+    + "<p>Equal weights give the change for the average restaurant; review weights give the change for the average review. They differ because the decline is concentrated in restaurants with fewer reviews:</p>"
+    + table(["ME restaurants by reviews in the 210 days before the election", "Restaurants", "Estimate", ""], [[r_.pre_reviews.capitalize(), int(r_.me_restaurants), fe(r_.est), fp(r_.p)] for _, r_ in vsz.iterrows()])
+    + "<p><b>Decision (November 24):</b> report the result for the average restaurant, state the weighting wherever it appears, and show the review-weighted estimate as robustness.</p>"
     + "<p class='rec'><b>Recommendation: main text, the line figure, as the lead estimate for Step 2.</b> Lead with the travel ban, report the election as a smaller dip in the same direction, and put the five-group table in the appendix.</p>"))
 # ---------------- 9
 s1 = st[(st.quantity == "per 10 pts Trump share") & (st.outcome == "share 1-star")].set_index("group")
