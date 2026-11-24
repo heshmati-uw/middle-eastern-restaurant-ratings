@@ -37,4 +37,6 @@ if a.from_raw:
     run(sys.executable, "18_scan_reviewer_leniency.py", a.from_raw, a.workers)
     run(sys.executable, "19_star_breakdown_leniency.py")
     run(sys.executable, "21_each_group_over_time.py")
+    run(sys.executable, "22_scan_authentic_reviews.py", a.from_raw, a.workers)
+    run(sys.executable, "23_authentic_mentions.py")
     run(sys.executable, "20_results_summary_html.py")

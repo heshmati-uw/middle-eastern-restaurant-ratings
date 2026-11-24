@@ -77,6 +77,8 @@ also rebuilds the sample, county assignment, review extract and frozen tables fr
 | `18_scan_reviewer_leniency.py` | Raw pass for each reviewer's rating history (output stays in `built/`) |
 | `19_star_breakdown_leniency.py` | The star breakdown with reviewer-leniency adjustments |
 | `21_each_group_over_time.py` | Figure 7: ME and WPME over time, each relative to American-first restaurants |
+| `22_scan_authentic_reviews.py` | Raw pass for reviews (all years) of WPME and ME restaurants that contain "authentic" (output stays in `built/`) |
+| `23_authentic_mentions.py` | How often reviewers call WPME restaurants authentic Lebanese, Turkish, Middle Eastern and so on |
 | `20_results_summary_html.py` | Writes RESULTS_SUMMARY.html, the working summary with figures and include/leave-out recommendations (local; it quotes three reviews) |
 | `09_results_summary.py` | Writes RESULTS.md from the output tables |
 | `inputs/` | MIT Election Lab county returns (2016); ACS 2017–2021 county tables; county land area |

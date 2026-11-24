@@ -61,17 +61,18 @@ parts = []
 # ---------------- overview
 overview = [
     ("1", "How these restaurants label themselves", "Main text", "Opens the paper: most do not call themselves Middle Eastern"),
-    ("2", "Where broad positioning is common (map)", "Main text", "Shows the geography at a glance"),
-    ("3", "Label choice tracks the local community", "Main text", "Step 1. Strong and stable"),
-    ("4", "Matched pairs in the same county", "Main text", "One pair as the opening anecdote"),
-    ("5", "The rating gap shifts after the election and the travel ban", "Main text", "The comparison with WPME. Significant, short-lived, weaker once reviewer leniency is accounted for"),
-    ("6", "Each group and the gap over time", "Main text", "Shows the travel-ban dip in ME ratings and how brief it is"),
-    ("7", "Which group moves", "Main text", "Step 2, the lead estimate: ME ratings fall, most clearly after the travel ban"),
-    ("8", "Star breakdown and reviewer leniency", "Main text", "The ME fall is one-star reviews and survives the leniency control"),
-    ("9", "Other events examined", "Appendix", "For completeness"),
-    ("10", "Positioning over time", "Appendix", "No shift after the election"),
-    ("11", "What reviewers write: identity as the lens", "Main text", "Motivates the experiment; three excerpts"),
-    ("12", "Who the reviewers are", "One sentence", "No sign of drive-by reviewing"),
+    ("2", "Reviewers call these restaurants authentic Middle Eastern food", "Main text", "Shows the Mediterranean label sits on Middle Eastern food"),
+    ("3", "Where broad positioning is common (map)", "Main text", "Shows the geography at a glance"),
+    ("4", "Label choice tracks the local community", "Main text", "Step 1. Strong and stable"),
+    ("5", "Matched pairs in the same county", "Main text", "One pair as the opening anecdote"),
+    ("6", "The rating gap shifts after the election and the travel ban", "Main text", "The comparison with WPME. Significant, short-lived, weaker once reviewer leniency is accounted for"),
+    ("7", "Each group and the gap over time", "Main text", "Shows the travel-ban dip in ME ratings and how brief it is"),
+    ("8", "Which group moves", "Main text", "Step 2, the lead estimate: ME ratings fall, most clearly after the travel ban"),
+    ("9", "Star breakdown and reviewer leniency", "Main text", "The ME fall is one-star reviews and survives the leniency control"),
+    ("10", "Other events examined", "Appendix", "For completeness"),
+    ("11", "Positioning over time", "Appendix", "No shift after the election"),
+    ("12", "What reviewers write: identity as the lens", "Main text", "Motivates the experiment; three excerpts"),
+    ("13", "Who the reviewers are", "One sentence", "No sign of drive-by reviewing"),
 ]
 cls = {"Main text": "main", "Appendix": "app", "Leave out": "out", "One sentence": "app"}
 parts.append("<h2 class='plain'>At a glance</h2>" + table(["#", "Result", "Recommendation", "Why"],
@@ -117,15 +118,51 @@ parts.append(sec(1, "How these restaurants label themselves", "Main text",
     + "<p><b>How solid.</b> A simple count. The category is Google's 2021 snapshot and a baba mention is a rough marker of the food served.</p>"
     + "<p class='rec'><b>Recommendation: main text.</b> It establishes the phenomenon in one figure.</p>"))
 # ---------------- 2
-parts.append(sec(2, "Where broad positioning is common", "Main text",
+au = R("desc_authentic_mentions.csv")
+AU = lambda g, ph: au[(au.group == g) & (au.phrase == "authentic + " + ph)].iloc[0]
+a_any, a_me = AU("WPME", "any Middle Eastern cuisine word"), AU("ME", "any Middle Eastern cuisine word")
+au_quotes = ""
+axp, aep = BUILT / "summary_excerpts_authentic.txt", BUILT / "desc_authentic_review_examples.csv"
+if axp.exists() and aep.exists():
+    aq = pd.read_csv(aep, dtype={"county_fips": str})
+    el_ = pd.read_csv(INPUTS / "medsl-countypres-2000-2016.csv", low_memory=False)
+    el_ = el_[el_.year.eq(2016) & el_.FIPS.notna()].copy()
+    el_["county_fips"] = el_.FIPS.astype(int).astype(str).str.zfill(5)
+    nm_ = el_.drop_duplicates("county_fips").set_index("county_fips")[["county", "state_po"]]
+    rq = []
+    for ex in [ln.strip() for ln in axp.read_text(encoding="utf-8").splitlines() if ln.strip()]:
+        m_ = aq[aq.text.str.strip() == ex]
+        if len(m_) == 0:
+            continue
+        x = m_.iloc[0]
+        cn = nm_.loc[x.county_fips] if x.county_fips in nm_.index else None
+        where = "%s County, %s" % (cn.county, cn.state_po) if cn is not None else "county not assigned"
+        rq.append("<blockquote>&ldquo;%s&rdquo;<footer>%d-star review, %s. Restaurant: first category &ldquo;%s&rdquo; (WPME); %s; the restaurant averages %.2f stars over %d reviews "
+                  "and has %d reviews of this kind.</footer></blockquote>" % (html.escape(ex), x.rating, str(x["date"])[:10], html.escape(str(x.first_category)), where, x.mean_rating, x.n_reviews, x.mentions_at_restaurant))
+    au_quotes = "<p><b>Three examples.</b> Restaurant names are withheld.</p>" + "".join(rq)
+parts.append(sec(2, "Reviewers call these restaurants authentic Middle Eastern food", "Main text",
+    "<p><b>What we did.</b> Read every review with text of the WPME restaurants, all years (%s reviews), and counted those where &ldquo;authentic&rdquo; is followed in the same sentence by a cuisine word, "
+    "as in &ldquo;authentic Lebanese food&rdquo;. Negated uses (&ldquo;not authentic&rdquo;) are left out.</p>" % format(int(a_any.text_reviews_in_group), ",")
+    + table(["Reviewers call the food authentic&hellip;", "WPME reviews", "WPME restaurants", "Share of WPME restaurants"],
+            [[lab_, format(int(AU("WPME", ph).reviews), ","), format(int(AU("WPME", ph).restaurants), ","), pct(AU("WPME", ph).share_of_restaurants)] for lab_, ph in
+             [("Any Middle Eastern cuisine word", "any Middle Eastern cuisine word"), ("Middle Eastern", "Middle Eastern"), ("Lebanese", "Lebanese"), ("Turkish", "Turkish"), ("Arab / Arabic", "Arab / Arabic"),
+              ("Persian / Iranian", "Persian / Iranian"), ("Mediterranean (for comparison)", "Mediterranean"), ("Greek (for comparison)", "Greek")]])
+    + "<p><b>Result.</b> %s of the %s restaurants that lead with &ldquo;Mediterranean&rdquo; have at least one review calling the food authentic Lebanese, Turkish, Middle Eastern or similar (%s reviews). "
+      "Among explicitly labeled ME restaurants the figure is %s. Customers recognize the food as Middle Eastern even though the label does not say so.</p>" % (
+        pct(a_any.share_of_restaurants), format(int(a_any.restaurants_in_group), ","), format(int(a_any.reviews), ","), pct(a_me.share_of_restaurants))
+    + au_quotes
+    + "<p><b>How solid.</b> A phrase count, so it misses reviews that say the same thing in other words. %s of WPME restaurants are also called authentic Greek, so part of the group is plausibly Greek or mixed.</p>" % pct(AU("WPME", "Greek").share_of_restaurants)
+    + "<p class='rec'><b>Recommendation: main text.</b> It supports reading these restaurants as broadly positioned Middle Eastern restaurants, in customers' own words.</p>"))
+# ---------------- 3
+parts.append(sec(3, "Where broad positioning is common", "Main text",
     "<p><b>What we did.</b> For each county with five or more WPME or ME restaurants (%d counties, %d restaurants), computed the share that are WPME.</p>" % (len(mp5), mp5.n.sum())
     + "<p><b>Result.</b> Explicit labels cluster around Detroit, the Northeast corridor and the Washington area; broad labels dominate the South and Southwest. "
       "Across these counties the WPME share correlates %s with the Middle Eastern ancestry share and %s with Trump share.</p>" % (fe(np.corrcoef(mp5.share, mp5.mena)[0, 1], 2), fe(np.corrcoef(mp5.share, mp5.trump_share)[0, 1], 2))
     + img("desc_map_wpme_share.png", "County map of the WPME share")
-    + "<p><b>How solid.</b> Descriptive only; it previews result 3.</p><p class='rec'><b>Recommendation: main text</b>, or the appendix if space is short.</p>"))
-# ---------------- 3
+    + "<p><b>How solid.</b> Descriptive only; it previews result 4.</p><p class='rec'><b>Recommendation: main text</b>, or the appendix if space is short.</p>"))
+# ---------------- 4
 a, b_, c_ = lc("state FE only"), lc("+ population, density"), lc("+ college, foreign-born")
-parts.append(sec(3, "Label choice tracks the local Middle Eastern community", "Main text",
+parts.append(sec(4, "Label choice tracks the local Middle Eastern community", "Main text",
     "<p><b>What we did.</b> Among WPME and ME restaurants (%d in %d counties), modeled the chance of being WPME on county Trump share and county characteristics, with state fixed effects. "
     "Middle Eastern ancestry is the percent of county residents reporting Arab, Iranian, Turkish, Afghan, Armenian or Assyrian ancestry.</p>" % (a.n, a.counties)
     + table(["Controls", "Per 10 pts of Trump share", "Per 1 pt of Middle Eastern ancestry"],
@@ -137,17 +174,17 @@ parts.append(sec(3, "Label choice tracks the local Middle Eastern community", "M
     + img("figure1_label_choice.png", "Share WPME by county Middle Eastern ancestry share and by Trump share")
     + "<p><b>How solid.</b> The ancestry result is stable across every control set and both ME lists. It is cross-sectional: community size also tracks things we cannot see, such as owner background.</p>"
     + "<p class='rec'><b>Recommendation: main text.</b> This is Step 1. Report the Trump-share columns too, so readers see it is the community, not politics.</p>"))
-# ---------------- 4
+# ---------------- 5
 pt = pairs[pairs.trump_share > .5]
-parts.append(sec(4, "Matched pairs in the same county", "Main text",
+parts.append(sec(5, "Matched pairs in the same county", "Main text",
     "<p><b>What we did.</b> Listed pairs of one WPME and one ME restaurant in the same county, both with a baba mention and 50 or more reviews, within 10 km and with similar review counts.</p>"
     + "<p><b>Result.</b> %d candidate pairs, %d of them in Trump-majority counties. Several sit within a few hundred meters of each other with near-identical ratings. "
       "The full list with names and addresses is in <code>outputs/desc_example_pairs.csv</code>.</p>" % (len(pairs), len(pt))
     + "<p><b>How solid.</b> Anecdote, not evidence. We have not verified menus or ownership.</p>"
     + "<p class='rec'><b>Recommendation: main text, one pair</b> as an opening illustration, after checking it by hand.</p>"))
-# ---------------- 5
+# ---------------- 6
 e1, e2, pool, avg = E("2016 election"), E("Travel ban"), E("POOLED: election and travel ban"), S("delta: average of the two")
-parts.append(sec(5, "The rating gap shifts after the election and the travel ban", "Main text",
+parts.append(sec(6, "The rating gap shifts after the election and the travel ban", "Main text",
     "<p><b>What we did.</b> For each event, compared each restaurant's ratings in the six weeks after with the 210 days before, and asked whether the WPME-minus-ME gap changed more in counties with higher Trump share.</p>"
     + table(["", "Change in gap per 10 pts of Trump share", "", "Weeks 7–18", "Using share above 50%"],
             [["2016 election (Nov 8, 2016)", fe(e1.est), fp(e1.p), fe(E("2016 election", w="weeks 7-18").est), "%s (%s)" % (fe(E("2016 election", "majority").est), fp(E("2016 election", "majority").p))],
@@ -160,13 +197,13 @@ parts.append(sec(5, "The rating gap shifts after the election and the travel ban
     + "<p><b>How solid.</b></p><ul><li>Significant with continuous Trump share; not with the over-50%% split.</li>"
       "<li>The travel-ban estimate depends on starting the window on Jan 27; starting three days later roughly halves it.</li>"
       "<li>The pre-period test passes for the election (%s) and is borderline for the ban (%s), whose pre-period contains the election.</li></ul>" % (fp(e1.pretrend_p), fp(e2.pretrend_p))
-    + "<ul><li>The gap is weaker once reviewer leniency is accounted for (see result 8).</li></ul>"
-    + "<p class='rec'><b>Recommendation: main text, as the comparison with WPME.</b> The lead estimate for Step 2 is result 7."
+    + "<ul><li>The gap is weaker once reviewer leniency is accounted for (see result 9).</li></ul>"
+    + "<p class='rec'><b>Recommendation: main text, as the comparison with WPME.</b> The lead estimate for Step 2 is result 8."
       "Report the pooled or shared-baseline gap after it, with all four cautions.</p>"))
-# ---------------- 6
+# ---------------- 7
 g = f6.set_index("period")
 t7 = lambda series: [G7(series, k) for k in [5, 6, 7, "average of the three later periods"]]
-parts.append(sec(6, "Each group and the gap over time", "Main text",
+parts.append(sec(7, "Each group and the gap over time", "Main text",
     "<p><b>What we did.</b> Estimated the Trump-share gradient in each six-week period from April 2016 to July 2017, relative to the pre-election average. "
     "First for each group against American-first restaurants in the same county (new, figure 7), then for the WPME-minus-ME gap (figure 6).</p>"
     + table(["Per 10 pts of Trump share", "After the election", "Between the events", "After the travel ban", "Three later periods"],
@@ -182,10 +219,10 @@ parts.append(sec(6, "Each group and the gap over time", "Main text",
       "The right panel of figure 6 (Trump-majority counties) shows no clear spike; that group has under 200 restaurants of each type.</p>" % (
         fp(G7("ME vs American", "pre-period joint test (p only)").p), fp(G7("WPME vs American", "pre-period joint test (p only)").p))
     + "<p class='rec'><b>Recommendation: main text, figure 7.</b> It shows the travel-ban dip and how brief it is. Move figure 6 to the appendix.</p>"))
-# ---------------- 7
+# ---------------- 8
 me_s, wp_s = wg.loc["ME vs American: average, per 10 pts"], wg.loc["WPME vs American: average, per 10 pts"]
 b5 = f5[~f5.trump_share_bin.str.startswith("slope")]
-parts.append(sec(7, "Which group moves", "Main text",
+parts.append(sec(8, "Which group moves", "Main text",
     "<p><b>What we did.</b> Added American-first restaurants in the same county as a reference group (%d of them), so each group's change can be seen on its own.</p>" % wg.n_american.iloc[0]
     + table(["Group, relative to American restaurants", "Change per 10 pts of Trump share", "", "Change at 60% Trump share"],
             [["Explicitly Middle Eastern (ME)", fe(me_s.est), fp(me_s.p), "%s (%s)" % (fe(wg.loc["ME vs American: average change at 60% Trump share", "est"]), fp(wg.loc["ME vs American: average change at 60% Trump share", "p"]))],
@@ -201,10 +238,10 @@ parts.append(sec(7, "Which group moves", "Main text",
             for w_ in [b5[(b5.trump_share_bin == bn) & b5.group.str.startswith("Broadly")].iloc[0]]])
     + "<p>The ME decline sits mostly in counties at 50–60%%; above 60%% there are only %d ME restaurants and no decline. In counties under 30%%, WPME fell while ME held.</p>" % int(b5[(b5.trump_share_bin == "over 60%") & b5.group.str.startswith("Explicitly")].restaurants.iloc[0])
     + "<p class='rec'><b>Recommendation: main text, the line figure, as the lead estimate for Step 2.</b> Lead with the travel ban, report the election as a smaller dip in the same direction, and put the five-group table in the appendix.</p>"))
-# ---------------- 8
+# ---------------- 9
 s1 = st[(st.quantity == "per 10 pts Trump share") & (st.outcome == "share 1-star")].set_index("group")
-parts.append(sec(8, "Star breakdown and reviewer leniency", "Main text",
-    "<p><b>What we did.</b> Repeated result 7 with the share of reviews at each star level as the outcome. Then accounted for who is reviewing, using each reviewer's history on every other review they wrote (94% of reviews come from people with other reviews).</p>"
+parts.append(sec(9, "Star breakdown and reviewer leniency", "Main text",
+    "<p><b>What we did.</b> Repeated result 8 with the share of reviews at each star level as the outcome. Then accounted for who is reviewing, using each reviewer's history on every other review they wrote (94% of reviews come from people with other reviews).</p>"
     + "<p><b>On restaurant quality.</b> Every model compares a restaurant with itself before and after, so fixed quality is already removed. The leniency check addresses the remaining worry that harsher reviewers happened to show up.</p>"
     + table(["ME restaurants, per 10 pts of Trump share", "As estimated", "Controlling for reviewer leniency", "Relative to each reviewer's usual"],
             [["Mean rating", "%s (%s)" % (fe(L("baseline", "mean rating", "ME").est), fp(L("baseline", "mean rating", "ME").p)),
@@ -224,22 +261,22 @@ parts.append(sec(8, "Star breakdown and reviewer leniency", "Main text",
     + "<p>WPME restaurants in more Trump-leaning counties drew somewhat more lenient reviewers after the events. Measured against each reviewer's own usual rating, WPME also dips a little (%s, %s), and the WPME-minus-ME difference is no longer significant.</p>" % (
         fe(L("relative to the reviewer's usual", "mean rating", "WPME").est), fp(L("relative to the reviewer's usual", "mean rating", "WPME").p))
     + "<p class='rec'><b>Recommendation: main text</b> for the star figure and the ME leniency result. This is why Step 2 is stated for ME ratings: that they fell is the clean result; whether WPME was spared is less certain.</p>"))
-# ---------------- 9
+# ---------------- 10
 oth = [("Travel ban 2.0", "Travel ban 2.0 (Mar 6, 2017)"), ("Travel ban 3.0", "Travel ban 3.0 (Sep 24, 2017)"), ("Supreme Court ruling", "Supreme Court ruling (Jun 26, 2018)"),
        ("Soleimani strike", "Soleimani strike (Jan 3, 2020)"), ("POOLED: all six events", "All six events pooled")]
-parts.append(sec(9, "Other events examined", "Appendix",
+parts.append(sec(10, "Other events examined", "Appendix",
     "<p><b>What we did.</b> We examined a few other events as well, with the same model.</p>" + table(["Event", "Change in gap per 10 pts of Trump share", ""], [[l_, fe(E(n_).est), fp(E(n_).p)] for n_, l_ in oth])
     + "<p><b>Result.</b> All are positive and none is significant alone.</p>"
     + "<p class='rec'><b>Recommendation: appendix, and one sentence in the text.</b></p>"))
-# ---------------- 10
+# ---------------- 11
 ov, tr = x4[x4.model == "overall: After"].iloc[0], x4[x4.model == "by Trump: After x continuous"].iloc[0]
-parts.append(sec(10, "Positioning over time", "Appendix",
+parts.append(sec(11, "Positioning over time", "Appendix",
     "<p><b>What we did.</b> Google's categories are a 2021 snapshot, so relabeling cannot be seen. Using each restaurant's first review date as a stand-in for opening, compared the WPME share among restaurants first reviewed in the two years before and after the election.</p>"
     + "<p><b>Result.</b> %s before, %s after (%s points, %s). No extra shift in Trump-leaning counties (%s points per 10, %s).</p>" % (pct(ov.share_before), pct(ov.share_after), fe(100 * ov.est, 1), fp(ov.p), fe(100 * tr.est, 1), fp(tr.p))
     + img("figure4_positioning_over_time.png", "Share WPME by year of first review")
     + "<p><b>How solid.</b> A weak test: first review date is a noisy proxy, and Trump-majority counties add only 37–62 new restaurants a year.</p>"
     + "<p class='rec'><b>Recommendation: appendix or a footnote.</b> It answers an obvious reader question (did restaurants respond by positioning more broadly?) with \"not detectably\".</p>"))
-# ---------------- 11
+# ---------------- 12
 lowme, lowwp = idm[(idm.stars == "1-2 stars") & (idm.group == "ME")].iloc[0], idm[(idm.stars == "1-2 stars") & (idm.group == "WPME")].iloc[0]
 hime = idm[(idm.stars == "4-5 stars") & (idm.group == "ME")].iloc[0]
 quotes_html = ""
@@ -270,7 +307,7 @@ if qp.exists():
                          " This is the opening of a longer review." if len(x.text) > len(ex) + 20 else ""))
     quotes_html = "<p><b>Three examples.</b> Restaurant names are withheld here; they are in the local data.</p>" + "".join(rowsq)
 pol_after = pm[pm.window != "before"].political.sum()
-parts.append(sec(11, "What reviewers write: identity as the lens", "Main text",
+parts.append(sec(12, "What reviewers write: identity as the lens", "Main text",
     "<p><b>What we did.</b> Read the text of %d reviews with text from April 2016 to July 2017 and counted references to identity (Muslim, Islamic, racist, foreigner, immigrant, refugee and similar).</p>" % idm.text_reviews.sum()
     + table(["Reviews with text", "ME: identity mentions per 1,000", "WPME: identity mentions per 1,000"],
             [[s_, "%.1f (%d of %d)" % (a_.strict_per_1000, a_.strict, a_.text_reviews), "%.1f (%d of %d)" % (b2.strict_per_1000, b2.strict, b2.text_reviews)]
@@ -283,10 +320,10 @@ parts.append(sec(11, "What reviewers write: identity as the lens", "Main text",
       "Social dominance orientation and food familiarity are the planned moderators.</p>"
     + "<p><b>How solid.</b> The excerpts are illustrations. Accusations of racism appear at WPME restaurants too, most are complaints that staff favor their own community, and they did not become more common after the events.</p>"
     + "<p class='rec'><b>Recommendation: main text, as the bridge to the experiment.</b> Avoid the term &ldquo;reverse racism&rdquo;.</p>"))
-# ---------------- 12
+# ---------------- 13
 r1 = rt[rt["sample"].str.startswith("one-time") & (rt.outcome == "rating")].iloc[0]
 r2 = rt[rt.outcome.str.startswith("share")].iloc[0]
-parts.append(sec(12, "Who the reviewers are", "One sentence",
+parts.append(sec(13, "Who the reviewers are", "One sentence",
     "<p><b>What we did.</b> Counted every reviewer's total reviews in the data and reran the event model by reviewer type.</p>"
     + "<p><b>Result.</b> One-time reviewers write 7%% of reviews. The effect is not concentrated among them (%s, %s, on %d reviews), and their share does not change (%s points, %s).</p>" % (fe(r1.est), fp(r1.p), r1.reviews_after, fe(100 * r2.est, 1), fp(r2.p))
     + "<p class='rec'><b>Recommendation: one sentence.</b> It rules out drive-by review bombing as the story.</p>"))
@@ -322,7 +359,7 @@ code{font-size:.88em;background:#eef1f2;padding:1px 5px;border-radius:4px}a{colo
 @media print{h2{break-after:avoid}figure,table{break-inside:avoid}}
 """
 doc = "<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Archival results summary</title><style>%s</style></head><body><main>" % css
-doc += "<h1>Archival results: what we found and what to include</h1><p class='sub'>Hiding Their True Colors (Heshmati, Choe) &middot; working summary, updated November 24, 2026 &middot; contains three verbatim review excerpts; not for public posting</p>"
+doc += "<h1>Archival results: what we found and what to include</h1><p class='sub'>Hiding Their True Colors (Heshmati, Choe) &middot; working summary, updated November 24, 2026 &middot; contains verbatim review excerpts; not for public posting</p>"
 doc += "".join(parts) + "</main></body></html>"
 (HERE / "RESULTS_SUMMARY.html").write_text(doc, encoding="utf-8")
-print("RESULTS_SUMMARY.html written: %.1f MB, %d sections" % (len(doc) / 1e6, 12))
+print("RESULTS_SUMMARY.html written: %.1f MB, %d sections" % (len(doc) / 1e6, 13))
